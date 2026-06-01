@@ -1,5 +1,7 @@
 # KND Homepage v2
 
+[View the live homepage](https://zeropoet.github.io/KND/)
+
 KND is presented as a standard, not a movement.
 
 This homepage explores a quieter position for the brand: less clothing label, more marker of character. Kindness is treated as one expression of character, not the full subject. The page avoids persuasion, explanation, statistics, social proof, and virtue signaling. It is meant to leave a visitor with recognition rather than instruction.
@@ -40,13 +42,3 @@ KND is selling character.
 Kindness is one expression of character.
 
 The homepage is structured as a sequence of presence, statement, object, and principle. It does not try to teach the visitor what kindness means. It tries to make clear what kind of person KND is for.
-
-## Preview
-
-Run a local static server:
-
-```sh
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000/`.
