@@ -92,6 +92,22 @@ img {
   position: relative;
 }
 
+.square-nav-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  color: var(--ink);
+}
+
+.square-nav-mark span {
+  display: block;
+  width: 10px;
+  aspect-ratio: 1 / 1;
+  background: currentColor;
+}
+
 .hero {
   position: relative;
   min-height: 100svh;
@@ -235,7 +251,7 @@ img {
   padding: clamp(88px, 12vw, 172px) clamp(20px, 6vw, 96px);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  background: color-mix(in srgb, var(--joy-blue) 4%, var(--paper));
+  background: var(--paper);
 }
 
 .homepage-lockup-stage img {
@@ -928,6 +944,36 @@ img {
   justify-self: end;
 }
 
+.apparel-options-section {
+  padding: clamp(112px, 14vw, 208px) clamp(20px, 4vw, 64px);
+  border-bottom: 1px solid var(--line);
+}
+
+.apparel-options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(28px, 4vw, 64px);
+}
+
+.apparel-options-grid figure {
+  margin: 0;
+  min-height: 58svh;
+  overflow: hidden;
+  background: var(--paper-deep);
+}
+
+.apparel-options-grid figure:nth-child(1),
+.apparel-options-grid figure:nth-child(6) {
+  grid-column: 1 / -1;
+  min-height: 78svh;
+}
+
+.apparel-options-grid img {
+  object-fit: cover;
+  object-position: center center;
+  filter: saturate(0.98) contrast(0.98);
+}
+
 .sports-photo-archive {
   padding-left: clamp(20px, 3vw, 48px);
   padding-right: clamp(20px, 3vw, 48px);
@@ -1068,6 +1114,7 @@ img {
   .full-hero-copy,
   .direction-section,
   .opportunity-section,
+  .apparel-options-section,
   .logo-options,
   .brand-principles,
   .photo-archive,
@@ -1080,6 +1127,7 @@ img {
 
   .section-heading,
   .opportunity-grid,
+  .apparel-options-grid,
   .logo-grid,
   .photo-grid,
   .apparel-photo-grid,
@@ -1089,6 +1137,13 @@ img {
 
   .opportunity-grid article {
     min-height: 250px;
+  }
+
+  .apparel-options-grid figure,
+  .apparel-options-grid figure:nth-child(1),
+  .apparel-options-grid figure:nth-child(6) {
+    grid-column: auto;
+    min-height: 48svh;
   }
 
   .photo-card,

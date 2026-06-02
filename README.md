@@ -8,6 +8,8 @@ The current direction keeps the restraint of the original homepage, but opens it
 
 The newest homepage pass treats the brand as something accomplished, not pursued: a shared smile after the work is done, a feast of shared value and strength, and a mark someone could feel overjoyed to wear as a crown.
 
+The newest apparel pass gives the system its own legs: a distinct photo-led apparel hero, expanded optionality photography, and the three core marks living naturally inside product scenes.
+
 ## Pages
 
 - `index.html` — homepage and primary brand expression.
@@ -20,6 +22,7 @@ The newest homepage pass treats the brand as something accomplished, not pursued
 - The KND smile lockup is the emotional center of the system.
 - The homepage uses the smile mark as the lead expression.
 - `KINDNESS WINS` and the square-period `KND.` appear as supporting marks in the system.
+- The standalone square is being tested as the upper-left navigation mark.
 - Photography should feel premium, coherent, joyful, and communal.
 - Product should be visible inside photographed scenes, not only as isolated product shots.
 - No one should feel singled out in group photography.
@@ -53,6 +56,7 @@ The design language uses:
 - Generous whitespace around logos and photography.
 - Occasional color through team-inspired capsules.
 - Smile mark expressions including `KND`, `KINDNESS WINS`, and sports colorways.
+- An incognito square mark that can carry the standard without always spelling out the word.
 
 ## Asset Rules
 
