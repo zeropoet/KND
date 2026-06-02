@@ -1,44 +1,73 @@
-# KND Homepage v2
+# KND Homepage v3
 
 [View the live homepage](https://zeropoet.github.io/KND/)
 
-KND is presented as a standard, not a movement.
+KND is a character brand built around kindness as something lived, worn, and shared.
 
-This homepage explores a quieter position for the brand: less clothing label, more marker of character. Kindness is treated as one expression of character, not the full subject. The page avoids persuasion, explanation, statistics, social proof, and virtue signaling. It is meant to leave a visitor with recognition rather than instruction.
+The current direction keeps the restraint of the original homepage, but opens it up with more warmth, joy, product presence, and a clearer smile lockup. The brand no longer needs to prove the concept through explanation. The client should feel the idea first.
 
-The central question behind the work:
+## Pages
 
-Would this feel at home beside Aesop, JJJJound, Arc'teryx Veilance, Leica, Rick Owens furniture, government archive typography, or monument signage?
+- `index.html` — homepage and primary brand expression.
+- `apparel.html` — apparel opportunities, product directions, and lifestyle photography.
+- `sports.html` — sports partnership opportunities, team colorways, and product-in-scene photography.
+- `brand-direction.html` — logo archive, smile lockup direction, and photography archive.
 
-If not, it was removed.
+## Current Direction
 
-## Direction
+- The KND smile lockup is the emotional center of the system.
+- The homepage uses the smile mark as the lead expression.
+- Photography should feel premium, coherent, joyful, and communal.
+- Product should be visible inside photographed scenes, not only as isolated product shots.
+- No one should feel singled out in group photography.
+- Photo captions are intentionally avoided.
+- Type over photography must be cream/light and legible against image overlays.
+- Green and gold with cream is a strong emerging team colorway.
 
-The design language is built around restraint:
+## Brand Notes
 
-- Warm white ground, never pure black.
-- Neutral grotesk typography with large scale and tight hierarchy.
-- Documentary imagery in real environments.
-- Natural light, weathered material, and generous whitespace.
-- Objects presented with the seriousness of artifacts.
+KND should feel:
 
-The site intentionally avoids:
+- Clear at first glance.
+- Warmer the longer you sit with it.
+- Easy to wear.
+- Easy to give.
+- Strong without becoming severe.
+- Joyful without becoming loud.
 
-- Movement language.
-- Community language.
-- "Join us."
-- Impact metrics.
-- Statistics.
-- Founder-story sentimentality.
-- Merchandising language.
-- Lifestyle cliches.
+The brand direction is not about explaining kindness. It is about giving recognition a place to land.
 
-## Position
+## Visual System
 
-KND is not selling kindness.
+The design language uses:
 
-KND is selling character.
+- Warm cream ground.
+- Restrained black and charcoal type.
+- Documentary photography in real environments.
+- Premium product details.
+- Generous whitespace around logos and photography.
+- Occasional color through team-inspired capsules.
+- Smile mark expressions including `KND`, `KINDNESS WINS`, and sports colorways.
 
-Kindness is one expression of character.
+## Asset Rules
 
-The homepage is structured as a sequence of presence, statement, object, and principle. It does not try to teach the visitor what kindness means. It tries to make clear what kind of person KND is for.
+- Keep only assets referenced by the current pages/styles.
+- Do not show image borders from screenshots or mockups.
+- Avoid visible photo captions.
+- Preserve warm cream backgrounds where product images need a field.
+- Prefer group scenes where KND products are worn, held, carried, or used naturally.
+
+## Local Preview
+
+This is a static site. From the project root:
+
+```bash
+python3 -m http.server 8001
+```
+
+Then open:
+
+- `http://localhost:8001/`
+- `http://localhost:8001/apparel.html`
+- `http://localhost:8001/sports.html`
+- `http://localhost:8001/brand-direction.html`

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">KND Kindness Wins smile lockup</title>
+  <desc id="desc">A bold KND smile mark above the phrase Kindness Wins.</desc>
+  <rect width="1600" height="1000" fill="#F8F6F2"/>
+  <text
+    x="800"
+    y="318"
+    fill="#171511"
+    font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+    font-size="270"
+    font-weight="700"
+    text-anchor="middle">KND</text>
+  <path
+    d="M 570 486 C 682 580, 918 580, 1030 486"
+    fill="none"
+    stroke="#171511"
+    stroke-width="28"
+    stroke-linecap="round"/>
+  <text
+    x="800"
+    y="828"
+    fill="#171511"
+    font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+    font-size="126"
+    font-weight="700"
+    letter-spacing="2"
+    text-anchor="middle">KINDNESS WINS</text>
+</svg>
