@@ -6,6 +6,8 @@ KND is a character brand built around kindness as something lived, worn, and sha
 
 The current direction keeps the restraint of the original homepage, but opens it up with more warmth, joy, product presence, and a clearer smile lockup. The brand no longer needs to prove the concept through explanation. The client should feel the idea first.
 
+The newest homepage pass treats the brand as something accomplished, not pursued: a shared smile after the work is done, a feast of shared value and strength, and a mark someone could feel overjoyed to wear as a crown.
+
 ## Pages
 
 - `index.html` — homepage and primary brand expression.
@@ -17,6 +19,7 @@ The current direction keeps the restraint of the original homepage, but opens it
 
 - The KND smile lockup is the emotional center of the system.
 - The homepage uses the smile mark as the lead expression.
+- `KINDNESS WINS` and the square-period `KND.` appear as supporting marks in the system.
 - Photography should feel premium, coherent, joyful, and communal.
 - Product should be visible inside photographed scenes, not only as isolated product shots.
 - No one should feel singled out in group photography.
@@ -36,6 +39,8 @@ KND should feel:
 - Joyful without becoming loud.
 
 The brand direction is not about explaining kindness. It is about giving recognition a place to land.
+
+Across the spacetime of the brand, what used to be nothingness should now reveal kindness.
 
 ## Visual System
 
