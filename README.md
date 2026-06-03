@@ -6,7 +6,7 @@ KND is a character brand built around kindness as something lived, worn, and sha
 
 Version 4 expands the system from a homepage into a small brand world: apparel, sports, kids, and the core brand direction all share the same smile-led identity while giving each market its own rhythm, imagery, and product logic.
 
-The current direction keeps the original restraint, but opens it up with more warmth, joy, product presence, and Mediterranean light. The brand no longer needs to prove the concept through explanation. The client should feel the idea first.
+The current direction keeps the original restraint, but opens it up with more warmth, joy, product presence, and Mediterranean light. The brand should be felt before it has to explain itself.
 
 ## Pages
 
@@ -29,6 +29,7 @@ The current direction keeps the original restraint, but opens it up with more wa
 - No one should feel singled out in group photography.
 - Photo captions are intentionally avoided.
 - Green and gold with cream is a strong emerging team colorway.
+- This is a working brand system, built to keep evolving as launch priorities become clearer.
 
 ## Brand Notes
 
@@ -42,15 +43,17 @@ KND should feel:
 - Joyful without becoming loud.
 - Playful without becoming chaotic.
 
-The brand direction is not about explaining kindness. It is about giving recognition a place to land.
+The brand direction is not about over-explaining kindness. It is about giving recognition a place to land.
 
-Across the spacetime of the brand, what used to be nothingness should now reveal kindness.
+Across the brand, moments that once felt invisible should now reveal kindness.
 
 ## Brand Evolution
 
-The main KND identity stays direct, brutal, and type-oriented. Its square period and hard corners give the system weight, clarity, and a standard to return to.
+The main KND identity stays direct, architectural, and type-led. Born from Helvetica Neue, its square period and precise corners give the system weight, clarity, and a standard to return to.
 
 KND Kids softens that same structure without replacing it. The palette becomes brighter and more playful, the KND corners become deliberately rounded, and the square period becomes a circle. These shifts should feel subtle but meaningful: kindness can move into a new market with more brightness, color, and softness while still being unmistakably KND.
+
+Future launch changes should build from this idea: the brand can move with care, warmth, and subtlety without losing its center.
 
 ## Visual System
 
