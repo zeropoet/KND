@@ -10,6 +10,13 @@
   --joy-blue: #1551b8;
   --joy-rose: #c97d68;
   --joy-olive: #6d745f;
+  --kids-ink: #0f223d;
+  --kids-peach: #df7658;
+  --kids-yellow: #f4d478;
+  --kids-blue: #98b7d6;
+  --kids-sage: #8ea38b;
+  --kids-lilac: #b7a6d8;
+  --knd-display-tracking: 0.055em;
   --header-height: 72px;
   font-family:
     "Helvetica Neue",
@@ -271,20 +278,9 @@ img {
 }
 
 .homepage-period-mark {
-  display: flex;
-  align-items: flex-end;
-  gap: 0.055em;
-  font-size: clamp(92px, 16vw, 260px);
-  line-height: 1;
-  font-weight: 700;
-}
-
-.homepage-period-mark span {
-  flex: 0 0 auto;
-  width: 0.12em;
-  aspect-ratio: 1 / 1;
-  margin-bottom: 0.065em;
-  background: currentColor;
+  display: block;
+  width: min(78vw, 700px);
+  height: auto;
 }
 
 .homepage-period-section p {
@@ -610,13 +606,39 @@ img {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(13, 12, 10, 0.2);
+  background: transparent;
   pointer-events: none;
 }
 
 .full-hero img {
   position: absolute;
   inset: 0;
+  filter: saturate(1) contrast(1);
+}
+
+.kids-hero img {
+  object-position: center center;
+  filter: saturate(1.02) contrast(0.98);
+}
+
+.kids-hero .full-hero-copy {
+  justify-content: center;
+  width: min(34vw, 430px);
+  min-width: 340px;
+  padding-right: 0;
+}
+
+.kids-hero .full-hero-copy h1 {
+  max-width: 390px;
+  font-size: clamp(50px, 6vw, 86px);
+  line-height: 0.9;
+}
+
+.kids-hero .full-hero-copy h1 + p {
+  max-width: 340px;
+  margin-top: clamp(22px, 3vw, 40px);
+  font-size: clamp(21px, 1.75vw, 28px);
+  line-height: 1.08;
 }
 
 .full-hero-copy {
@@ -633,7 +655,68 @@ img {
 .full-hero-copy h1,
 .full-hero-copy h1 + p {
   color: var(--paper);
-  text-shadow: 0 2px 22px rgba(13, 12, 10, 0.34);
+  text-shadow: 0 2px 18px rgba(13, 12, 10, 0.28);
+}
+
+.apparel-hero,
+.sports-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: auto;
+  color: var(--ink);
+  overflow: visible;
+}
+
+.apparel-hero::after,
+.sports-hero::after {
+  content: none;
+}
+
+.apparel-hero img,
+.sports-hero img {
+  order: 2;
+  position: relative;
+  inset: auto;
+  height: clamp(640px, 82svh, 920px);
+  filter: saturate(1) contrast(1);
+}
+
+.apparel-hero .full-hero-copy,
+.sports-hero .full-hero-copy {
+  order: 1;
+  min-height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(20px, 3vw, 36px);
+  align-items: start;
+  justify-content: start;
+  padding: clamp(56px, 7vw, 104px) clamp(20px, 5vw, 72px) clamp(48px, 6vw, 84px);
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.apparel-hero .kicker,
+.sports-hero .kicker,
+.apparel-hero .full-hero-copy h1,
+.sports-hero .full-hero-copy h1,
+.apparel-hero .full-hero-copy h1 + p,
+.sports-hero .full-hero-copy h1 + p {
+  color: var(--ink);
+  text-shadow: none;
+}
+
+.apparel-hero .full-hero-copy h1 + p,
+.sports-hero .full-hero-copy h1 + p {
+  color: var(--muted);
+}
+
+.apparel-hero .full-hero-copy h1,
+.sports-hero .full-hero-copy h1,
+.apparel-hero .full-hero-copy h1 + p,
+.sports-hero .full-hero-copy h1 + p {
+  grid-column: auto;
+  justify-self: start;
 }
 
 .direction-section,
@@ -790,22 +873,35 @@ img {
   overflow: hidden;
 }
 
+.kids-home-reference {
+  background: color-mix(in srgb, var(--kids-yellow) 18%, var(--paper));
+}
+
+.kids-home-reference figure img {
+  filter: saturate(1.02) contrast(0.98);
+}
+
 .brand-hero {
   min-height: calc(100svh - var(--header-height));
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(96px, 14vw, 220px) clamp(20px, 6vw, 96px);
+  padding: clamp(88px, 12vw, 180px) clamp(20px, 6vw, 96px) clamp(96px, 14vw, 220px);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   text-align: center;
   align-items: center;
 }
 
+.brand-hero > .kicker {
+  align-self: flex-start;
+  margin-bottom: clamp(40px, 5vw, 76px);
+}
+
 .brand-hero-lockup {
   width: min(82vw, 1040px);
   height: auto;
-  margin-bottom: clamp(56px, 8vw, 120px);
+  margin-top: clamp(72px, 10vw, 152px);
   aspect-ratio: 16 / 10;
   object-fit: contain;
 }
@@ -832,23 +928,11 @@ img {
 }
 
 .logo-sample {
-  display: flex;
-  align-items: flex-end;
-  gap: 0.055em;
-  font-size: clamp(92px, 14vw, 220px);
-  line-height: 1;
-  font-weight: 700;
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
   margin-top: clamp(56px, 8vw, 120px);
   overflow: visible;
-}
-
-.logo-square-period span {
-  display: inline-block;
-  flex: 0 0 auto;
-  width: 0.12em;
-  aspect-ratio: 1 / 1;
-  margin-bottom: 0.065em;
-  background: currentColor;
 }
 
 .logo-card-wide {
@@ -1007,12 +1091,288 @@ img {
   min-height: 64svh;
 }
 
+.kids-direction {
+  background: color-mix(in srgb, var(--kids-blue) 10%, var(--paper));
+}
+
+.kids-promise {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(64px, 9vw, 136px);
+  padding: clamp(88px, 12vw, 172px) clamp(20px, 3vw, 48px);
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--kids-yellow) 16%, var(--paper));
+}
+
+.kids-promise-copy {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.22fr) minmax(0, 0.78fr);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: start;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.kids-promise-copy h2 {
+  margin: 0;
+  max-width: 980px;
+  color: var(--kids-ink);
+  font-size: clamp(42px, 6vw, 92px);
+  line-height: 0.98;
+  font-weight: 500;
+}
+
+.kids-promise-copy h2 span {
+  display: block;
+}
+
+.kids-promise-copy h2 span:nth-child(2) {
+  color: var(--kids-peach);
+}
+
+.kids-promise-copy h2 span:nth-child(3) {
+  color: var(--kids-sage);
+}
+
+.kids-promise-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(40px, 6vw, 104px);
+  max-width: none;
+}
+
+.kids-promise-images figure {
+  margin: 0;
+  overflow: hidden;
+  background: var(--paper-deep);
+}
+
+.kids-promise-images .primary {
+  aspect-ratio: 1619 / 971;
+}
+
+.kids-promise-images .secondary {
+  width: min(100%, 980px);
+  aspect-ratio: 1672 / 941;
+  justify-self: center;
+}
+
+.kids-promise-images img {
+  min-height: inherit;
+  object-fit: cover;
+  filter: saturate(1.02) contrast(0.98);
+}
+
+.kids-opportunity {
+  background: color-mix(in srgb, var(--kids-peach) 6%, var(--paper));
+}
+
+.kids-grid article:nth-child(1) {
+  background: color-mix(in srgb, var(--kids-peach) 14%, var(--paper));
+}
+
+.kids-grid article:nth-child(2) {
+  background: color-mix(in srgb, var(--kids-yellow) 22%, var(--paper));
+}
+
+.kids-grid article:nth-child(3) {
+  background: color-mix(in srgb, var(--kids-sage) 16%, var(--paper));
+}
+
+.kids-grid article:nth-child(4) {
+  background: color-mix(in srgb, var(--kids-blue) 18%, var(--paper));
+}
+
+.kids-photo-archive {
+  background: var(--paper);
+}
+
+.kids-photo-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: clamp(36px, 6vw, 96px);
+  align-items: start;
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+.kids-photo-card {
+  margin: 0;
+  overflow: hidden;
+  background: var(--paper-deep);
+}
+
+.kids-photo-card.primary {
+  min-height: 82svh;
+}
+
+.kids-photo-card.secondary {
+  min-height: 58svh;
+  margin-top: clamp(80px, 12vw, 180px);
+}
+
+.kids-photo-card img {
+  min-height: inherit;
+  object-fit: cover;
+  filter: saturate(1.02) contrast(0.98);
+}
+
+.kids-colorway-section {
+  padding: clamp(112px, 14vw, 208px) clamp(20px, 6vw, 96px);
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+  overflow: hidden;
+}
+
+.kids-colorway-section h2 {
+  margin: 0;
+  max-width: 920px;
+  font-size: clamp(36px, 5.6vw, 88px);
+  line-height: 1;
+  font-weight: 500;
+}
+
+.kids-mark-heading {
+  display: grid;
+  grid-template-columns: minmax(160px, 0.32fr) minmax(0, 0.68fr);
+  gap: clamp(32px, 5vw, 80px);
+  align-items: start;
+  margin-bottom: clamp(80px, 11vw, 164px);
+}
+
+.kids-mark-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(72px, 10vw, 172px) clamp(48px, 8vw, 128px);
+}
+
+.kids-mark-card {
+  min-height: 52svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(24px, 4vw, 56px) 0;
+}
+
+.kids-mark-card-wide {
+  grid-column: 1 / -1;
+  min-height: 72svh;
+  align-items: center;
+  padding-bottom: clamp(72px, 9vw, 140px);
+}
+
+.kids-soft-knd-mark {
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
+  margin-top: clamp(56px, 8vw, 120px);
+  overflow: visible;
+}
+
+.kids-rainbow-mark {
+  width: min(70vw, 760px);
+  height: auto;
+  margin-top: clamp(64px, 9vw, 132px);
+  overflow: visible;
+}
+
+.kids-rainbow-mark .arc {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.kids-rainbow-mark .arc-one {
+  stroke: var(--kids-peach);
+  stroke-width: 44;
+}
+
+.kids-rainbow-mark .arc-two {
+  stroke: var(--kids-yellow);
+  stroke-width: 38;
+}
+
+.kids-rainbow-mark .arc-three {
+  stroke: var(--kids-sage);
+  stroke-width: 32;
+}
+
+.kids-smiley-mark {
+  width: min(56vw, 520px);
+  height: auto;
+  margin-top: clamp(64px, 9vw, 132px);
+  color: var(--kids-ink);
+  overflow: visible;
+}
+
+.kids-smiley-mark circle,
+.kids-smiley-mark path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 26;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.kids-smiley-mark .eye {
+  fill: currentColor;
+  stroke: none;
+}
+
+.kids-feeling {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  max-width: none;
+  padding: 0;
+  border-bottom: 1px solid var(--ink);
+  background: var(--paper);
+}
+
+.kids-feeling p {
+  min-height: 44svh;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  padding: clamp(24px, 3vw, 42px);
+  border-right: 1px solid var(--ink);
+  color: var(--kids-ink);
+  font-size: clamp(24px, 3.4vw, 56px);
+  line-height: 1;
+  font-weight: 500;
+}
+
+.kids-feeling p + p {
+  margin-top: 0;
+}
+
+.kids-feeling p:nth-child(1) {
+  background: color-mix(in srgb, var(--kids-peach) 16%, var(--paper));
+}
+
+.kids-feeling p:nth-child(2) {
+  background: color-mix(in srgb, var(--kids-yellow) 24%, var(--paper));
+}
+
+.kids-feeling p:nth-child(3) {
+  background: color-mix(in srgb, var(--kids-sage) 18%, var(--paper));
+}
+
+.kids-feeling p:nth-child(4) {
+  border-right: 0;
+  background: color-mix(in srgb, var(--kids-blue) 20%, var(--paper));
+}
+
 @media (max-width: 860px) {
   .object-grid,
   .feature-section,
   .split-hero,
   .reference-section,
-  .sports-reference {
+  .sports-reference,
+  .kids-colorway-section,
+  .kids-promise,
+  .kids-promise-images {
     grid-template-columns: 1fr;
   }
 
@@ -1057,6 +1417,72 @@ img {
 
   .sports-reference figure {
     width: 100%;
+  }
+
+  .kids-photo-grid,
+  .kids-mark-heading,
+  .kids-mark-grid,
+  .kids-feeling {
+    grid-template-columns: 1fr;
+  }
+
+  .kids-mark-card,
+  .kids-mark-card-wide {
+    grid-column: auto;
+    min-height: 42svh;
+  }
+
+  .kids-soft-knd-mark {
+    width: min(100%, 460px);
+  }
+
+  .kids-rainbow-mark {
+    width: min(100%, 520px);
+  }
+
+  .kids-promise-copy {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .apparel-hero .full-hero-copy,
+  .sports-hero .full-hero-copy {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .apparel-hero .full-hero-copy h1,
+  .sports-hero .full-hero-copy h1,
+  .apparel-hero .full-hero-copy h1 + p,
+  .sports-hero .full-hero-copy h1 + p {
+    grid-column: auto;
+  }
+
+  .apparel-hero img,
+  .sports-hero img {
+    height: 62svh;
+  }
+
+  .kids-promise-copy h2 {
+    max-width: 100%;
+  }
+
+  .kids-photo-card.primary,
+  .kids-photo-card.secondary {
+    min-height: 56svh;
+    margin-top: 0;
+  }
+
+  .kids-promise-images .primary,
+  .kids-promise-images .secondary {
+    min-height: 0;
+    margin-bottom: 0;
+  }
+
+  .kids-feeling p {
+    min-height: 30svh;
+    border-right: 0;
+    border-bottom: 1px solid var(--ink);
   }
 }
 
@@ -1120,7 +1546,9 @@ img {
   .photo-archive,
   .feeling-section,
   .brand-hero,
-  .sports-reference {
+  .sports-reference,
+  .kids-colorway-section,
+  .kids-promise {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1131,7 +1559,8 @@ img {
   .logo-grid,
   .photo-grid,
   .apparel-photo-grid,
-  .editorial-photo-grid {
+  .editorial-photo-grid,
+  .kids-photo-grid {
     grid-template-columns: 1fr;
   }
 
