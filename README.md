@@ -22,7 +22,7 @@ The current direction keeps the original restraint, but opens it up with more wa
 - The homepage uses the smile mark as the lead expression.
 - `KINDNESS WINS` and the square-period `KND.` appear as supporting marks in the system.
 - KND Kids extends the smile system into brighter colorways, softer scale, and optimistic product language.
-- The standalone square is being tested as the upper-left navigation mark.
+- The square-period `KND.` lockup is the upper-left navigation mark, giving the site a clear brand read from the first touchpoint.
 - Photography should feel premium, coherent, joyful, communal, and naturally warm.
 - Product should be visible inside photographed scenes, not only as isolated product shots.
 - Page descriptions should give imagery room to breathe. Use open image space or place text above hero photography when overlays compete with the subject.
@@ -71,7 +71,9 @@ The design language uses:
 
 ## Asset Rules
 
-- Keep only assets referenced by the current pages/styles.
+- Archive every visual asset change in a dated folder before removing or replacing it on the live site.
+- Use `assets/archive/YYYY-MM-DD/` for snapshots, with the date reflecting the site change or archive date.
+- Keep current pages/styles pointed at the active production assets in `assets/`, while preserving prior visual directions in the archive for reference.
 - Do not show image borders from screenshots or mockups.
 - Avoid visible photo captions.
 - Preserve warm cream backgrounds where product images need a field.
