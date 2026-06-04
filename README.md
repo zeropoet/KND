@@ -1,12 +1,14 @@
-# KND v4
+# KND v5
 
 [View the live site](https://zeropoet.github.io/KND/)
 
 KND is a character brand built around kindness as something lived, worn, and shared.
 
-Version 4 expands the system from a homepage into a small brand world: apparel, sports, kids, and the core brand direction all share the same smile-led identity while giving each market its own rhythm, imagery, and product logic.
+Version 5 expands the system from a homepage into a small brand world: apparel, sports, kids, shop, and the core brand direction all share the same smile-led identity while giving each market its own rhythm, imagery, and product logic.
 
 The current direction keeps the original restraint, but opens it up with more warmth, joy, product presence, and Mediterranean light. The brand should be felt before it has to explain itself.
+
+The shop is now present as a working concept layer. It gives the client something tangible to react to while keeping the deeper product, archive, fulfillment, and account pathways ready for later decisions.
 
 ## Pages
 
@@ -14,6 +16,7 @@ The current direction keeps the original restraint, but opens it up with more wa
 - `apparel.html` - apparel opportunities, product directions, and lifestyle photography.
 - `sports.html` - sports partnership opportunities, team colorways, and product-in-scene photography.
 - `kids.html` - KND Kids market direction, playful product language, colorways, sizing, and mark extensions.
+- `shop.html` - shop concept system with products, descriptions, size/color/bundle options, and quiet operational readiness.
 - `brand-direction.html` - logo archive, smile lockup direction, and photography archive.
 
 ## Current Direction
@@ -22,6 +25,7 @@ The current direction keeps the original restraint, but opens it up with more wa
 - The homepage uses the smile mark as the lead expression.
 - `KINDNESS WINS` and the square-period `KND.` appear as supporting marks in the system.
 - KND Kids extends the smile system into brighter colorways, softer scale, and optimistic product language.
+- The KND Shop should look simple on the surface while staying ready for product records, fulfillment states, and future customer accounts.
 - The square-period `KND.` lockup is the upper-left navigation mark, giving the site a clear brand read from the first touchpoint.
 - Photography should feel premium, coherent, joyful, communal, and naturally warm.
 - Product should be visible inside photographed scenes, not only as isolated product shots.
@@ -30,6 +34,7 @@ The current direction keeps the original restraint, but opens it up with more wa
 - Photo captions are intentionally avoided.
 - Green and gold with cream is a strong emerging team colorway.
 - This is a working brand system, built to keep evolving as launch priorities become clearer.
+- Product choices are intentionally flexible while the client decides what to keep, remove, or expand.
 
 ## Brand Notes
 
@@ -63,6 +68,7 @@ The design language uses:
 - Restrained black and charcoal type.
 - Documentary photography in real environments.
 - Premium product details.
+- Shop product concepts that feel calm, tangible, and easy to understand.
 - Generous whitespace around logos and photography.
 - Occasional color through team-inspired and kid-led capsules.
 - Smile mark expressions including `KND`, `KINDNESS WINS`, kids colorways, and sports colorways.
@@ -74,6 +80,7 @@ The design language uses:
 - Archive every visual asset change in a dated folder before removing or replacing it on the live site.
 - Use `assets/archive/YYYY-MM-DD/` for snapshots, with the date reflecting the site change or archive date.
 - Keep current pages/styles pointed at the active production assets in `assets/`, while preserving prior visual directions in the archive for reference.
+- Treat generated shop product imagery as concept assets until the client locks final product, manufacturing, and brand-specific details.
 - Do not show image borders from screenshots or mockups.
 - Avoid visible photo captions.
 - Preserve warm cream backgrounds where product images need a field.
@@ -94,4 +101,5 @@ Then open:
 - `http://localhost:8765/apparel.html`
 - `http://localhost:8765/sports.html`
 - `http://localhost:8765/kids.html`
+- `http://localhost:8765/shop.html`
 - `http://localhost:8765/brand-direction.html`
