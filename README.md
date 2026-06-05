@@ -21,9 +21,9 @@ The shop is now present as a working concept layer. It gives the client somethin
 
 ## Current Direction
 
-- The KND smile lockup is the emotional center of the system.
-- The homepage uses the smile mark as the lead expression.
-- `KINDNESS WINS` and the square-period `KND.` appear as supporting marks in the system.
+- The KND smile remains the emotional center of the system, but it should appear with intention rather than repetition.
+- The homepage now favors a cleaner editorial sequence with fewer repeated lockups.
+- `KINDNESS WINS` and the square-period `KND.` appear as supporting marks in the system, with Sports carrying `KINDNESS WINS` through a product-led closing moment.
 - KND Kids extends the smile system into brighter colorways, softer scale, and optimistic product language.
 - The KND Shop should look simple on the surface while staying ready for product records, fulfillment states, and future customer accounts.
 - The square-period `KND.` lockup is the upper-left navigation mark, giving the site a clear brand read from the first touchpoint.
@@ -32,7 +32,7 @@ The shop is now present as a working concept layer. It gives the client somethin
 - Page descriptions should give imagery room to breathe. Use open image space or place text above hero photography when overlays compete with the subject.
 - No one should feel singled out in group photography.
 - Photo captions are intentionally avoided.
-- Green and gold with cream is a strong emerging team colorway.
+- Team color can enter through sports product moments without overwhelming the charcoal-and-cream brand center.
 - This is a working brand system, built to keep evolving as launch priorities become clearer.
 - Product choices are intentionally flexible while the client decides what to keep, remove, or expand.
 
