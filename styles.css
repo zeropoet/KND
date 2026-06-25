@@ -2995,6 +2995,15 @@ picture {
   gap: clamp(22px, 3vw, 40px);
 }
 
+.knd-redesign .feeling-section.wide-feeling {
+  width: 100%;
+  max-width: none;
+}
+
+.knd-redesign .feeling-section.wide-feeling p {
+  max-width: 1180px;
+}
+
 .knd-redesign .feeling-section p:last-child {
   color: var(--maroon);
 }
