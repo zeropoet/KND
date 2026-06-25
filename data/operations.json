@@ -18,7 +18,7 @@
       "shipped",
       "delivered",
       "returned",
-      "archived"
+      "retired"
     ],
     "attestation": [
       "not_required",
@@ -164,11 +164,45 @@
       "policy": "made-to-run"
     }
   ],
-  "archiveRecords": [
+  "models": [
+    {
+      "label": "Product Record",
+      "headline": "Every public product can keep a private history.",
+      "body": "Images, copy, SKU changes, colorways, bundle rules, and launch states can be snapshotted before a product changes."
+    },
+    {
+      "label": "Attestation",
+      "headline": "Units can carry records when the object deserves it.",
+      "body": "SKU, batch, material note, mark treatment, edition count, fulfillment state, and owner history can attach to each unit."
+    },
+    {
+      "label": "Tracking",
+      "headline": "Fulfillment states stay quiet until they help the customer.",
+      "body": "Reserved, prepared, packed, handed to carrier, shipped, delivered, returned, and recordd can be internal or public."
+    },
+    {
+      "label": "Accounts",
+      "headline": "Identity can arrive after the shop shape is stable.",
+      "body": "Wishlist, order history, claimed units, team stores, family sizing, saved addresses, and collector records can share the same IDs."
+    }
+  ],
+  "accountModel": {
+    "optionalAtLaunch": true,
+    "futureFields": [
+      "customerId",
+      "email",
+      "orderHistory",
+      "savedSizes",
+      "savedAddresses",
+      "claimedUnits",
+      "teamStores"
+    ]
+  },
+  "ledgerRecords": [
     {
       "record": "KND-CAP-001-A",
       "object": "Standard Cap",
-      "state": "Sample Archive",
+      "state": "Sample Review",
       "surface": "Product Card",
       "productId": "KND-CAP-001",
       "batch": "CONFIGURABLE",
@@ -255,39 +289,5 @@
       "batch": "CONFIGURABLE",
       "attestation": "pending"
     }
-  ],
-  "models": [
-    {
-      "label": "Archive",
-      "headline": "Every public product can keep a private history.",
-      "body": "Images, copy, SKU changes, colorways, bundle rules, and launch states can be snapshotted before a product changes."
-    },
-    {
-      "label": "Attestation",
-      "headline": "Units can carry records when the object deserves it.",
-      "body": "SKU, batch, material note, mark treatment, edition count, fulfillment state, and owner history can attach to each unit."
-    },
-    {
-      "label": "Tracking",
-      "headline": "Fulfillment states stay quiet until they help the customer.",
-      "body": "Reserved, prepared, packed, handed to carrier, shipped, delivered, returned, and archived can be internal or public."
-    },
-    {
-      "label": "Accounts",
-      "headline": "Identity can arrive after the shop shape is stable.",
-      "body": "Wishlist, order history, claimed units, team stores, family sizing, saved addresses, and collector records can share the same IDs."
-    }
-  ],
-  "accountModel": {
-    "optionalAtLaunch": true,
-    "futureFields": [
-      "customerId",
-      "email",
-      "orderHistory",
-      "savedSizes",
-      "savedAddresses",
-      "claimedUnits",
-      "teamStores"
-    ]
-  }
+  ]
 }

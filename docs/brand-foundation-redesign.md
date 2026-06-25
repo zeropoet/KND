@@ -1,27 +1,22 @@
-# KND Brand Foundation Redesign
+# KND Brand Foundation Direction
 
-This branch begins the rebuild from `KND Brand Foundation.pdf`, version 1.0.
+The current site is a unified KND brand experience built from the Brand Foundation direction.
 
-## Archive Point
+## Core Shift
 
-- Commit: `1bedaf0` (`Archive current KND v5 site`)
-- Tag: `archive/knd-v5-pre-brand-foundation`
-- Branch: `codex/brand-foundation-redesign`
+KND is treated as a modern lifestyle brand making kindness visible, wearable, and culturally relevant. Product, participation, and impact all support that larger emotional center.
 
-## Direction
+## Current Site
 
-The redesign treats KND as a modern lifestyle brand making kindness visible, wearable, and culturally relevant.
+- The homepage introduces the brand world and the north star.
+- Apparel, Kids, and Sports show how the brand moves through real product categories.
+- Brand Direction holds the logo system, smile lockup, principles, and visual references.
+- Shop presents product moments, bundles, operational readiness, and product ledger structure.
 
-Core shifts:
+## Principles
 
-- Move from brand/product archive toward movement/lifestyle front door.
-- Lead with the emotional response: "I want to be part of this."
-- Present product as desirable first, with mission deepening the connection.
-- Add room for participation, activation, and measurable impact.
-- Refresh the visual system toward editorial, premium, timeless, human warmth.
-
-## First Build Pass
-
-- Rebuilt `index.html` around the brand foundation language.
-- Added a new homepage visual system in `styles.css` under the `knd-redesign` body class.
-- Kept existing product, shop, kids, sports, and brand pages available as reference and future migration surfaces.
+- Lead with the feeling: people should want to be part of this.
+- Make product desirable first; let the mission deepen the bond.
+- Keep the visual system warm, premium, editorial, and human.
+- Keep language oriented toward future consumers and partners.
+- Keep the source tree focused on the current site.

@@ -1152,7 +1152,7 @@ picture {
 }
 
 .logo-options,
-.photo-archive {
+.photo-gallery {
   padding: clamp(112px, 14vw, 208px) clamp(20px, 6vw, 96px);
   border-bottom: 1px solid var(--line);
 }
@@ -1453,7 +1453,7 @@ picture {
   filter: saturate(0.98) contrast(0.98);
 }
 
-.apparel-photo-archive {
+.apparel-photo-gallery {
   padding-top: clamp(112px, 14vw, 208px);
 }
 
@@ -1529,29 +1529,29 @@ picture {
   filter: saturate(0.98) contrast(0.98);
 }
 
-.sports-photo-archive {
+.sports-photo-gallery {
   padding-left: clamp(20px, 3vw, 48px);
   padding-right: clamp(20px, 3vw, 48px);
 }
 
-.sports-photo-archive .section-heading {
+.sports-photo-gallery .section-heading {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.sports-photo-archive .editorial-photo-grid {
+.sports-photo-gallery .editorial-photo-grid {
   grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
   max-width: none;
   gap: clamp(40px, 6vw, 104px);
 }
 
-.sports-photo-archive .editorial-photo-card.secondary {
+.sports-photo-gallery .editorial-photo-card.secondary {
   min-height: 88svh;
   margin-top: 0;
 }
 
-.sports-photo-archive .editorial-photo-card.detail {
+.sports-photo-gallery .editorial-photo-card.detail {
   grid-column: auto;
   width: min(100%, 720px);
   min-height: 58svh;
@@ -1656,7 +1656,7 @@ picture {
   background: color-mix(in srgb, var(--kids-blue) 18%, var(--paper));
 }
 
-.kids-photo-archive {
+.kids-photo-gallery {
   background: var(--paper);
 }
 
@@ -2752,7 +2752,7 @@ picture {
   .apparel-options-section,
   .logo-options,
   .brand-principles,
-  .photo-archive,
+  .photo-gallery,
   .feeling-section,
   .brand-hero,
   .sports-reference,
@@ -2948,7 +2948,7 @@ picture {
 .knd-redesign .brand-principles,
 .knd-redesign .feeling-section,
 .knd-redesign .logo-options,
-.knd-redesign .photo-archive,
+.knd-redesign .photo-gallery,
 .knd-redesign .sports-reference,
 .knd-redesign .kids-colorway-section,
 .knd-redesign .kids-promise,
@@ -3093,7 +3093,7 @@ picture {
   font-weight: 400;
 }
 
-.knd-redesign .photo-archive,
+.knd-redesign .photo-gallery,
 .knd-redesign .shop-products,
 .knd-redesign .ledger-section {
   background: #fdf9f0;
@@ -3514,7 +3514,7 @@ picture {
 .knd-redesign .brand-principles,
 .knd-redesign .feeling-section,
 .knd-redesign .logo-options,
-.knd-redesign .photo-archive,
+.knd-redesign .photo-gallery,
 .knd-redesign .sports-reference,
 .knd-redesign .kids-colorway-section,
 .knd-redesign .kids-promise,

@@ -43,7 +43,7 @@ const joinNames = (items) =>
     .filter(Boolean)
     .join(", ");
 
-const visible = (item) => item.visibility !== "hidden" && item.visibility !== "archive";
+const visible = (item) => item.visibility !== "hidden";
 
 const commerceLabel = (commerce) => {
   if (!commerce) return "Details pending";
@@ -318,7 +318,7 @@ Promise.all([
     bundleGrid.innerHTML = catalog.bundles.filter(visible).map(renderBundle).join("");
     renderArchitecture(commerce);
     renderOperationsModel(operations);
-    renderLedger(operations.archiveRecords || catalog.ledgerPreview);
+    renderLedger(operations.ledgerRecords || catalog.ledgerPreview);
   })
   .catch((error) => {
     console.error(error);

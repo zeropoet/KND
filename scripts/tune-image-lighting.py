@@ -7,7 +7,6 @@ from PIL import Image, ImageEnhance
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSET_DIR = ROOT / "assets"
-SOURCE_ARCHIVE = ASSET_DIR / "archive" / "2026-06-13-lighting-pass"
 
 BRIGHT_DAY = {
     "brightness": 1.13,
@@ -118,8 +117,7 @@ def compress_highlights(image: Image.Image, threshold: float, strength: float) -
 
 def tune(path: Path) -> None:
     settings = profile_for(path)
-    source = SOURCE_ARCHIVE / path.name
-    image = Image.open(source if source.exists() else path).convert("RGB")
+    image = Image.open(path).convert("RGB")
     image = lift_shadows(image, settings["shadow_lift"])
     image = ImageEnhance.Brightness(image).enhance(settings["brightness"])
     image = ImageEnhance.Color(image).enhance(settings["color"])

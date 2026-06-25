@@ -1,134 +1,102 @@
-# KND v5
+# KND
 
 [View the live site](https://zeropoet.github.io/KND/)
 
-KND is a character brand built around kindness as something lived, worn, and shared.
+KND is a modern lifestyle brand making kindness visible, wearable, and culturally relevant.
 
-Version 5 expands the system from a homepage into a small brand world: apparel, sports, kids, shop, and the core brand direction all share the same smile-led identity while giving each market its own rhythm, imagery, and product logic.
+This repository is one unified static site for the current KND direction. The experience moves through one shared navigation system across the homepage, Apparel, Kids, Sports, Brand, and Shop. Each page carries the same smile-led identity, warm editorial tone, product-in-life imagery, and practical commerce foundation.
 
-The current direction keeps the original restraint, but opens it up with more warmth, joy, product presence, and Mediterranean light. The brand should be felt before it has to explain itself.
+## Site Map
 
-The shop is now present as a working concept layer. It gives the brand a tangible product surface while keeping the deeper product, archive, fulfillment, and account pathways ready for later decisions.
+- `index.html` - homepage and primary brand story.
+- `apparel.html` - everyday product direction, apparel opportunities, and product-in-scene photography.
+- `kids.html` - KND Kids product direction, softer mark language, colorways, and size range.
+- `sports.html` - team, club, event, and community sports direction.
+- `brand-direction.html` - logo system, smile lockup, brand principles, and visual references.
+- `shop.html` - product moments, catalog filters, bundles, operations, and ledger preview.
+- `404.html` - branded static-hosting not-found page.
 
-## Pages
+## Direction
 
-- `index.html` - homepage and primary brand expression.
-- `apparel.html` - apparel opportunities, product directions, and lifestyle photography.
-- `sports.html` - sports partnership opportunities, team colorways, and product-in-scene photography.
-- `kids.html` - KND Kids market direction, playful product language, colorways, sizing, and mark extensions.
-- `shop.html` - shop concept system with products, descriptions, size/color/bundle options, and quiet operational readiness.
-- `brand-direction.html` - logo archive, smile lockup direction, and photography archive.
-- `data/catalog.json` - editable product, bundle, commerce mode, and ledger source for the shop.
-- `data/commerce.json` - custom commerce architecture, checkout modes, cart contract, and launch phases.
-- `data/operations.json` - drops, inventory pools, archive records, attestation states, fulfillment states, and account model.
-- `scripts/shop.js` - renders the shop from the catalog source.
-- `docs/commerce-architecture.md` - current commerce architecture decision.
-- `docs/qa-accessibility.md` - launch QA and accessibility notes.
+KND should feel clear at first glance and warmer the longer someone sits with it. The brand is not built around explaining kindness. It gives kindness a visible shape people can wear, share, recognize, and join.
 
-## Current Direction
+The current site emphasizes:
 
-- The KND smile remains the emotional center of the system, but it should appear with intention rather than repetition.
-- The homepage now favors a cleaner editorial sequence with fewer repeated lockups.
-- `KINDNESS WINS` and the square-period `KND.` appear as supporting marks in the system, with Sports carrying `KINDNESS WINS` through a product-led closing moment.
-- KND Kids extends the smile system into brighter colorways, softer scale, and optimistic product language.
-- The KND Shop should look simple on the surface while staying ready for product records, fulfillment states, and future customer accounts.
-- Product details should stay easy to revise until late launch decisions lock. Update `data/catalog.json` first, and let the shop render from that source.
-- The square-period `KND.` lockup is the upper-left navigation mark, giving the site a clear brand read from the first touchpoint.
-- Photography should feel premium, coherent, joyful, communal, and naturally warm.
-- Product should be visible inside photographed scenes, not only as isolated product shots.
-- Page descriptions should give imagery room to breathe. Use open image space or place text above hero photography when overlays compete with the subject.
-- No one should feel singled out in group photography.
-- Photo captions are intentionally avoided.
-- Team color can enter through sports product moments without overwhelming the charcoal-and-cream brand center.
-- This is a working brand system, built to keep evolving as launch priorities become clearer.
-- Product choices are intentionally flexible while launch priorities continue to sharpen.
+- Lifestyle first, with product shown inside real apparel, kids, and sports moments.
+- A simple smile-led mark system with enough warmth to feel human.
+- Editorial pacing, generous photography, and restrained type.
+- A shop surface that feels simple to browse while staying flexible behind the scenes.
+- Consumer- and partner-facing language, not presentation notes.
 
-## Brand Notes
+## Brand System
 
-KND should feel:
+The KND identity stays direct, architectural, and type-led. The square-period mark anchors the navigation and gives the site a clear brand read from the first touchpoint.
 
-- Clear at first glance.
-- Warmer the longer you sit with it.
-- Easy to wear.
-- Easy to give.
-- Strong without becoming severe.
-- Joyful without becoming loud.
-- Playful without becoming chaotic.
+Supporting expressions include:
 
-The brand direction is not about over-explaining kindness. It is about giving recognition a place to land.
+- `KND` wordmark.
+- `KND.` square-period mark.
+- KND smile lockup.
+- `Kindness Wins` smile lockup.
+- KND Kids softened marks and colorways.
+- Sports and team-color product moments.
 
-Across the brand, moments that once felt invisible should now reveal kindness.
+KND Kids can soften palette, corners, and punctuation while preserving the core KND structure. Sports can carry more energy and team color while keeping the brand center intact.
 
-## Brand Evolution
+## Visual Language
 
-The main KND identity stays direct, architectural, and type-led. Born from Helvetica Neue, its square period and precise corners give the system weight, clarity, and a standard to return to.
-
-KND Kids softens that same structure without replacing it. The palette becomes brighter and more playful, the KND corners become deliberately rounded, and the square period becomes a circle. These shifts should feel subtle but meaningful: kindness can move into a new market with more brightness, color, and softness while still being unmistakably KND.
-
-Future launch changes should build from this idea: the brand can move with care, warmth, and subtlety without losing its center.
-
-## Visual System
-
-The design language uses:
+Use:
 
 - Warm cream ground.
 - Restrained black and charcoal type.
-- Documentary photography in real environments.
-- Premium product details.
-- Shop product concepts that feel calm, tangible, and easy to understand.
-- Generous whitespace around logos and photography.
-- Occasional color through team-inspired and kid-led capsules.
-- Smile mark expressions including `KND`, `KINDNESS WINS`, kids colorways, and sports colorways.
-- Kids mark expressions can soften palette, corners, and punctuation while preserving the core KND structure.
-- An incognito square mark that can carry the standard without always spelling out the word.
+- Serif display moments balanced by clean sans-serif utility text.
+- Documentary-feeling photography in real environments.
+- Product visible in use, not only isolated on a table.
+- Group scenes where people feel included and no one is singled out.
+- Open layouts that give imagery and statements room to breathe.
+- Subtle product and logo framing when a panel needs definition.
 
-## Asset Rules
+Avoid:
 
-- Archive every visual asset change in a dated folder before removing or replacing it on the live site.
-- Use `assets/archive/YYYY-MM-DD/` for snapshots, with the date reflecting the site change or archive date.
-- Keep current pages/styles pointed at the active production assets in `assets/`, while preserving prior visual directions in the archive for reference.
+- Copy that sounds like it is speaking to a client instead of the future audience.
+- Over-explaining the mission.
+- Heavy decorative effects.
+- Photo captions.
+- Product imagery that feels unfinished, cropped awkwardly, or disconnected from apparel, kids, and sports.
+
+## Shop Data
+
+The shop is data-driven so product decisions can stay flexible until launch details are final.
+
+- Edit product cards, variants, pricing placeholders, product imagery, availability, and bundles in `data/catalog.json`.
+- Edit checkout behavior, cart/order contracts, commerce adapters, and launch phases in `data/commerce.json`.
+- Edit drops, inventory pools, product ledger records, attestation, fulfillment states, and account modeling in `data/operations.json`.
+- `scripts/shop.js` renders the shop from those JSON sources.
+- Use `visibility: "public"` for visible products and bundles.
+- Use `visibility: "hidden"` to keep an item out of the public interface.
+- Use commerce modes to keep purchase behavior reconfigurable: `concept`, `request`, `reserve`, `checkout`, or `hidden`.
+- Keep product IDs stable once shared externally.
+
+## Assets
+
+Active source artwork lives in `assets/`. Generated responsive variants live in `assets/responsive/`.
+
+- Source images should stay current and production-relevant.
+- Do not keep old visual directions in the active source tree.
 - Treat generated shop product imagery as concept assets until final product, manufacturing, and brand-specific details are locked.
-- Do not show image borders from screenshots or mockups.
-- Avoid visible photo captions.
 - Preserve warm cream backgrounds where product images need a field.
 - Prefer group scenes where KND products are worn, held, carried, or used naturally.
 - Keep KND letter spacing consistent across SVG identities and lockups.
 
-## Shop Catalog
-
-The shop is data-driven so product decisions can stay flexible until final launch details arrive.
-
-- Edit products, variants, availability, pricing placeholders, fulfillment rules, bundles, commerce modes, and visibility in `data/catalog.json`.
-- Edit checkout mode behavior, cart/order contracts, commerce adapters, and launch phases in `data/commerce.json`.
-- Edit drops, inventory pools, archive records, attestation, fulfillment states, and account/provenance modeling in `data/operations.json`.
-- Use `visibility: "public"` for visible products and bundles.
-- Use `visibility: "hidden"` or `visibility: "archive"` to keep an item in the source without rendering it publicly.
-- Use commerce modes to keep purchase behavior reconfigurable: `concept`, `request`, `reserve`, `checkout`, `hidden`, or `archive`.
-- Use `price: null` while pricing is undecided.
-- Add `checkoutUrl` only when a product is ready to point at a live checkout path.
-- Keep product IDs stable once shared externally, even if names, images, colors, sizes, or bundle rules change.
-
-## Commerce Architecture
-
-KND is using a custom headless commerce model before choosing a final checkout provider.
-
-- The frontend remains static and brand-led.
-- Product and operational truth live in structured JSON.
-- Request and reserve modes can work before final checkout exists.
-- Stripe Checkout or Payment Links can become the first payment adapter once prices, shipping, tax, returns, and fulfillment rules are locked.
-- A CMS remains optional until content operations are too frequent for direct catalog edits.
-- The architecture decision is documented in `docs/commerce-architecture.md`.
-
 ## Image Performance
 
-Production pages use generated responsive image variants for large PNG artwork.
+Production pages use generated AVIF, WebP, and JPEG variants for large PNG artwork.
 
-- Source artwork remains in `assets/*.png`.
-- Generated AVIF, WebP, and JPEG variants live in `assets/responsive/`.
-- The generated manifest lives at `assets/responsive/manifest.json`.
 - Run `scripts/generate-image-variants.py` after adding or replacing PNG artwork.
 - Run `scripts/apply-responsive-images.py` after regenerating variants to refresh page markup.
-- Above-the-fold images are preloaded and eager-loaded; lower page imagery is lazy-loaded.
+- The generated manifest lives at `assets/responsive/manifest.json`.
+- Above-the-fold images are preloaded and eager-loaded.
+- Lower page imagery is lazy-loaded.
 - Product images rendered from `data/catalog.json` use the same responsive manifest through `scripts/shop.js`.
 
 ## Production Metadata
@@ -138,7 +106,6 @@ The site includes basic launch metadata and crawler files.
 - `robots.txt` points crawlers to `sitemap.xml`.
 - `sitemap.xml` lists the public pages for the current GitHub Pages URL.
 - `site.webmanifest`, `favicon.ico`, and `assets/icons/` provide browser and app icons.
-- `404.html` is the branded not-found page for static hosting.
 - Page-level canonical URLs, Open Graph tags, Twitter card tags, and JSON-LD are applied by `scripts/apply-production-meta.py`.
 - Run `scripts/generate-icons.py` after changing the core icon direction.
 - Update `SITE_URL` in `scripts/apply-production-meta.py` and `sitemap.xml` if the production domain changes.
@@ -155,7 +122,7 @@ Then open:
 
 - `http://localhost:8765/`
 - `http://localhost:8765/apparel.html`
-- `http://localhost:8765/sports.html`
 - `http://localhost:8765/kids.html`
-- `http://localhost:8765/shop.html`
+- `http://localhost:8765/sports.html`
 - `http://localhost:8765/brand-direction.html`
+- `http://localhost:8765/shop.html`

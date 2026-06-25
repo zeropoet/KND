@@ -32,7 +32,7 @@
       "state": "Active",
       "owner": "Fulfillment and provenance",
       "surface": "data/operations.json",
-      "purpose": "Drops, inventory, archive records, attestation, fulfillment states, accounts, and unit provenance."
+      "purpose": "Drops, inventory, product ledger records, attestation, fulfillment states, accounts, and unit provenance."
     },
     {
       "id": "checkout",

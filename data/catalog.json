@@ -7,8 +7,7 @@
     "request": "Product accepts interest or quote requests before final checkout.",
     "reserve": "Product can collect reservations before fulfillment opens.",
     "checkout": "Product can be connected to a live checkout URL.",
-    "hidden": "Product stays in the catalog but is not rendered publicly.",
-    "archive": "Product remains in internal history only."
+    "hidden": "Product stays in the catalog but is not rendered publicly."
   },
   "filters": {
     "categories": [
@@ -49,7 +48,7 @@
         "alt": "A spectrum of KND caps in apparel colorways.",
         "position": "48% 52%"
       },
-      "status": "Sample Archive",
+      "status": "Sample Review",
       "availability": {
         "state": "configurable",
         "label": "Configurable run",
@@ -4077,7 +4076,7 @@
     {
       "record": "KND-CAP-001-A",
       "object": "Standard Cap",
-      "state": "Sample Archive",
+      "state": "Sample Review",
       "surface": "Product Card"
     },
     {
