@@ -3336,3 +3336,157 @@ picture {
     font-size: clamp(34px, 10.5vw, 58px);
   }
 }
+
+/* Editorial typography pass: calmer scale and clearer serif/sans pairing. */
+.knd-redesign {
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.knd-redesign .kicker,
+.knd-redesign .site-nav,
+.knd-redesign .site-footer,
+.knd-redesign .text-link,
+.knd-redesign .product-code,
+.knd-redesign .logo-label,
+.knd-redesign .ops-label {
+  font-family: var(--font-sans);
+  letter-spacing: 0.09em;
+}
+
+.knd-redesign .foundation-hero h1 {
+  font-size: clamp(82px, 18vw, 250px);
+  line-height: 0.82;
+}
+
+.knd-redesign .foundation-hero-copy p:last-child {
+  max-width: 680px;
+  font-family: var(--font-serif);
+  font-size: clamp(28px, 4.4vw, 58px);
+  line-height: 1.02;
+}
+
+.knd-redesign .foundation-intro h2,
+.knd-redesign .foundation-product h2,
+.knd-redesign .foundation-activation h2,
+.knd-redesign .foundation-impact h2,
+.knd-redesign .impact-copy h2 {
+  font-size: clamp(36px, 5vw, 76px);
+  line-height: 1;
+}
+
+.knd-redesign .foundation-intro-copy,
+.knd-redesign .foundation-product-copy p,
+.knd-redesign .impact-copy p,
+.knd-redesign .shop-hero-copy h1 + p,
+.knd-redesign .brand-hero h1 + p,
+.knd-redesign .full-hero-copy h1 + p {
+  font-family: var(--font-sans);
+}
+
+.knd-redesign .foundation-intro-copy,
+.knd-redesign .foundation-product-copy p,
+.knd-redesign .impact-copy p {
+  font-size: clamp(16px, 1.25vw, 19px);
+  line-height: 1.58;
+}
+
+.knd-redesign .belief-item h3 {
+  font-size: clamp(32px, 3.35vw, 50px);
+  line-height: 1;
+}
+
+.knd-redesign .belief-item p {
+  font-family: var(--font-sans);
+  font-size: clamp(14px, 1.05vw, 16px);
+  line-height: 1.62;
+}
+
+.knd-redesign .full-hero-copy h1,
+.knd-redesign .kids-hero .full-hero-copy h1,
+.knd-redesign .brand-hero h1,
+.knd-redesign .shop-hero-copy h1 {
+  font-size: clamp(40px, 5.6vw, 82px);
+  line-height: 1;
+}
+
+.knd-redesign .full-hero-copy h1 + p,
+.knd-redesign .kids-hero .full-hero-copy h1 + p,
+.knd-redesign .brand-hero h1 + p,
+.knd-redesign .shop-hero-copy h1 + p {
+  max-width: 500px;
+  font-size: clamp(18px, 1.55vw, 25px);
+  line-height: 1.32;
+}
+
+.knd-redesign .direction-copy,
+.knd-redesign .brand-principles,
+.knd-redesign .feeling-section {
+  font-size: clamp(30px, 4vw, 60px);
+  line-height: 1.05;
+}
+
+.knd-redesign .direction-copy p + p,
+.knd-redesign .brand-principles p + p,
+.knd-redesign .feeling-section p + p {
+  max-width: 42ch;
+  font-family: var(--font-sans);
+  font-size: clamp(18px, 2vw, 30px);
+  line-height: 1.24;
+}
+
+.knd-redesign .section-heading h2,
+.knd-redesign .sports-reference h2,
+.knd-redesign .ledger-heading h2,
+.knd-redesign .bundle-copy h2,
+.knd-redesign .kids-promise-copy h2 {
+  font-size: clamp(30px, 4vw, 60px);
+  line-height: 1.04;
+}
+
+.knd-redesign .opportunity-grid h3,
+.knd-redesign .shop-product-body h3,
+.knd-redesign .bundle-grid h3,
+.knd-redesign .ops-grid h3,
+.knd-redesign .architecture-panel h3,
+.knd-redesign .architecture-grid h3 {
+  font-size: clamp(24px, 2.05vw, 34px);
+  line-height: 1.08;
+}
+
+.knd-redesign .activation-list li {
+  font-family: var(--font-sans);
+  font-size: clamp(18px, 1.8vw, 28px);
+  line-height: 1.24;
+}
+
+.knd-redesign .kids-feeling p {
+  font-size: clamp(24px, 2.25vw, 36px);
+  line-height: 1.12;
+}
+
+@media (max-width: 560px) {
+  .knd-redesign .foundation-hero h1 {
+    font-size: clamp(76px, 24vw, 118px);
+  }
+
+  .knd-redesign .foundation-hero-copy p:last-child {
+    font-size: clamp(30px, 9vw, 44px);
+  }
+
+  .knd-redesign .full-hero-copy h1,
+  .knd-redesign .kids-hero .full-hero-copy h1,
+  .knd-redesign .brand-hero h1,
+  .knd-redesign .shop-hero-copy h1,
+  .knd-redesign .section-heading h2,
+  .knd-redesign .sports-reference h2,
+  .knd-redesign .ledger-heading h2 {
+    font-size: clamp(34px, 9.5vw, 50px);
+  }
+
+  .knd-redesign .direction-copy,
+  .knd-redesign .brand-principles,
+  .knd-redesign .feeling-section {
+    font-size: clamp(28px, 8vw, 42px);
+  }
+}
