@@ -2990,6 +2990,15 @@ picture {
   line-height: 0.98;
 }
 
+.knd-redesign .brand-principles {
+  width: 100%;
+  max-width: none;
+}
+
+.knd-redesign .brand-principles p {
+  max-width: 1180px;
+}
+
 .knd-redesign .feeling-section {
   display: grid;
   gap: clamp(22px, 3vw, 40px);
