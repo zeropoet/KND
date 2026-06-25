@@ -1,0 +1,4114 @@
+{
+  "schemaVersion": "2026-06-13",
+  "currency": "USD",
+  "launchMode": "concept",
+  "commerceModes": {
+    "concept": "Product is visible for client review without a purchase action.",
+    "request": "Product accepts interest or quote requests before final checkout.",
+    "reserve": "Product can collect reservations before fulfillment opens.",
+    "checkout": "Product can be connected to a live checkout URL.",
+    "hidden": "Product stays in the catalog but is not rendered publicly.",
+    "archive": "Product remains in internal history only."
+  },
+  "filters": {
+    "categories": [
+      "All",
+      "Headwear",
+      "Tees",
+      "Fleece",
+      "Kids",
+      "Sports",
+      "Carry",
+      "Small Goods"
+    ],
+    "baseColors": [
+      "Cream",
+      "Charcoal"
+    ],
+    "accentColors": [
+      "Morning Sky",
+      "Sun",
+      "Coral",
+      "Fresh Leaf",
+      "Court Blue",
+      "Soft Rose",
+      "Lilac"
+    ]
+  },
+  "products": [
+    {
+      "id": "KND-CAP-001",
+      "sku": "KND-CAP-001",
+      "slug": "standard-cap",
+      "type": "headwear",
+      "category": "Headwear",
+      "name": "Standard Cap",
+      "summary": "Premium twill cap with exact KND period mark, held in cream and charcoal as the core base.",
+      "image": {
+        "src": "assets/knd-shop-cap-concept.png",
+        "alt": "Cream and charcoal KND caps in bright morning studio light."
+      },
+      "status": "Sample Archive",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-CAP-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Request cap details",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "Adjustable"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Morning Sky",
+            "value": "#8ec9ee"
+          },
+          {
+            "name": "Sun",
+            "value": "#ffd35a"
+          },
+          {
+            "name": "Coral",
+            "value": "#ff7f62"
+          },
+          {
+            "name": "Fresh Leaf",
+            "value": "#86bd68"
+          },
+          {
+            "name": "Court Blue",
+            "value": "#327de5"
+          }
+        ],
+        "bundles": [
+          "Daily Kit",
+          "Team Pack"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-CAP-001-ADJUSTABLE-CREAM",
+          "sku": "KND-CAP-001-ADJUSTABLE-CREAM",
+          "size": "Adjustable",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CAP-001"
+        },
+        {
+          "id": "KND-CAP-001-ADJUSTABLE-CHARCOAL",
+          "sku": "KND-CAP-001-ADJUSTABLE-CHARCOAL",
+          "size": "Adjustable",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CAP-001"
+        },
+        {
+          "id": "KND-CAP-001-ADJUSTABLE-MORNINGSKY",
+          "sku": "KND-CAP-001-ADJUSTABLE-MORNINGSKY",
+          "size": "Adjustable",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CAP-001"
+        },
+        {
+          "id": "KND-CAP-001-ADJUSTABLE-SUN",
+          "sku": "KND-CAP-001-ADJUSTABLE-SUN",
+          "size": "Adjustable",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CAP-001"
+        },
+        {
+          "id": "KND-CAP-001-ADJUSTABLE-CORAL",
+          "sku": "KND-CAP-001-ADJUSTABLE-CORAL",
+          "size": "Adjustable",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CAP-001"
+        },
+        {
+          "id": "KND-CAP-001-ADJUSTABLE-FRESHLEAF",
+          "sku": "KND-CAP-001-ADJUSTABLE-FRESHLEAF",
+          "size": "Adjustable",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CAP-001"
+        },
+        {
+          "id": "KND-CAP-001-ADJUSTABLE-COURTBLUE",
+          "sku": "KND-CAP-001-ADJUSTABLE-COURTBLUE",
+          "size": "Adjustable",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CAP-001"
+        }
+      ],
+      "tags": [
+        "daily",
+        "gift",
+        "team"
+      ],
+      "materials": [
+        "Cotton",
+        "Fleece",
+        "Twill"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-HDY-001",
+      "sku": "KND-HDY-001",
+      "slug": "smile-hoodie",
+      "type": "apparel",
+      "category": "Fleece",
+      "name": "Smile Hoodie",
+      "summary": "Heavyweight fleece hoodie with the KND mark placed small enough for daily wear.",
+      "image": {
+        "src": "assets/knd-shop-hoodie-concept.png",
+        "alt": "Cream sweatshirt and charcoal hoodie with KND marks in morning studio light."
+      },
+      "status": "Drop Ready",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-HDY-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "reserve",
+        "label": "Hold for first drop",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Morning Sky",
+            "value": "#8ec9ee"
+          },
+          {
+            "name": "Coral",
+            "value": "#ff7f62"
+          },
+          {
+            "name": "Court Blue",
+            "value": "#327de5"
+          }
+        ],
+        "bundles": [
+          "Fleece Set"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-HDY-001-XS-CREAM",
+          "sku": "KND-HDY-001-XS-CREAM",
+          "size": "XS",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XS-CHARCOAL",
+          "sku": "KND-HDY-001-XS-CHARCOAL",
+          "size": "XS",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XS-MORNINGSKY",
+          "sku": "KND-HDY-001-XS-MORNINGSKY",
+          "size": "XS",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XS-CORAL",
+          "sku": "KND-HDY-001-XS-CORAL",
+          "size": "XS",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XS-COURTBLUE",
+          "sku": "KND-HDY-001-XS-COURTBLUE",
+          "size": "XS",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-S-CREAM",
+          "sku": "KND-HDY-001-S-CREAM",
+          "size": "S",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-S-CHARCOAL",
+          "sku": "KND-HDY-001-S-CHARCOAL",
+          "size": "S",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-S-MORNINGSKY",
+          "sku": "KND-HDY-001-S-MORNINGSKY",
+          "size": "S",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-S-CORAL",
+          "sku": "KND-HDY-001-S-CORAL",
+          "size": "S",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-S-COURTBLUE",
+          "sku": "KND-HDY-001-S-COURTBLUE",
+          "size": "S",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-M-CREAM",
+          "sku": "KND-HDY-001-M-CREAM",
+          "size": "M",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-M-CHARCOAL",
+          "sku": "KND-HDY-001-M-CHARCOAL",
+          "size": "M",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-M-MORNINGSKY",
+          "sku": "KND-HDY-001-M-MORNINGSKY",
+          "size": "M",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-M-CORAL",
+          "sku": "KND-HDY-001-M-CORAL",
+          "size": "M",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-M-COURTBLUE",
+          "sku": "KND-HDY-001-M-COURTBLUE",
+          "size": "M",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-L-CREAM",
+          "sku": "KND-HDY-001-L-CREAM",
+          "size": "L",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-L-CHARCOAL",
+          "sku": "KND-HDY-001-L-CHARCOAL",
+          "size": "L",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-L-MORNINGSKY",
+          "sku": "KND-HDY-001-L-MORNINGSKY",
+          "size": "L",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-L-CORAL",
+          "sku": "KND-HDY-001-L-CORAL",
+          "size": "L",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-L-COURTBLUE",
+          "sku": "KND-HDY-001-L-COURTBLUE",
+          "size": "L",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XL-CREAM",
+          "sku": "KND-HDY-001-XL-CREAM",
+          "size": "XL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XL-CHARCOAL",
+          "sku": "KND-HDY-001-XL-CHARCOAL",
+          "size": "XL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XL-MORNINGSKY",
+          "sku": "KND-HDY-001-XL-MORNINGSKY",
+          "size": "XL",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XL-CORAL",
+          "sku": "KND-HDY-001-XL-CORAL",
+          "size": "XL",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XL-COURTBLUE",
+          "sku": "KND-HDY-001-XL-COURTBLUE",
+          "size": "XL",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XXL-CREAM",
+          "sku": "KND-HDY-001-XXL-CREAM",
+          "size": "XXL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XXL-CHARCOAL",
+          "sku": "KND-HDY-001-XXL-CHARCOAL",
+          "size": "XXL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XXL-MORNINGSKY",
+          "sku": "KND-HDY-001-XXL-MORNINGSKY",
+          "size": "XXL",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XXL-CORAL",
+          "sku": "KND-HDY-001-XXL-CORAL",
+          "size": "XXL",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        },
+        {
+          "id": "KND-HDY-001-XXL-COURTBLUE",
+          "sku": "KND-HDY-001-XXL-COURTBLUE",
+          "size": "XXL",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-HDY-001"
+        }
+      ],
+      "tags": [
+        "apparel",
+        "daily",
+        "family",
+        "team"
+      ],
+      "materials": [
+        "Cotton",
+        "Fleece",
+        "Twill"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-TEE-001",
+      "sku": "KND-TEE-001",
+      "slug": "everyday-tee",
+      "type": "apparel",
+      "category": "Tees",
+      "name": "Everyday Tee",
+      "summary": "Premium tee system for adult, youth, toddler, and event color runs.",
+      "image": {
+        "src": "assets/knd-shop-tee-concept.png",
+        "alt": "Adult cream, youth sky, and toddler coral KND tees in bright morning light."
+      },
+      "status": "Configurable",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-TEE-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Configure tee run",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "Adult XS",
+          "Adult S",
+          "Adult M",
+          "Adult L",
+          "Adult XL",
+          "Adult XXL",
+          "Youth S",
+          "Youth M",
+          "Youth L",
+          "Toddler 2T",
+          "Toddler 3T",
+          "Toddler 4T"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Morning Sky",
+            "value": "#8ec9ee"
+          },
+          {
+            "name": "Coral",
+            "value": "#ff7f62"
+          },
+          {
+            "name": "Sun",
+            "value": "#ffd35a"
+          },
+          {
+            "name": "Fresh Leaf",
+            "value": "#86bd68"
+          },
+          {
+            "name": "Court Blue",
+            "value": "#327de5"
+          },
+          {
+            "name": "Soft Rose",
+            "value": "#f2a4b5"
+          },
+          {
+            "name": "Lilac",
+            "value": "#bba7ff"
+          }
+        ],
+        "bundles": [
+          "Daily Kit",
+          "Family Set"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-TEE-001-ADULTXS-CREAM",
+          "sku": "KND-TEE-001-ADULTXS-CREAM",
+          "size": "Adult XS",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXS-CHARCOAL",
+          "sku": "KND-TEE-001-ADULTXS-CHARCOAL",
+          "size": "Adult XS",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXS-MORNINGSKY",
+          "sku": "KND-TEE-001-ADULTXS-MORNINGSKY",
+          "size": "Adult XS",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXS-CORAL",
+          "sku": "KND-TEE-001-ADULTXS-CORAL",
+          "size": "Adult XS",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXS-SUN",
+          "sku": "KND-TEE-001-ADULTXS-SUN",
+          "size": "Adult XS",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXS-FRESHLEAF",
+          "sku": "KND-TEE-001-ADULTXS-FRESHLEAF",
+          "size": "Adult XS",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXS-COURTBLUE",
+          "sku": "KND-TEE-001-ADULTXS-COURTBLUE",
+          "size": "Adult XS",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXS-SOFTROSE",
+          "sku": "KND-TEE-001-ADULTXS-SOFTROSE",
+          "size": "Adult XS",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXS-LILAC",
+          "sku": "KND-TEE-001-ADULTXS-LILAC",
+          "size": "Adult XS",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTS-CREAM",
+          "sku": "KND-TEE-001-ADULTS-CREAM",
+          "size": "Adult S",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTS-CHARCOAL",
+          "sku": "KND-TEE-001-ADULTS-CHARCOAL",
+          "size": "Adult S",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTS-MORNINGSKY",
+          "sku": "KND-TEE-001-ADULTS-MORNINGSKY",
+          "size": "Adult S",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTS-CORAL",
+          "sku": "KND-TEE-001-ADULTS-CORAL",
+          "size": "Adult S",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTS-SUN",
+          "sku": "KND-TEE-001-ADULTS-SUN",
+          "size": "Adult S",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTS-FRESHLEAF",
+          "sku": "KND-TEE-001-ADULTS-FRESHLEAF",
+          "size": "Adult S",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTS-COURTBLUE",
+          "sku": "KND-TEE-001-ADULTS-COURTBLUE",
+          "size": "Adult S",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTS-SOFTROSE",
+          "sku": "KND-TEE-001-ADULTS-SOFTROSE",
+          "size": "Adult S",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTS-LILAC",
+          "sku": "KND-TEE-001-ADULTS-LILAC",
+          "size": "Adult S",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTM-CREAM",
+          "sku": "KND-TEE-001-ADULTM-CREAM",
+          "size": "Adult M",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTM-CHARCOAL",
+          "sku": "KND-TEE-001-ADULTM-CHARCOAL",
+          "size": "Adult M",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTM-MORNINGSKY",
+          "sku": "KND-TEE-001-ADULTM-MORNINGSKY",
+          "size": "Adult M",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTM-CORAL",
+          "sku": "KND-TEE-001-ADULTM-CORAL",
+          "size": "Adult M",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTM-SUN",
+          "sku": "KND-TEE-001-ADULTM-SUN",
+          "size": "Adult M",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTM-FRESHLEAF",
+          "sku": "KND-TEE-001-ADULTM-FRESHLEAF",
+          "size": "Adult M",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTM-COURTBLUE",
+          "sku": "KND-TEE-001-ADULTM-COURTBLUE",
+          "size": "Adult M",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTM-SOFTROSE",
+          "sku": "KND-TEE-001-ADULTM-SOFTROSE",
+          "size": "Adult M",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTM-LILAC",
+          "sku": "KND-TEE-001-ADULTM-LILAC",
+          "size": "Adult M",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTL-CREAM",
+          "sku": "KND-TEE-001-ADULTL-CREAM",
+          "size": "Adult L",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTL-CHARCOAL",
+          "sku": "KND-TEE-001-ADULTL-CHARCOAL",
+          "size": "Adult L",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTL-MORNINGSKY",
+          "sku": "KND-TEE-001-ADULTL-MORNINGSKY",
+          "size": "Adult L",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTL-CORAL",
+          "sku": "KND-TEE-001-ADULTL-CORAL",
+          "size": "Adult L",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTL-SUN",
+          "sku": "KND-TEE-001-ADULTL-SUN",
+          "size": "Adult L",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTL-FRESHLEAF",
+          "sku": "KND-TEE-001-ADULTL-FRESHLEAF",
+          "size": "Adult L",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTL-COURTBLUE",
+          "sku": "KND-TEE-001-ADULTL-COURTBLUE",
+          "size": "Adult L",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTL-SOFTROSE",
+          "sku": "KND-TEE-001-ADULTL-SOFTROSE",
+          "size": "Adult L",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTL-LILAC",
+          "sku": "KND-TEE-001-ADULTL-LILAC",
+          "size": "Adult L",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXL-CREAM",
+          "sku": "KND-TEE-001-ADULTXL-CREAM",
+          "size": "Adult XL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXL-CHARCOAL",
+          "sku": "KND-TEE-001-ADULTXL-CHARCOAL",
+          "size": "Adult XL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXL-MORNINGSKY",
+          "sku": "KND-TEE-001-ADULTXL-MORNINGSKY",
+          "size": "Adult XL",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXL-CORAL",
+          "sku": "KND-TEE-001-ADULTXL-CORAL",
+          "size": "Adult XL",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXL-SUN",
+          "sku": "KND-TEE-001-ADULTXL-SUN",
+          "size": "Adult XL",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXL-FRESHLEAF",
+          "sku": "KND-TEE-001-ADULTXL-FRESHLEAF",
+          "size": "Adult XL",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXL-COURTBLUE",
+          "sku": "KND-TEE-001-ADULTXL-COURTBLUE",
+          "size": "Adult XL",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXL-SOFTROSE",
+          "sku": "KND-TEE-001-ADULTXL-SOFTROSE",
+          "size": "Adult XL",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXL-LILAC",
+          "sku": "KND-TEE-001-ADULTXL-LILAC",
+          "size": "Adult XL",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXXL-CREAM",
+          "sku": "KND-TEE-001-ADULTXXL-CREAM",
+          "size": "Adult XXL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXXL-CHARCOAL",
+          "sku": "KND-TEE-001-ADULTXXL-CHARCOAL",
+          "size": "Adult XXL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXXL-MORNINGSKY",
+          "sku": "KND-TEE-001-ADULTXXL-MORNINGSKY",
+          "size": "Adult XXL",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXXL-CORAL",
+          "sku": "KND-TEE-001-ADULTXXL-CORAL",
+          "size": "Adult XXL",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXXL-SUN",
+          "sku": "KND-TEE-001-ADULTXXL-SUN",
+          "size": "Adult XXL",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXXL-FRESHLEAF",
+          "sku": "KND-TEE-001-ADULTXXL-FRESHLEAF",
+          "size": "Adult XXL",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXXL-COURTBLUE",
+          "sku": "KND-TEE-001-ADULTXXL-COURTBLUE",
+          "size": "Adult XXL",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXXL-SOFTROSE",
+          "sku": "KND-TEE-001-ADULTXXL-SOFTROSE",
+          "size": "Adult XXL",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-ADULTXXL-LILAC",
+          "sku": "KND-TEE-001-ADULTXXL-LILAC",
+          "size": "Adult XXL",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHS-CREAM",
+          "sku": "KND-TEE-001-YOUTHS-CREAM",
+          "size": "Youth S",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHS-CHARCOAL",
+          "sku": "KND-TEE-001-YOUTHS-CHARCOAL",
+          "size": "Youth S",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHS-MORNINGSKY",
+          "sku": "KND-TEE-001-YOUTHS-MORNINGSKY",
+          "size": "Youth S",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHS-CORAL",
+          "sku": "KND-TEE-001-YOUTHS-CORAL",
+          "size": "Youth S",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHS-SUN",
+          "sku": "KND-TEE-001-YOUTHS-SUN",
+          "size": "Youth S",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHS-FRESHLEAF",
+          "sku": "KND-TEE-001-YOUTHS-FRESHLEAF",
+          "size": "Youth S",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHS-COURTBLUE",
+          "sku": "KND-TEE-001-YOUTHS-COURTBLUE",
+          "size": "Youth S",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHS-SOFTROSE",
+          "sku": "KND-TEE-001-YOUTHS-SOFTROSE",
+          "size": "Youth S",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHS-LILAC",
+          "sku": "KND-TEE-001-YOUTHS-LILAC",
+          "size": "Youth S",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHM-CREAM",
+          "sku": "KND-TEE-001-YOUTHM-CREAM",
+          "size": "Youth M",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHM-CHARCOAL",
+          "sku": "KND-TEE-001-YOUTHM-CHARCOAL",
+          "size": "Youth M",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHM-MORNINGSKY",
+          "sku": "KND-TEE-001-YOUTHM-MORNINGSKY",
+          "size": "Youth M",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHM-CORAL",
+          "sku": "KND-TEE-001-YOUTHM-CORAL",
+          "size": "Youth M",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHM-SUN",
+          "sku": "KND-TEE-001-YOUTHM-SUN",
+          "size": "Youth M",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHM-FRESHLEAF",
+          "sku": "KND-TEE-001-YOUTHM-FRESHLEAF",
+          "size": "Youth M",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHM-COURTBLUE",
+          "sku": "KND-TEE-001-YOUTHM-COURTBLUE",
+          "size": "Youth M",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHM-SOFTROSE",
+          "sku": "KND-TEE-001-YOUTHM-SOFTROSE",
+          "size": "Youth M",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHM-LILAC",
+          "sku": "KND-TEE-001-YOUTHM-LILAC",
+          "size": "Youth M",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHL-CREAM",
+          "sku": "KND-TEE-001-YOUTHL-CREAM",
+          "size": "Youth L",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHL-CHARCOAL",
+          "sku": "KND-TEE-001-YOUTHL-CHARCOAL",
+          "size": "Youth L",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHL-MORNINGSKY",
+          "sku": "KND-TEE-001-YOUTHL-MORNINGSKY",
+          "size": "Youth L",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHL-CORAL",
+          "sku": "KND-TEE-001-YOUTHL-CORAL",
+          "size": "Youth L",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHL-SUN",
+          "sku": "KND-TEE-001-YOUTHL-SUN",
+          "size": "Youth L",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHL-FRESHLEAF",
+          "sku": "KND-TEE-001-YOUTHL-FRESHLEAF",
+          "size": "Youth L",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHL-COURTBLUE",
+          "sku": "KND-TEE-001-YOUTHL-COURTBLUE",
+          "size": "Youth L",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHL-SOFTROSE",
+          "sku": "KND-TEE-001-YOUTHL-SOFTROSE",
+          "size": "Youth L",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-YOUTHL-LILAC",
+          "sku": "KND-TEE-001-YOUTHL-LILAC",
+          "size": "Youth L",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER2T-CREAM",
+          "sku": "KND-TEE-001-TODDLER2T-CREAM",
+          "size": "Toddler 2T",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER2T-CHARCOAL",
+          "sku": "KND-TEE-001-TODDLER2T-CHARCOAL",
+          "size": "Toddler 2T",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER2T-MORNINGSKY",
+          "sku": "KND-TEE-001-TODDLER2T-MORNINGSKY",
+          "size": "Toddler 2T",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER2T-CORAL",
+          "sku": "KND-TEE-001-TODDLER2T-CORAL",
+          "size": "Toddler 2T",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER2T-SUN",
+          "sku": "KND-TEE-001-TODDLER2T-SUN",
+          "size": "Toddler 2T",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER2T-FRESHLEAF",
+          "sku": "KND-TEE-001-TODDLER2T-FRESHLEAF",
+          "size": "Toddler 2T",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER2T-COURTBLUE",
+          "sku": "KND-TEE-001-TODDLER2T-COURTBLUE",
+          "size": "Toddler 2T",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER2T-SOFTROSE",
+          "sku": "KND-TEE-001-TODDLER2T-SOFTROSE",
+          "size": "Toddler 2T",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER2T-LILAC",
+          "sku": "KND-TEE-001-TODDLER2T-LILAC",
+          "size": "Toddler 2T",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER3T-CREAM",
+          "sku": "KND-TEE-001-TODDLER3T-CREAM",
+          "size": "Toddler 3T",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER3T-CHARCOAL",
+          "sku": "KND-TEE-001-TODDLER3T-CHARCOAL",
+          "size": "Toddler 3T",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER3T-MORNINGSKY",
+          "sku": "KND-TEE-001-TODDLER3T-MORNINGSKY",
+          "size": "Toddler 3T",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER3T-CORAL",
+          "sku": "KND-TEE-001-TODDLER3T-CORAL",
+          "size": "Toddler 3T",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER3T-SUN",
+          "sku": "KND-TEE-001-TODDLER3T-SUN",
+          "size": "Toddler 3T",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER3T-FRESHLEAF",
+          "sku": "KND-TEE-001-TODDLER3T-FRESHLEAF",
+          "size": "Toddler 3T",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER3T-COURTBLUE",
+          "sku": "KND-TEE-001-TODDLER3T-COURTBLUE",
+          "size": "Toddler 3T",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER3T-SOFTROSE",
+          "sku": "KND-TEE-001-TODDLER3T-SOFTROSE",
+          "size": "Toddler 3T",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER3T-LILAC",
+          "sku": "KND-TEE-001-TODDLER3T-LILAC",
+          "size": "Toddler 3T",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER4T-CREAM",
+          "sku": "KND-TEE-001-TODDLER4T-CREAM",
+          "size": "Toddler 4T",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER4T-CHARCOAL",
+          "sku": "KND-TEE-001-TODDLER4T-CHARCOAL",
+          "size": "Toddler 4T",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER4T-MORNINGSKY",
+          "sku": "KND-TEE-001-TODDLER4T-MORNINGSKY",
+          "size": "Toddler 4T",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER4T-CORAL",
+          "sku": "KND-TEE-001-TODDLER4T-CORAL",
+          "size": "Toddler 4T",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER4T-SUN",
+          "sku": "KND-TEE-001-TODDLER4T-SUN",
+          "size": "Toddler 4T",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER4T-FRESHLEAF",
+          "sku": "KND-TEE-001-TODDLER4T-FRESHLEAF",
+          "size": "Toddler 4T",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER4T-COURTBLUE",
+          "sku": "KND-TEE-001-TODDLER4T-COURTBLUE",
+          "size": "Toddler 4T",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER4T-SOFTROSE",
+          "sku": "KND-TEE-001-TODDLER4T-SOFTROSE",
+          "size": "Toddler 4T",
+          "color": "Soft Rose",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        },
+        {
+          "id": "KND-TEE-001-TODDLER4T-LILAC",
+          "sku": "KND-TEE-001-TODDLER4T-LILAC",
+          "size": "Toddler 4T",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TEE-001"
+        }
+      ],
+      "tags": [
+        "apparel",
+        "kids",
+        "family",
+        "event"
+      ],
+      "materials": [
+        "Cotton",
+        "Fleece",
+        "Twill"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-CRW-001",
+      "sku": "KND-CRW-001",
+      "slug": "cream-crew",
+      "type": "apparel",
+      "category": "Fleece",
+      "name": "Cream Crew",
+      "summary": "Soft crewneck sweatshirt that keeps cream as the calm base while allowing bright accent runs.",
+      "image": {
+        "src": "assets/knd-product-crew-cream.png",
+        "alt": "Cream KND crewneck sweatshirt in bright morning studio light."
+      },
+      "status": "Planned",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-CRW-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Configure crew",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Morning Sky",
+            "value": "#8ec9ee"
+          },
+          {
+            "name": "Sun",
+            "value": "#ffd35a"
+          },
+          {
+            "name": "Coral",
+            "value": "#ff7f62"
+          }
+        ],
+        "bundles": [
+          "Fleece Set"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-CRW-001-XS-CREAM",
+          "sku": "KND-CRW-001-XS-CREAM",
+          "size": "XS",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XS-CHARCOAL",
+          "sku": "KND-CRW-001-XS-CHARCOAL",
+          "size": "XS",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XS-MORNINGSKY",
+          "sku": "KND-CRW-001-XS-MORNINGSKY",
+          "size": "XS",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XS-SUN",
+          "sku": "KND-CRW-001-XS-SUN",
+          "size": "XS",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XS-CORAL",
+          "sku": "KND-CRW-001-XS-CORAL",
+          "size": "XS",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-S-CREAM",
+          "sku": "KND-CRW-001-S-CREAM",
+          "size": "S",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-S-CHARCOAL",
+          "sku": "KND-CRW-001-S-CHARCOAL",
+          "size": "S",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-S-MORNINGSKY",
+          "sku": "KND-CRW-001-S-MORNINGSKY",
+          "size": "S",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-S-SUN",
+          "sku": "KND-CRW-001-S-SUN",
+          "size": "S",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-S-CORAL",
+          "sku": "KND-CRW-001-S-CORAL",
+          "size": "S",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-M-CREAM",
+          "sku": "KND-CRW-001-M-CREAM",
+          "size": "M",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-M-CHARCOAL",
+          "sku": "KND-CRW-001-M-CHARCOAL",
+          "size": "M",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-M-MORNINGSKY",
+          "sku": "KND-CRW-001-M-MORNINGSKY",
+          "size": "M",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-M-SUN",
+          "sku": "KND-CRW-001-M-SUN",
+          "size": "M",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-M-CORAL",
+          "sku": "KND-CRW-001-M-CORAL",
+          "size": "M",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-L-CREAM",
+          "sku": "KND-CRW-001-L-CREAM",
+          "size": "L",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-L-CHARCOAL",
+          "sku": "KND-CRW-001-L-CHARCOAL",
+          "size": "L",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-L-MORNINGSKY",
+          "sku": "KND-CRW-001-L-MORNINGSKY",
+          "size": "L",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-L-SUN",
+          "sku": "KND-CRW-001-L-SUN",
+          "size": "L",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-L-CORAL",
+          "sku": "KND-CRW-001-L-CORAL",
+          "size": "L",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XL-CREAM",
+          "sku": "KND-CRW-001-XL-CREAM",
+          "size": "XL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XL-CHARCOAL",
+          "sku": "KND-CRW-001-XL-CHARCOAL",
+          "size": "XL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XL-MORNINGSKY",
+          "sku": "KND-CRW-001-XL-MORNINGSKY",
+          "size": "XL",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XL-SUN",
+          "sku": "KND-CRW-001-XL-SUN",
+          "size": "XL",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XL-CORAL",
+          "sku": "KND-CRW-001-XL-CORAL",
+          "size": "XL",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XXL-CREAM",
+          "sku": "KND-CRW-001-XXL-CREAM",
+          "size": "XXL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XXL-CHARCOAL",
+          "sku": "KND-CRW-001-XXL-CHARCOAL",
+          "size": "XXL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XXL-MORNINGSKY",
+          "sku": "KND-CRW-001-XXL-MORNINGSKY",
+          "size": "XXL",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XXL-SUN",
+          "sku": "KND-CRW-001-XXL-SUN",
+          "size": "XXL",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        },
+        {
+          "id": "KND-CRW-001-XXL-CORAL",
+          "sku": "KND-CRW-001-XXL-CORAL",
+          "size": "XXL",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-CRW-001"
+        }
+      ],
+      "tags": [
+        "apparel",
+        "daily",
+        "gift"
+      ],
+      "materials": [
+        "Cotton",
+        "Fleece",
+        "Twill"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-PNT-001",
+      "sku": "KND-PNT-001",
+      "slug": "sweatpant",
+      "type": "apparel",
+      "category": "Fleece",
+      "name": "Everyday Sweatpant",
+      "summary": "Companion fleece bottom for hoodie and crew sets, anchored in cream and charcoal.",
+      "image": {
+        "src": "assets/knd-product-sweatpant-charcoal.png",
+        "alt": "KND fleece set concept in cream and charcoal."
+      },
+      "status": "Planned",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-PNT-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Plan fleece set",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Morning Sky",
+            "value": "#8ec9ee"
+          }
+        ],
+        "bundles": [
+          "Fleece Set"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-PNT-001-XS-CREAM",
+          "sku": "KND-PNT-001-XS-CREAM",
+          "size": "XS",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-XS-CHARCOAL",
+          "sku": "KND-PNT-001-XS-CHARCOAL",
+          "size": "XS",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-XS-MORNINGSKY",
+          "sku": "KND-PNT-001-XS-MORNINGSKY",
+          "size": "XS",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-S-CREAM",
+          "sku": "KND-PNT-001-S-CREAM",
+          "size": "S",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-S-CHARCOAL",
+          "sku": "KND-PNT-001-S-CHARCOAL",
+          "size": "S",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-S-MORNINGSKY",
+          "sku": "KND-PNT-001-S-MORNINGSKY",
+          "size": "S",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-M-CREAM",
+          "sku": "KND-PNT-001-M-CREAM",
+          "size": "M",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-M-CHARCOAL",
+          "sku": "KND-PNT-001-M-CHARCOAL",
+          "size": "M",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-M-MORNINGSKY",
+          "sku": "KND-PNT-001-M-MORNINGSKY",
+          "size": "M",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-L-CREAM",
+          "sku": "KND-PNT-001-L-CREAM",
+          "size": "L",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-L-CHARCOAL",
+          "sku": "KND-PNT-001-L-CHARCOAL",
+          "size": "L",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-L-MORNINGSKY",
+          "sku": "KND-PNT-001-L-MORNINGSKY",
+          "size": "L",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-XL-CREAM",
+          "sku": "KND-PNT-001-XL-CREAM",
+          "size": "XL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-XL-CHARCOAL",
+          "sku": "KND-PNT-001-XL-CHARCOAL",
+          "size": "XL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-XL-MORNINGSKY",
+          "sku": "KND-PNT-001-XL-MORNINGSKY",
+          "size": "XL",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-XXL-CREAM",
+          "sku": "KND-PNT-001-XXL-CREAM",
+          "size": "XXL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-XXL-CHARCOAL",
+          "sku": "KND-PNT-001-XXL-CHARCOAL",
+          "size": "XXL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        },
+        {
+          "id": "KND-PNT-001-XXL-MORNINGSKY",
+          "sku": "KND-PNT-001-XXL-MORNINGSKY",
+          "size": "XXL",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PNT-001"
+        }
+      ],
+      "tags": [
+        "apparel",
+        "daily",
+        "set"
+      ],
+      "materials": [
+        "Cotton",
+        "Fleece",
+        "Twill"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-TOT-001",
+      "sku": "KND-TOT-001",
+      "slug": "canvas-tote",
+      "type": "accessory",
+      "category": "Carry",
+      "name": "Canvas Tote",
+      "summary": "Heavy canvas carryall with a clean KND mark and enough surface for future event colorways.",
+      "image": {
+        "src": "assets/knd-product-tote-cream.png",
+        "alt": "Cream canvas KND tote and bottle in bright morning studio light."
+      },
+      "status": "Drop Ready",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-TOT-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "reserve",
+        "label": "Hold tote",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "One Size"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Morning Sky",
+            "value": "#8ec9ee"
+          },
+          {
+            "name": "Coral",
+            "value": "#ff7f62"
+          },
+          {
+            "name": "Sun",
+            "value": "#ffd35a"
+          },
+          {
+            "name": "Fresh Leaf",
+            "value": "#86bd68"
+          }
+        ],
+        "bundles": [
+          "Gift Set"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-TOT-001-ONESIZE-CREAM",
+          "sku": "KND-TOT-001-ONESIZE-CREAM",
+          "size": "One Size",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TOT-001"
+        },
+        {
+          "id": "KND-TOT-001-ONESIZE-CHARCOAL",
+          "sku": "KND-TOT-001-ONESIZE-CHARCOAL",
+          "size": "One Size",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TOT-001"
+        },
+        {
+          "id": "KND-TOT-001-ONESIZE-MORNINGSKY",
+          "sku": "KND-TOT-001-ONESIZE-MORNINGSKY",
+          "size": "One Size",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TOT-001"
+        },
+        {
+          "id": "KND-TOT-001-ONESIZE-CORAL",
+          "sku": "KND-TOT-001-ONESIZE-CORAL",
+          "size": "One Size",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TOT-001"
+        },
+        {
+          "id": "KND-TOT-001-ONESIZE-SUN",
+          "sku": "KND-TOT-001-ONESIZE-SUN",
+          "size": "One Size",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TOT-001"
+        },
+        {
+          "id": "KND-TOT-001-ONESIZE-FRESHLEAF",
+          "sku": "KND-TOT-001-ONESIZE-FRESHLEAF",
+          "size": "One Size",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-TOT-001"
+        }
+      ],
+      "tags": [
+        "gift",
+        "event",
+        "daily"
+      ],
+      "materials": [
+        "Canvas",
+        "Cotton"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-SCK-001",
+      "sku": "KND-SCK-001",
+      "slug": "rib-socks",
+      "type": "accessory",
+      "category": "Small Goods",
+      "name": "Rib Socks",
+      "summary": "Soft rib socks for gift kits, team packs, and family bundles.",
+      "image": {
+        "src": "assets/knd-product-socks-sun.png",
+        "alt": "KND sock and small goods concept in bright product light."
+      },
+      "status": "Planned",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-SCK-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Add socks",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "S/M",
+          "M/L"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Sun",
+            "value": "#ffd35a"
+          },
+          {
+            "name": "Morning Sky",
+            "value": "#8ec9ee"
+          },
+          {
+            "name": "Coral",
+            "value": "#ff7f62"
+          },
+          {
+            "name": "Fresh Leaf",
+            "value": "#86bd68"
+          }
+        ],
+        "bundles": [
+          "Daily Kit",
+          "Gift Set"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-SCK-001-S-M-CREAM",
+          "sku": "KND-SCK-001-S-M-CREAM",
+          "size": "S/M",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-S-M-CHARCOAL",
+          "sku": "KND-SCK-001-S-M-CHARCOAL",
+          "size": "S/M",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-S-M-SUN",
+          "sku": "KND-SCK-001-S-M-SUN",
+          "size": "S/M",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-S-M-MORNINGSKY",
+          "sku": "KND-SCK-001-S-M-MORNINGSKY",
+          "size": "S/M",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-S-M-CORAL",
+          "sku": "KND-SCK-001-S-M-CORAL",
+          "size": "S/M",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-S-M-FRESHLEAF",
+          "sku": "KND-SCK-001-S-M-FRESHLEAF",
+          "size": "S/M",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-M-L-CREAM",
+          "sku": "KND-SCK-001-M-L-CREAM",
+          "size": "M/L",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-M-L-CHARCOAL",
+          "sku": "KND-SCK-001-M-L-CHARCOAL",
+          "size": "M/L",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-M-L-SUN",
+          "sku": "KND-SCK-001-M-L-SUN",
+          "size": "M/L",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-M-L-MORNINGSKY",
+          "sku": "KND-SCK-001-M-L-MORNINGSKY",
+          "size": "M/L",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-M-L-CORAL",
+          "sku": "KND-SCK-001-M-L-CORAL",
+          "size": "M/L",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        },
+        {
+          "id": "KND-SCK-001-M-L-FRESHLEAF",
+          "sku": "KND-SCK-001-M-L-FRESHLEAF",
+          "size": "M/L",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-SCK-001"
+        }
+      ],
+      "tags": [
+        "gift",
+        "daily",
+        "bundle"
+      ],
+      "materials": [
+        "Canvas",
+        "Cotton"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-BTL-001",
+      "sku": "KND-BTL-001",
+      "slug": "matte-bottle",
+      "type": "accessory",
+      "category": "Carry",
+      "name": "Matte Bottle",
+      "summary": "Reusable bottle for daily, sport, and event bundles.",
+      "image": {
+        "src": "assets/knd-product-bottle-blue.png",
+        "alt": "KND bottle and tote product concept in morning studio light."
+      },
+      "status": "Planned",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-BTL-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Plan bottle",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "20 oz",
+          "32 oz"
+        ],
+        "colors": [
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Court Blue",
+            "value": "#327de5"
+          },
+          {
+            "name": "Coral",
+            "value": "#ff7f62"
+          },
+          {
+            "name": "Fresh Leaf",
+            "value": "#86bd68"
+          }
+        ],
+        "bundles": [
+          "Team Pack",
+          "Gift Set"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-BTL-001-20OZ-CHARCOAL",
+          "sku": "KND-BTL-001-20OZ-CHARCOAL",
+          "size": "20 oz",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-BTL-001"
+        },
+        {
+          "id": "KND-BTL-001-20OZ-CREAM",
+          "sku": "KND-BTL-001-20OZ-CREAM",
+          "size": "20 oz",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-BTL-001"
+        },
+        {
+          "id": "KND-BTL-001-20OZ-COURTBLUE",
+          "sku": "KND-BTL-001-20OZ-COURTBLUE",
+          "size": "20 oz",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-BTL-001"
+        },
+        {
+          "id": "KND-BTL-001-20OZ-CORAL",
+          "sku": "KND-BTL-001-20OZ-CORAL",
+          "size": "20 oz",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-BTL-001"
+        },
+        {
+          "id": "KND-BTL-001-20OZ-FRESHLEAF",
+          "sku": "KND-BTL-001-20OZ-FRESHLEAF",
+          "size": "20 oz",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-BTL-001"
+        },
+        {
+          "id": "KND-BTL-001-32OZ-CHARCOAL",
+          "sku": "KND-BTL-001-32OZ-CHARCOAL",
+          "size": "32 oz",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-BTL-001"
+        },
+        {
+          "id": "KND-BTL-001-32OZ-CREAM",
+          "sku": "KND-BTL-001-32OZ-CREAM",
+          "size": "32 oz",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-BTL-001"
+        },
+        {
+          "id": "KND-BTL-001-32OZ-COURTBLUE",
+          "sku": "KND-BTL-001-32OZ-COURTBLUE",
+          "size": "32 oz",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-BTL-001"
+        },
+        {
+          "id": "KND-BTL-001-32OZ-CORAL",
+          "sku": "KND-BTL-001-32OZ-CORAL",
+          "size": "32 oz",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-BTL-001"
+        },
+        {
+          "id": "KND-BTL-001-32OZ-FRESHLEAF",
+          "sku": "KND-BTL-001-32OZ-FRESHLEAF",
+          "size": "32 oz",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-BTL-001"
+        }
+      ],
+      "tags": [
+        "sports",
+        "daily",
+        "team"
+      ],
+      "materials": [
+        "Canvas",
+        "Cotton"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-YTH-001",
+      "sku": "KND-YTH-001",
+      "slug": "youth-tee",
+      "type": "kids",
+      "category": "Kids",
+      "name": "Youth Tee",
+      "summary": "Kid-ready tee colors that feel sunny without losing the KND base system.",
+      "image": {
+        "src": "assets/knd-product-youth-tee-sky.png",
+        "alt": "KND youth tee in sky blue with family tee set."
+      },
+      "status": "Configurable",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-YTH-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Configure youth run",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "Youth XS",
+          "Youth S",
+          "Youth M",
+          "Youth L",
+          "Youth XL"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Morning Sky",
+            "value": "#8ec9ee"
+          },
+          {
+            "name": "Coral",
+            "value": "#ff7f62"
+          },
+          {
+            "name": "Sun",
+            "value": "#ffd35a"
+          },
+          {
+            "name": "Fresh Leaf",
+            "value": "#86bd68"
+          },
+          {
+            "name": "Lilac",
+            "value": "#bba7ff"
+          }
+        ],
+        "bundles": [
+          "Family Set"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-YTH-001-YOUTHXS-CREAM",
+          "sku": "KND-YTH-001-YOUTHXS-CREAM",
+          "size": "Youth XS",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXS-MORNINGSKY",
+          "sku": "KND-YTH-001-YOUTHXS-MORNINGSKY",
+          "size": "Youth XS",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXS-CORAL",
+          "sku": "KND-YTH-001-YOUTHXS-CORAL",
+          "size": "Youth XS",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXS-SUN",
+          "sku": "KND-YTH-001-YOUTHXS-SUN",
+          "size": "Youth XS",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXS-FRESHLEAF",
+          "sku": "KND-YTH-001-YOUTHXS-FRESHLEAF",
+          "size": "Youth XS",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXS-LILAC",
+          "sku": "KND-YTH-001-YOUTHXS-LILAC",
+          "size": "Youth XS",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHS-CREAM",
+          "sku": "KND-YTH-001-YOUTHS-CREAM",
+          "size": "Youth S",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHS-MORNINGSKY",
+          "sku": "KND-YTH-001-YOUTHS-MORNINGSKY",
+          "size": "Youth S",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHS-CORAL",
+          "sku": "KND-YTH-001-YOUTHS-CORAL",
+          "size": "Youth S",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHS-SUN",
+          "sku": "KND-YTH-001-YOUTHS-SUN",
+          "size": "Youth S",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHS-FRESHLEAF",
+          "sku": "KND-YTH-001-YOUTHS-FRESHLEAF",
+          "size": "Youth S",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHS-LILAC",
+          "sku": "KND-YTH-001-YOUTHS-LILAC",
+          "size": "Youth S",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHM-CREAM",
+          "sku": "KND-YTH-001-YOUTHM-CREAM",
+          "size": "Youth M",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHM-MORNINGSKY",
+          "sku": "KND-YTH-001-YOUTHM-MORNINGSKY",
+          "size": "Youth M",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHM-CORAL",
+          "sku": "KND-YTH-001-YOUTHM-CORAL",
+          "size": "Youth M",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHM-SUN",
+          "sku": "KND-YTH-001-YOUTHM-SUN",
+          "size": "Youth M",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHM-FRESHLEAF",
+          "sku": "KND-YTH-001-YOUTHM-FRESHLEAF",
+          "size": "Youth M",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHM-LILAC",
+          "sku": "KND-YTH-001-YOUTHM-LILAC",
+          "size": "Youth M",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHL-CREAM",
+          "sku": "KND-YTH-001-YOUTHL-CREAM",
+          "size": "Youth L",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHL-MORNINGSKY",
+          "sku": "KND-YTH-001-YOUTHL-MORNINGSKY",
+          "size": "Youth L",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHL-CORAL",
+          "sku": "KND-YTH-001-YOUTHL-CORAL",
+          "size": "Youth L",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHL-SUN",
+          "sku": "KND-YTH-001-YOUTHL-SUN",
+          "size": "Youth L",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHL-FRESHLEAF",
+          "sku": "KND-YTH-001-YOUTHL-FRESHLEAF",
+          "size": "Youth L",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHL-LILAC",
+          "sku": "KND-YTH-001-YOUTHL-LILAC",
+          "size": "Youth L",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXL-CREAM",
+          "sku": "KND-YTH-001-YOUTHXL-CREAM",
+          "size": "Youth XL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXL-MORNINGSKY",
+          "sku": "KND-YTH-001-YOUTHXL-MORNINGSKY",
+          "size": "Youth XL",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXL-CORAL",
+          "sku": "KND-YTH-001-YOUTHXL-CORAL",
+          "size": "Youth XL",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXL-SUN",
+          "sku": "KND-YTH-001-YOUTHXL-SUN",
+          "size": "Youth XL",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXL-FRESHLEAF",
+          "sku": "KND-YTH-001-YOUTHXL-FRESHLEAF",
+          "size": "Youth XL",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        },
+        {
+          "id": "KND-YTH-001-YOUTHXL-LILAC",
+          "sku": "KND-YTH-001-YOUTHXL-LILAC",
+          "size": "Youth XL",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-YTH-001"
+        }
+      ],
+      "tags": [
+        "kids",
+        "family",
+        "school"
+      ],
+      "materials": [
+        "Canvas",
+        "Cotton"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-ATH-001",
+      "sku": "KND-ATH-001",
+      "slug": "athletic-tee",
+      "type": "sports",
+      "category": "Sports",
+      "name": "Athletic Tee",
+      "summary": "Performance-adjacent tee for teams, camps, and sports days.",
+      "image": {
+        "src": "assets/knd-product-athletic-tee-blue.png",
+        "alt": "KND sports apparel in cream, blue, and charcoal."
+      },
+      "status": "Configurable",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-ATH-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Build sport run",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Court Blue",
+            "value": "#327de5"
+          },
+          {
+            "name": "Coral",
+            "value": "#ff7f62"
+          },
+          {
+            "name": "Sun",
+            "value": "#ffd35a"
+          }
+        ],
+        "bundles": [
+          "Team Pack"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-ATH-001-XS-CREAM",
+          "sku": "KND-ATH-001-XS-CREAM",
+          "size": "XS",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XS-CHARCOAL",
+          "sku": "KND-ATH-001-XS-CHARCOAL",
+          "size": "XS",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XS-COURTBLUE",
+          "sku": "KND-ATH-001-XS-COURTBLUE",
+          "size": "XS",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XS-CORAL",
+          "sku": "KND-ATH-001-XS-CORAL",
+          "size": "XS",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XS-SUN",
+          "sku": "KND-ATH-001-XS-SUN",
+          "size": "XS",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-S-CREAM",
+          "sku": "KND-ATH-001-S-CREAM",
+          "size": "S",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-S-CHARCOAL",
+          "sku": "KND-ATH-001-S-CHARCOAL",
+          "size": "S",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-S-COURTBLUE",
+          "sku": "KND-ATH-001-S-COURTBLUE",
+          "size": "S",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-S-CORAL",
+          "sku": "KND-ATH-001-S-CORAL",
+          "size": "S",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-S-SUN",
+          "sku": "KND-ATH-001-S-SUN",
+          "size": "S",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-M-CREAM",
+          "sku": "KND-ATH-001-M-CREAM",
+          "size": "M",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-M-CHARCOAL",
+          "sku": "KND-ATH-001-M-CHARCOAL",
+          "size": "M",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-M-COURTBLUE",
+          "sku": "KND-ATH-001-M-COURTBLUE",
+          "size": "M",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-M-CORAL",
+          "sku": "KND-ATH-001-M-CORAL",
+          "size": "M",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-M-SUN",
+          "sku": "KND-ATH-001-M-SUN",
+          "size": "M",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-L-CREAM",
+          "sku": "KND-ATH-001-L-CREAM",
+          "size": "L",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-L-CHARCOAL",
+          "sku": "KND-ATH-001-L-CHARCOAL",
+          "size": "L",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-L-COURTBLUE",
+          "sku": "KND-ATH-001-L-COURTBLUE",
+          "size": "L",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-L-CORAL",
+          "sku": "KND-ATH-001-L-CORAL",
+          "size": "L",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-L-SUN",
+          "sku": "KND-ATH-001-L-SUN",
+          "size": "L",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XL-CREAM",
+          "sku": "KND-ATH-001-XL-CREAM",
+          "size": "XL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XL-CHARCOAL",
+          "sku": "KND-ATH-001-XL-CHARCOAL",
+          "size": "XL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XL-COURTBLUE",
+          "sku": "KND-ATH-001-XL-COURTBLUE",
+          "size": "XL",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XL-CORAL",
+          "sku": "KND-ATH-001-XL-CORAL",
+          "size": "XL",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XL-SUN",
+          "sku": "KND-ATH-001-XL-SUN",
+          "size": "XL",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XXL-CREAM",
+          "sku": "KND-ATH-001-XXL-CREAM",
+          "size": "XXL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XXL-CHARCOAL",
+          "sku": "KND-ATH-001-XXL-CHARCOAL",
+          "size": "XXL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XXL-COURTBLUE",
+          "sku": "KND-ATH-001-XXL-COURTBLUE",
+          "size": "XXL",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XXL-CORAL",
+          "sku": "KND-ATH-001-XXL-CORAL",
+          "size": "XXL",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        },
+        {
+          "id": "KND-ATH-001-XXL-SUN",
+          "sku": "KND-ATH-001-XXL-SUN",
+          "size": "XXL",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-ATH-001"
+        }
+      ],
+      "tags": [
+        "sports",
+        "team",
+        "event"
+      ],
+      "materials": [
+        "Canvas",
+        "Cotton"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-WRM-001",
+      "sku": "KND-WRM-001",
+      "slug": "warmup-top",
+      "type": "sports",
+      "category": "Sports",
+      "name": "Warmup Top",
+      "summary": "Quarter-zip warmup layer for team colorways and coach gifts.",
+      "image": {
+        "src": "assets/knd-product-warmup-cream.png",
+        "alt": "KND warmup and sport accessories in bright morning light."
+      },
+      "status": "Planned",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-WRM-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Plan warmup",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Court Blue",
+            "value": "#327de5"
+          },
+          {
+            "name": "Fresh Leaf",
+            "value": "#86bd68"
+          }
+        ],
+        "bundles": [
+          "Team Pack"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-WRM-001-XS-CREAM",
+          "sku": "KND-WRM-001-XS-CREAM",
+          "size": "XS",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XS-CHARCOAL",
+          "sku": "KND-WRM-001-XS-CHARCOAL",
+          "size": "XS",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XS-COURTBLUE",
+          "sku": "KND-WRM-001-XS-COURTBLUE",
+          "size": "XS",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XS-FRESHLEAF",
+          "sku": "KND-WRM-001-XS-FRESHLEAF",
+          "size": "XS",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-S-CREAM",
+          "sku": "KND-WRM-001-S-CREAM",
+          "size": "S",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-S-CHARCOAL",
+          "sku": "KND-WRM-001-S-CHARCOAL",
+          "size": "S",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-S-COURTBLUE",
+          "sku": "KND-WRM-001-S-COURTBLUE",
+          "size": "S",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-S-FRESHLEAF",
+          "sku": "KND-WRM-001-S-FRESHLEAF",
+          "size": "S",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-M-CREAM",
+          "sku": "KND-WRM-001-M-CREAM",
+          "size": "M",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-M-CHARCOAL",
+          "sku": "KND-WRM-001-M-CHARCOAL",
+          "size": "M",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-M-COURTBLUE",
+          "sku": "KND-WRM-001-M-COURTBLUE",
+          "size": "M",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-M-FRESHLEAF",
+          "sku": "KND-WRM-001-M-FRESHLEAF",
+          "size": "M",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-L-CREAM",
+          "sku": "KND-WRM-001-L-CREAM",
+          "size": "L",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-L-CHARCOAL",
+          "sku": "KND-WRM-001-L-CHARCOAL",
+          "size": "L",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-L-COURTBLUE",
+          "sku": "KND-WRM-001-L-COURTBLUE",
+          "size": "L",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-L-FRESHLEAF",
+          "sku": "KND-WRM-001-L-FRESHLEAF",
+          "size": "L",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XL-CREAM",
+          "sku": "KND-WRM-001-XL-CREAM",
+          "size": "XL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XL-CHARCOAL",
+          "sku": "KND-WRM-001-XL-CHARCOAL",
+          "size": "XL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XL-COURTBLUE",
+          "sku": "KND-WRM-001-XL-COURTBLUE",
+          "size": "XL",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XL-FRESHLEAF",
+          "sku": "KND-WRM-001-XL-FRESHLEAF",
+          "size": "XL",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XXL-CREAM",
+          "sku": "KND-WRM-001-XXL-CREAM",
+          "size": "XXL",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XXL-CHARCOAL",
+          "sku": "KND-WRM-001-XXL-CHARCOAL",
+          "size": "XXL",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XXL-COURTBLUE",
+          "sku": "KND-WRM-001-XXL-COURTBLUE",
+          "size": "XXL",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        },
+        {
+          "id": "KND-WRM-001-XXL-FRESHLEAF",
+          "sku": "KND-WRM-001-XXL-FRESHLEAF",
+          "size": "XXL",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-WRM-001"
+        }
+      ],
+      "tags": [
+        "sports",
+        "team"
+      ],
+      "materials": [
+        "Canvas",
+        "Cotton"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    },
+    {
+      "id": "KND-PCH-001",
+      "sku": "KND-PCH-001",
+      "slug": "patch-pack",
+      "type": "small-good",
+      "category": "Small Goods",
+      "name": "Patch Pack",
+      "summary": "Small mark pieces for gifts, bags, kits, and event handouts.",
+      "image": {
+        "src": "assets/knd-product-patch-pack.png",
+        "alt": "KND patch pack and apparel accents in bright colorways."
+      },
+      "status": "Configurable",
+      "availability": {
+        "state": "configurable",
+        "label": "Configurable run",
+        "inventoryPool": "INV-PCH-001",
+        "policy": "made-to-run"
+      },
+      "pricing": {
+        "currency": "USD",
+        "amount": null,
+        "display": "Price pending"
+      },
+      "fulfillment": {
+        "class": "small-parcel",
+        "requiresShipping": true,
+        "shipsSeparately": false
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Configure patches",
+        "price": null,
+        "checkoutUrl": null
+      },
+      "options": {
+        "sizes": [
+          "One Size"
+        ],
+        "colors": [
+          {
+            "name": "Cream",
+            "value": "#f6efe1"
+          },
+          {
+            "name": "Charcoal",
+            "value": "#242321"
+          },
+          {
+            "name": "Morning Sky",
+            "value": "#8ec9ee"
+          },
+          {
+            "name": "Sun",
+            "value": "#ffd35a"
+          },
+          {
+            "name": "Coral",
+            "value": "#ff7f62"
+          },
+          {
+            "name": "Fresh Leaf",
+            "value": "#86bd68"
+          },
+          {
+            "name": "Court Blue",
+            "value": "#327de5"
+          },
+          {
+            "name": "Lilac",
+            "value": "#bba7ff"
+          }
+        ],
+        "bundles": [
+          "Daily Kit",
+          "Gift Set"
+        ]
+      },
+      "variants": [
+        {
+          "id": "KND-PCH-001-ONESIZE-CREAM",
+          "sku": "KND-PCH-001-ONESIZE-CREAM",
+          "size": "One Size",
+          "color": "Cream",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PCH-001"
+        },
+        {
+          "id": "KND-PCH-001-ONESIZE-CHARCOAL",
+          "sku": "KND-PCH-001-ONESIZE-CHARCOAL",
+          "size": "One Size",
+          "color": "Charcoal",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PCH-001"
+        },
+        {
+          "id": "KND-PCH-001-ONESIZE-MORNINGSKY",
+          "sku": "KND-PCH-001-ONESIZE-MORNINGSKY",
+          "size": "One Size",
+          "color": "Morning Sky",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PCH-001"
+        },
+        {
+          "id": "KND-PCH-001-ONESIZE-SUN",
+          "sku": "KND-PCH-001-ONESIZE-SUN",
+          "size": "One Size",
+          "color": "Sun",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PCH-001"
+        },
+        {
+          "id": "KND-PCH-001-ONESIZE-CORAL",
+          "sku": "KND-PCH-001-ONESIZE-CORAL",
+          "size": "One Size",
+          "color": "Coral",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PCH-001"
+        },
+        {
+          "id": "KND-PCH-001-ONESIZE-FRESHLEAF",
+          "sku": "KND-PCH-001-ONESIZE-FRESHLEAF",
+          "size": "One Size",
+          "color": "Fresh Leaf",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PCH-001"
+        },
+        {
+          "id": "KND-PCH-001-ONESIZE-COURTBLUE",
+          "sku": "KND-PCH-001-ONESIZE-COURTBLUE",
+          "size": "One Size",
+          "color": "Court Blue",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PCH-001"
+        },
+        {
+          "id": "KND-PCH-001-ONESIZE-LILAC",
+          "sku": "KND-PCH-001-ONESIZE-LILAC",
+          "size": "One Size",
+          "color": "Lilac",
+          "status": "planned",
+          "price": null,
+          "inventoryPool": "INV-PCH-001"
+        }
+      ],
+      "tags": [
+        "gift",
+        "event",
+        "bundle"
+      ],
+      "materials": [
+        "Canvas",
+        "Cotton"
+      ],
+      "mark": {
+        "source": "assets/knd-period-mark.svg",
+        "treatment": "exact-svg-composite"
+      }
+    }
+  ],
+  "bundles": [
+    {
+      "id": "BND-DAILY",
+      "name": "Daily Kit",
+      "summary": "Cap, tee, socks, and patch with cream/charcoal base plus one bright accent.",
+      "availability": {
+        "state": "configurable",
+        "label": "Bundle planning"
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Shape daily kit",
+        "price": null
+      },
+      "rules": {
+        "includes": [
+          "KND-CAP-001",
+          "KND-TEE-001",
+          "KND-SCK-001",
+          "KND-PCH-001"
+        ],
+        "allowsGiftNote": true,
+        "allowsSplitShipment": false,
+        "requiresSizeRun": false,
+        "requiresColorway": false
+      }
+    },
+    {
+      "id": "BND-FLEECE",
+      "name": "Fleece Set",
+      "summary": "Hoodie or crew with sweatpant, built around cream and charcoal as the quiet base.",
+      "availability": {
+        "state": "configurable",
+        "label": "Bundle planning"
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Plan fleece set",
+        "price": null
+      },
+      "rules": {
+        "includes": [
+          "KND-HDY-001",
+          "KND-CRW-001",
+          "KND-PNT-001"
+        ],
+        "allowsGiftNote": true,
+        "allowsSplitShipment": false,
+        "requiresSizeRun": true,
+        "requiresColorway": false
+      }
+    },
+    {
+      "id": "BND-FAMILY",
+      "name": "Family Set",
+      "summary": "Adult, youth, and toddler tee logic for family or classroom runs.",
+      "availability": {
+        "state": "configurable",
+        "label": "Bundle planning"
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Plan family set",
+        "price": null
+      },
+      "rules": {
+        "includes": [
+          "KND-TEE-001",
+          "KND-YTH-001"
+        ],
+        "allowsGiftNote": true,
+        "allowsSplitShipment": false,
+        "requiresSizeRun": true,
+        "requiresColorway": false
+      }
+    },
+    {
+      "id": "BND-TEAM",
+      "name": "Team Pack",
+      "summary": "Sport tee, warmup, cap, bottle, and coach gift rules for a team colorway.",
+      "availability": {
+        "state": "configurable",
+        "label": "Bundle planning"
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Build team pack",
+        "price": null
+      },
+      "rules": {
+        "includes": [
+          "KND-ATH-001",
+          "KND-WRM-001",
+          "KND-CAP-001",
+          "KND-BTL-001"
+        ],
+        "allowsGiftNote": true,
+        "allowsSplitShipment": true,
+        "requiresSizeRun": false,
+        "requiresColorway": true
+      }
+    },
+    {
+      "id": "BND-GIFT",
+      "name": "Gift Set",
+      "summary": "Tote, bottle, socks, patch, and small product pieces for easy gifting.",
+      "availability": {
+        "state": "configurable",
+        "label": "Bundle planning"
+      },
+      "visibility": "public",
+      "commerce": {
+        "mode": "request",
+        "label": "Build gift set",
+        "price": null
+      },
+      "rules": {
+        "includes": [
+          "KND-TOT-001",
+          "KND-BTL-001",
+          "KND-SCK-001",
+          "KND-PCH-001"
+        ],
+        "allowsGiftNote": true,
+        "allowsSplitShipment": false,
+        "requiresSizeRun": false,
+        "requiresColorway": false
+      }
+    }
+  ],
+  "ledgerPreview": [
+    {
+      "record": "KND-CAP-001-A",
+      "object": "Standard Cap",
+      "state": "Sample Archive",
+      "surface": "Product Card"
+    },
+    {
+      "record": "KND-HDY-001-A",
+      "object": "Smile Hoodie",
+      "state": "Drop Ready",
+      "surface": "Product Card"
+    },
+    {
+      "record": "KND-TEE-001-A",
+      "object": "Everyday Tee",
+      "state": "Configurable",
+      "surface": "Product Card"
+    },
+    {
+      "record": "KND-CRW-001-A",
+      "object": "Cream Crew",
+      "state": "Planned",
+      "surface": "Product Card"
+    },
+    {
+      "record": "KND-PNT-001-A",
+      "object": "Everyday Sweatpant",
+      "state": "Planned",
+      "surface": "Product Card"
+    },
+    {
+      "record": "KND-TOT-001-A",
+      "object": "Canvas Tote",
+      "state": "Drop Ready",
+      "surface": "Product Card"
+    },
+    {
+      "record": "KND-SCK-001-A",
+      "object": "Rib Socks",
+      "state": "Planned",
+      "surface": "Product Card"
+    },
+    {
+      "record": "KND-BTL-001-A",
+      "object": "Matte Bottle",
+      "state": "Planned",
+      "surface": "Product Card"
+    }
+  ]
+}

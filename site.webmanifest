@@ -1,0 +1,22 @@
+{
+  "name": "KND",
+  "short_name": "KND",
+  "description": "Kindness has a smile now.",
+  "start_url": "/KND/",
+  "scope": "/KND/",
+  "display": "standalone",
+  "background_color": "#f8f6f2",
+  "theme_color": "#f8f6f2",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

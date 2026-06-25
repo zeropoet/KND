@@ -1,0 +1,293 @@
+{
+  "schemaVersion": "2026-06-13",
+  "states": {
+    "inventory": [
+      "planned",
+      "sample",
+      "reserved",
+      "available",
+      "held",
+      "sold",
+      "retired"
+    ],
+    "fulfillment": [
+      "unassigned",
+      "prepared",
+      "packed",
+      "handed_to_carrier",
+      "shipped",
+      "delivered",
+      "returned",
+      "archived"
+    ],
+    "attestation": [
+      "not_required",
+      "pending",
+      "issued",
+      "claimed",
+      "transferred",
+      "retired"
+    ]
+  },
+  "drops": [
+    {
+      "id": "DROP-001",
+      "name": "First Object Drop",
+      "status": "planning",
+      "visibility": "private",
+      "products": [
+        "KND-CAP-001",
+        "KND-HDY-001",
+        "KND-TEE-001",
+        "KND-CRW-001",
+        "KND-PNT-001",
+        "KND-TOT-001",
+        "KND-SCK-001",
+        "KND-BTL-001",
+        "KND-YTH-001",
+        "KND-ATH-001",
+        "KND-WRM-001",
+        "KND-PCH-001"
+      ],
+      "inventoryPolicy": "reserve-before-checkout",
+      "fulfillmentClass": "small-parcel",
+      "notes": "Launch quantities, pricing, fulfillment partners, and manufacturing details can lock late while product IDs, variant IDs, and bundle rules remain stable."
+    }
+  ],
+  "inventoryPools": [
+    {
+      "id": "INV-CAP-001",
+      "productId": "KND-CAP-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 7,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-HDY-001",
+      "productId": "KND-HDY-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 30,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-TEE-001",
+      "productId": "KND-TEE-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 108,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-CRW-001",
+      "productId": "KND-CRW-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 30,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-PNT-001",
+      "productId": "KND-PNT-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 18,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-TOT-001",
+      "productId": "KND-TOT-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 6,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-SCK-001",
+      "productId": "KND-SCK-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 12,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-BTL-001",
+      "productId": "KND-BTL-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 10,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-YTH-001",
+      "productId": "KND-YTH-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 30,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-ATH-001",
+      "productId": "KND-ATH-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 30,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-WRM-001",
+      "productId": "KND-WRM-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 24,
+      "policy": "made-to-run"
+    },
+    {
+      "id": "INV-PCH-001",
+      "productId": "KND-PCH-001",
+      "state": "configurable",
+      "quantityAvailable": null,
+      "quantityReserved": 0,
+      "variantCount": 8,
+      "policy": "made-to-run"
+    }
+  ],
+  "archiveRecords": [
+    {
+      "record": "KND-CAP-001-A",
+      "object": "Standard Cap",
+      "state": "Sample Archive",
+      "surface": "Product Card",
+      "productId": "KND-CAP-001",
+      "batch": "CONFIGURABLE",
+      "attestation": "not_required"
+    },
+    {
+      "record": "KND-HDY-001-A",
+      "object": "Smile Hoodie",
+      "state": "Drop Ready",
+      "surface": "Product Card",
+      "productId": "KND-HDY-001",
+      "batch": "DROP-001",
+      "attestation": "not_required"
+    },
+    {
+      "record": "KND-TEE-001-A",
+      "object": "Everyday Tee",
+      "state": "Configurable",
+      "surface": "Product Card",
+      "productId": "KND-TEE-001",
+      "batch": "CONFIGURABLE",
+      "attestation": "not_required"
+    },
+    {
+      "record": "KND-CRW-001-A",
+      "object": "Cream Crew",
+      "state": "Planned",
+      "surface": "Product Card",
+      "productId": "KND-CRW-001",
+      "batch": "CONFIGURABLE",
+      "attestation": "not_required"
+    },
+    {
+      "record": "KND-PNT-001-A",
+      "object": "Everyday Sweatpant",
+      "state": "Planned",
+      "surface": "Product Card",
+      "productId": "KND-PNT-001",
+      "batch": "CONFIGURABLE",
+      "attestation": "not_required"
+    },
+    {
+      "record": "KND-TOT-001-A",
+      "object": "Canvas Tote",
+      "state": "Drop Ready",
+      "surface": "Product Card",
+      "productId": "KND-TOT-001",
+      "batch": "DROP-001",
+      "attestation": "not_required"
+    },
+    {
+      "record": "KND-SCK-001-A",
+      "object": "Rib Socks",
+      "state": "Planned",
+      "surface": "Product Card",
+      "productId": "KND-SCK-001",
+      "batch": "CONFIGURABLE",
+      "attestation": "pending"
+    },
+    {
+      "record": "KND-BTL-001-A",
+      "object": "Matte Bottle",
+      "state": "Planned",
+      "surface": "Product Card",
+      "productId": "KND-BTL-001",
+      "batch": "CONFIGURABLE",
+      "attestation": "not_required"
+    },
+    {
+      "record": "KND-YTH-001-A",
+      "object": "Youth Tee",
+      "state": "Configurable",
+      "surface": "Product Card",
+      "productId": "KND-YTH-001",
+      "batch": "CONFIGURABLE",
+      "attestation": "not_required"
+    },
+    {
+      "record": "KND-ATH-001-A",
+      "object": "Athletic Tee",
+      "state": "Configurable",
+      "surface": "Product Card",
+      "productId": "KND-ATH-001",
+      "batch": "CONFIGURABLE",
+      "attestation": "pending"
+    }
+  ],
+  "models": [
+    {
+      "label": "Archive",
+      "headline": "Every public product can keep a private history.",
+      "body": "Images, copy, SKU changes, colorways, bundle rules, and launch states can be snapshotted before a product changes."
+    },
+    {
+      "label": "Attestation",
+      "headline": "Units can carry records when the object deserves it.",
+      "body": "SKU, batch, material note, mark treatment, edition count, fulfillment state, and owner history can attach to each unit."
+    },
+    {
+      "label": "Tracking",
+      "headline": "Fulfillment states stay quiet until they help the customer.",
+      "body": "Reserved, prepared, packed, handed to carrier, shipped, delivered, returned, and archived can be internal or public."
+    },
+    {
+      "label": "Accounts",
+      "headline": "Identity can arrive after the shop shape is stable.",
+      "body": "Wishlist, order history, claimed units, team stores, family sizing, saved addresses, and collector records can share the same IDs."
+    }
+  ],
+  "accountModel": {
+    "optionalAtLaunch": true,
+    "futureFields": [
+      "customerId",
+      "email",
+      "orderHistory",
+      "savedSizes",
+      "savedAddresses",
+      "claimedUnits",
+      "teamStores"
+    ]
+  }
+}

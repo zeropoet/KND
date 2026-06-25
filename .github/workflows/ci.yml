@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "README.md"
+      - "docs/**"
+  pull_request:
+    paths-ignore:
+      - "README.md"
+      - "docs/**"
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  static-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Validate JSON data
+        run: python3 -m json.tool data/catalog.json > /dev/null && python3 -m json.tool data/commerce.json > /dev/null && python3 -m json.tool data/operations.json > /dev/null && python3 -m json.tool site.webmanifest > /dev/null
+
+      - name: Compile Python maintenance scripts
+        run: PYTHONPYCACHEPREFIX=/tmp/knd-pycache python3 -m compileall -q scripts
+
+      - name: Check referenced local assets
+        run: |
+          python3 - <<'PY'
+          import re
+          import sys
+          from pathlib import Path
+
+          root = Path(".")
+          html_files = sorted(root.glob("*.html"))
+          missing = []
+
+          for html_file in html_files:
+              text = html_file.read_text(encoding="utf-8")
+              refs = re.findall(r'''(?:src|href|poster)=["']([^"']+)["']''', text)
+              for ref in refs:
+                  if ref.startswith(("http://", "https://", "mailto:", "tel:", "#")):
+                      continue
+                  path = ref.split("#", 1)[0].split("?", 1)[0]
+                  if not path or path.endswith("/"):
+                      continue
+                  candidate = (html_file.parent / path).resolve()
+                  try:
+                      candidate.relative_to(root.resolve())
+                  except ValueError:
+                      continue
+                  if not candidate.exists():
+                      missing.append(f"{html_file}: {ref}")
+
+          if missing:
+              print("Missing local asset references:")
+              print("\n".join(missing))
+              sys.exit(1)
+          PY

@@ -18,6 +18,12 @@ The shop is now present as a working concept layer. It gives the client somethin
 - `kids.html` - KND Kids market direction, playful product language, colorways, sizing, and mark extensions.
 - `shop.html` - shop concept system with products, descriptions, size/color/bundle options, and quiet operational readiness.
 - `brand-direction.html` - logo archive, smile lockup direction, and photography archive.
+- `data/catalog.json` - editable product, bundle, commerce mode, and ledger source for the shop.
+- `data/commerce.json` - custom commerce architecture, checkout modes, cart contract, and launch phases.
+- `data/operations.json` - drops, inventory pools, archive records, attestation states, fulfillment states, and account model.
+- `scripts/shop.js` - renders the shop from the catalog source.
+- `docs/commerce-architecture.md` - current commerce architecture decision.
+- `docs/qa-accessibility.md` - launch QA and accessibility notes.
 
 ## Current Direction
 
@@ -26,6 +32,7 @@ The shop is now present as a working concept layer. It gives the client somethin
 - `KINDNESS WINS` and the square-period `KND.` appear as supporting marks in the system, with Sports carrying `KINDNESS WINS` through a product-led closing moment.
 - KND Kids extends the smile system into brighter colorways, softer scale, and optimistic product language.
 - The KND Shop should look simple on the surface while staying ready for product records, fulfillment states, and future customer accounts.
+- Product details should stay easy to revise until late launch decisions lock. Update `data/catalog.json` first, and let the shop render from that source.
 - The square-period `KND.` lockup is the upper-left navigation mark, giving the site a clear brand read from the first touchpoint.
 - Photography should feel premium, coherent, joyful, communal, and naturally warm.
 - Product should be visible inside photographed scenes, not only as isolated product shots.
@@ -86,6 +93,55 @@ The design language uses:
 - Preserve warm cream backgrounds where product images need a field.
 - Prefer group scenes where KND products are worn, held, carried, or used naturally.
 - Keep KND letter spacing consistent across SVG identities and lockups.
+
+## Shop Catalog
+
+The shop is data-driven so product decisions can stay flexible until final launch details arrive.
+
+- Edit products, variants, availability, pricing placeholders, fulfillment rules, bundles, commerce modes, and visibility in `data/catalog.json`.
+- Edit checkout mode behavior, cart/order contracts, commerce adapters, and launch phases in `data/commerce.json`.
+- Edit drops, inventory pools, archive records, attestation, fulfillment states, and account/provenance modeling in `data/operations.json`.
+- Use `visibility: "public"` for visible products and bundles.
+- Use `visibility: "hidden"` or `visibility: "archive"` to keep an item in the source without rendering it publicly.
+- Use commerce modes to keep purchase behavior reconfigurable: `concept`, `request`, `reserve`, `checkout`, `hidden`, or `archive`.
+- Use `price: null` while pricing is undecided.
+- Add `checkoutUrl` only when a product is ready to point at a live checkout path.
+- Keep product IDs stable once shared externally, even if names, images, colors, sizes, or bundle rules change.
+
+## Commerce Architecture
+
+KND is using a custom headless commerce model before choosing a final checkout provider.
+
+- The frontend remains static and brand-led.
+- Product and operational truth live in structured JSON.
+- Request and reserve modes can work before final checkout exists.
+- Stripe Checkout or Payment Links can become the first payment adapter once prices, shipping, tax, returns, and fulfillment rules are locked.
+- A CMS remains optional until content operations are too frequent for direct catalog edits.
+- The architecture decision is documented in `docs/commerce-architecture.md`.
+
+## Image Performance
+
+Production pages use generated responsive image variants for large PNG artwork.
+
+- Source artwork remains in `assets/*.png`.
+- Generated AVIF, WebP, and JPEG variants live in `assets/responsive/`.
+- The generated manifest lives at `assets/responsive/manifest.json`.
+- Run `scripts/generate-image-variants.py` after adding or replacing PNG artwork.
+- Run `scripts/apply-responsive-images.py` after regenerating variants to refresh page markup.
+- Above-the-fold images are preloaded and eager-loaded; lower page imagery is lazy-loaded.
+- Product images rendered from `data/catalog.json` use the same responsive manifest through `scripts/shop.js`.
+
+## Production Metadata
+
+The site includes basic launch metadata and crawler files.
+
+- `robots.txt` points crawlers to `sitemap.xml`.
+- `sitemap.xml` lists the public pages for the current GitHub Pages URL.
+- `site.webmanifest`, `favicon.ico`, and `assets/icons/` provide browser and app icons.
+- `404.html` is the branded not-found page for static hosting.
+- Page-level canonical URLs, Open Graph tags, Twitter card tags, and JSON-LD are applied by `scripts/apply-production-meta.py`.
+- Run `scripts/generate-icons.py` after changing the core icon direction.
+- Update `SITE_URL` in `scripts/apply-production-meta.py` and `sitemap.xml` if the production domain changes.
 
 ## Local Preview
 

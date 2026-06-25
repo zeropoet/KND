@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "2026-06-13",
+  "architecture": {
+    "id": "KND-COMMERCE-CUSTOM-HEADLESS",
+    "name": "Custom Headless Commerce",
+    "decision": "Keep the storefront static and data-driven while commerce, payments, accounts, fulfillment, and provenance remain modular adapters.",
+    "rationale": "KND product details will stay flexible until late launch. A custom headless model lets the catalog change quickly without forcing the brand into a fixed Shopify theme or a premature app backend.",
+    "currentMode": "request-and-reserve",
+    "futureCheckoutProvider": "Stripe Checkout or Payment Links",
+    "futureCmsProvider": "Optional headless CMS after product operations stabilize"
+  },
+  "layers": [
+    {
+      "id": "catalog",
+      "label": "Catalog Source",
+      "state": "Active",
+      "owner": "KND product direction",
+      "surface": "data/catalog.json",
+      "purpose": "Products, variants, imagery, pricing placeholders, availability, and bundle rules."
+    },
+    {
+      "id": "commerce",
+      "label": "Commerce Adapter",
+      "state": "Designed",
+      "owner": "Checkout integration",
+      "surface": "data/commerce.json",
+      "purpose": "Cart rules, request/reserve/checkout modes, checkout provider settings, and order intake contract."
+    },
+    {
+      "id": "operations",
+      "label": "Operational Ledger",
+      "state": "Active",
+      "owner": "Fulfillment and provenance",
+      "surface": "data/operations.json",
+      "purpose": "Drops, inventory, archive records, attestation, fulfillment states, accounts, and unit provenance."
+    },
+    {
+      "id": "checkout",
+      "label": "Checkout Provider",
+      "state": "Deferred",
+      "owner": "Payment operations",
+      "surface": "Stripe adapter",
+      "purpose": "Accept payment only when prices, tax, shipping, returns, and fulfillment rules are locked."
+    }
+  ],
+  "checkoutModes": {
+    "concept": {
+      "customerAction": "View only",
+      "systemAction": "Render product without transaction controls"
+    },
+    "request": {
+      "customerAction": "Request details",
+      "systemAction": "Create an inquiry record without reserving inventory"
+    },
+    "reserve": {
+      "customerAction": "Hold interest",
+      "systemAction": "Create a reservation against a planned drop or inventory pool"
+    },
+    "checkout": {
+      "customerAction": "Purchase",
+      "systemAction": "Create cart, send to checkout provider, then reconcile order and fulfillment events"
+    }
+  },
+  "cartContract": {
+    "lineItemFields": [
+      "productId",
+      "variantId",
+      "bundleId",
+      "quantity",
+      "selectedSize",
+      "selectedColor",
+      "price",
+      "currency",
+      "inventoryPolicy",
+      "fulfillmentClass"
+    ],
+    "orderFields": [
+      "orderId",
+      "checkoutProvider",
+      "customerId",
+      "email",
+      "shippingAddress",
+      "billingStatus",
+      "fulfillmentStatus",
+      "lineItems",
+      "provenanceRecords"
+    ]
+  },
+  "launchPhases": [
+    {
+      "phase": "01",
+      "name": "Concept shop",
+      "state": "Now",
+      "description": "Products render from data, with request and reserve actions instead of final checkout."
+    },
+    {
+      "phase": "02",
+      "name": "Private drop",
+      "state": "Next",
+      "description": "Inventory pools, prices, reservation intake, and fulfillment rules lock for selected products."
+    },
+    {
+      "phase": "03",
+      "name": "Checkout",
+      "state": "Later",
+      "description": "Stripe checkout adapter receives cart lines and returns order events for reconciliation."
+    },
+    {
+      "phase": "04",
+      "name": "Accounts and provenance",
+      "state": "Later",
+      "description": "Customers can view orders, claimed units, family sizing, and attestation records."
+    }
+  ]
+}

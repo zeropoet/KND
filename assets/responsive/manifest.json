@@ -1,0 +1,2258 @@
+{
+  "assets/knd-apparel-cap-spectrum.png": {
+    "width": 1602,
+    "height": 982,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-1600.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-cap-spectrum-1600.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-apparel-daily-carry.png": {
+    "width": 1693,
+    "height": 929,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-daily-carry-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-daily-carry-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-daily-carry-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-daily-carry-1600.avif"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-daily-carry-1693.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-daily-carry-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-daily-carry-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-daily-carry-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-daily-carry-1600.webp"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-daily-carry-1693.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-daily-carry-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-daily-carry-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-daily-carry-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-daily-carry-1600.jpg"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-daily-carry-1693.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-apparel-details.png": {
+    "width": 1598,
+    "height": 984,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-details-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-details-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-details-1280.avif"
+        },
+        {
+          "width": 1598,
+          "src": "assets/responsive/knd-apparel-details-1598.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-details-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-details-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-details-1280.webp"
+        },
+        {
+          "width": 1598,
+          "src": "assets/responsive/knd-apparel-details-1598.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-details-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-details-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-details-1280.jpg"
+        },
+        {
+          "width": 1598,
+          "src": "assets/responsive/knd-apparel-details-1598.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-apparel-group-options.png": {
+    "width": 1659,
+    "height": 948,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-group-options-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-group-options-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-group-options-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-group-options-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-group-options-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-group-options-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-group-options-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-group-options-1600.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-group-options-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-group-options-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-group-options-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-group-options-1600.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-apparel-hero-marks.png": {
+    "width": 1693,
+    "height": 929,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-hero-marks-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-hero-marks-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-hero-marks-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-hero-marks-1600.avif"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-hero-marks-1693.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-hero-marks-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-hero-marks-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-hero-marks-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-hero-marks-1600.webp"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-hero-marks-1693.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-hero-marks-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-hero-marks-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-hero-marks-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-hero-marks-1600.jpg"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-hero-marks-1693.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-apparel-joy.png": {
+    "width": 1693,
+    "height": 929,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-joy-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-joy-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-joy-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-joy-1600.avif"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-joy-1693.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-joy-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-joy-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-joy-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-joy-1600.webp"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-joy-1693.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-joy-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-joy-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-joy-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-joy-1600.jpg"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-joy-1693.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-apparel-lunch.png": {
+    "width": 1693,
+    "height": 929,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-lunch-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-lunch-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-lunch-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-lunch-1600.avif"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-lunch-1693.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-lunch-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-lunch-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-lunch-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-lunch-1600.webp"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-lunch-1693.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-lunch-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-lunch-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-lunch-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-lunch-1600.jpg"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-lunch-1693.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-apparel-options-table.png": {
+    "width": 1693,
+    "height": 929,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-options-table-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-options-table-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-options-table-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-options-table-1600.avif"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-options-table-1693.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-options-table-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-options-table-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-options-table-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-options-table-1600.webp"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-options-table-1693.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-options-table-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-options-table-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-options-table-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-options-table-1600.jpg"
+        },
+        {
+          "width": 1693,
+          "src": "assets/responsive/knd-apparel-options-table-1693.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-apparel-rack-options.png": {
+    "width": 1536,
+    "height": 1024,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-rack-options-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-rack-options-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-rack-options-1280.avif"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-apparel-rack-options-1536.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-rack-options-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-rack-options-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-rack-options-1280.webp"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-apparel-rack-options-1536.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-rack-options-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-rack-options-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-rack-options-1280.jpg"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-apparel-rack-options-1536.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-apparel-team-pack.png": {
+    "width": 1694,
+    "height": 929,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-team-pack-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-team-pack-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-team-pack-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-team-pack-1600.avif"
+        },
+        {
+          "width": 1694,
+          "src": "assets/responsive/knd-apparel-team-pack-1694.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-team-pack-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-team-pack-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-team-pack-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-team-pack-1600.webp"
+        },
+        {
+          "width": 1694,
+          "src": "assets/responsive/knd-apparel-team-pack-1694.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-team-pack-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-team-pack-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-team-pack-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-team-pack-1600.jpg"
+        },
+        {
+          "width": 1694,
+          "src": "assets/responsive/knd-apparel-team-pack-1694.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-apparel-worktable.png": {
+    "width": 1723,
+    "height": 913,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-worktable-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-worktable-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-worktable-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-worktable-1600.avif"
+        },
+        {
+          "width": 1723,
+          "src": "assets/responsive/knd-apparel-worktable-1723.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-worktable-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-worktable-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-worktable-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-worktable-1600.webp"
+        },
+        {
+          "width": 1723,
+          "src": "assets/responsive/knd-apparel-worktable-1723.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-apparel-worktable-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-apparel-worktable-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-apparel-worktable-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-apparel-worktable-1600.jpg"
+        },
+        {
+          "width": 1723,
+          "src": "assets/responsive/knd-apparel-worktable-1723.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-brand-table.png": {
+    "width": 1647,
+    "height": 955,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-brand-table-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-brand-table-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-brand-table-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-brand-table-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-brand-table-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-brand-table-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-brand-table-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-brand-table-1600.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-brand-table-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-brand-table-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-brand-table-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-brand-table-1600.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-cap-light.png": {
+    "width": 1536,
+    "height": 1024,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-cap-light-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-cap-light-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-cap-light-1280.avif"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-cap-light-1536.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-cap-light-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-cap-light-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-cap-light-1280.webp"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-cap-light-1536.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-cap-light-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-cap-light-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-cap-light-1280.jpg"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-cap-light-1536.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-future-colorway.png": {
+    "width": 1774,
+    "height": 887,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-future-colorway-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-future-colorway-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-future-colorway-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-future-colorway-1600.avif"
+        },
+        {
+          "width": 1774,
+          "src": "assets/responsive/knd-future-colorway-1774.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-future-colorway-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-future-colorway-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-future-colorway-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-future-colorway-1600.webp"
+        },
+        {
+          "width": 1774,
+          "src": "assets/responsive/knd-future-colorway-1774.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-future-colorway-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-future-colorway-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-future-colorway-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-future-colorway-1600.jpg"
+        },
+        {
+          "width": 1774,
+          "src": "assets/responsive/knd-future-colorway-1774.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-hoodie.png": {
+    "width": 1536,
+    "height": 1024,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-hoodie-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-hoodie-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-hoodie-1280.avif"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-hoodie-1536.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-hoodie-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-hoodie-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-hoodie-1280.webp"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-hoodie-1536.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-hoodie-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-hoodie-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-hoodie-1280.jpg"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-hoodie-1536.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-kids-flatlay.png": {
+    "width": 1619,
+    "height": 971,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-kids-flatlay-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-kids-flatlay-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-kids-flatlay-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-kids-flatlay-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-kids-flatlay-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-kids-flatlay-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-kids-flatlay-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-kids-flatlay-1600.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-kids-flatlay-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-kids-flatlay-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-kids-flatlay-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-kids-flatlay-1600.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-kids-hero.png": {
+    "width": 1672,
+    "height": 941,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-kids-hero-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-kids-hero-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-kids-hero-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-kids-hero-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-kids-hero-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-kids-hero-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-kids-hero-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-kids-hero-1600.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-kids-hero-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-kids-hero-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-kids-hero-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-kids-hero-1600.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-kids-size-range.png": {
+    "width": 1672,
+    "height": 941,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-kids-size-range-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-kids-size-range-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-kids-size-range-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-kids-size-range-1600.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-kids-size-range-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-kids-size-range-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-kids-size-range-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-kids-size-range-1600.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-kids-size-range-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-kids-size-range-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-kids-size-range-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-kids-size-range-1600.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-product-athletic-tee-blue.png": {
+    "width": 1400,
+    "height": 1400,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-1280.avif"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-1280.webp"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-1280.jpg"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-athletic-tee-blue-1400.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-product-bottle-blue.png": {
+    "width": 1400,
+    "height": 1400,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-bottle-blue-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-bottle-blue-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-bottle-blue-1280.avif"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-bottle-blue-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-bottle-blue-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-bottle-blue-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-bottle-blue-1280.webp"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-bottle-blue-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-bottle-blue-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-bottle-blue-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-bottle-blue-1280.jpg"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-bottle-blue-1400.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-product-crew-cream.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-crew-cream-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-crew-cream-960.avif"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-product-crew-cream-1254.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-crew-cream-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-crew-cream-960.webp"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-product-crew-cream-1254.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-crew-cream-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-crew-cream-960.jpg"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-product-crew-cream-1254.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-product-patch-pack.png": {
+    "width": 1400,
+    "height": 1400,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-patch-pack-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-patch-pack-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-patch-pack-1280.avif"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-patch-pack-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-patch-pack-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-patch-pack-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-patch-pack-1280.webp"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-patch-pack-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-patch-pack-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-patch-pack-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-patch-pack-1280.jpg"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-patch-pack-1400.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-product-socks-sun.png": {
+    "width": 1400,
+    "height": 1400,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-socks-sun-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-socks-sun-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-socks-sun-1280.avif"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-socks-sun-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-socks-sun-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-socks-sun-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-socks-sun-1280.webp"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-socks-sun-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-socks-sun-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-socks-sun-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-socks-sun-1280.jpg"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-socks-sun-1400.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-product-sweatpant-charcoal.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-sweatpant-charcoal-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-sweatpant-charcoal-960.avif"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-product-sweatpant-charcoal-1254.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-sweatpant-charcoal-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-sweatpant-charcoal-960.webp"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-product-sweatpant-charcoal-1254.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-sweatpant-charcoal-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-sweatpant-charcoal-960.jpg"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-product-sweatpant-charcoal-1254.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-product-tote-cream.png": {
+    "width": 1400,
+    "height": 1400,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-tote-cream-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-tote-cream-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-tote-cream-1280.avif"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-tote-cream-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-tote-cream-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-tote-cream-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-tote-cream-1280.webp"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-tote-cream-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-tote-cream-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-tote-cream-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-tote-cream-1280.jpg"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-tote-cream-1400.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-product-warmup-cream.png": {
+    "width": 1400,
+    "height": 1400,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-warmup-cream-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-warmup-cream-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-warmup-cream-1280.avif"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-warmup-cream-1400.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-warmup-cream-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-warmup-cream-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-warmup-cream-1280.webp"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-warmup-cream-1400.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-warmup-cream-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-warmup-cream-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-product-warmup-cream-1280.jpg"
+        },
+        {
+          "width": 1400,
+          "src": "assets/responsive/knd-product-warmup-cream-1400.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-product-youth-tee-sky.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-youth-tee-sky-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-youth-tee-sky-960.avif"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-product-youth-tee-sky-1254.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-youth-tee-sky-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-youth-tee-sky-960.webp"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-product-youth-tee-sky-1254.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-product-youth-tee-sky-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-product-youth-tee-sky-960.jpg"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-product-youth-tee-sky-1254.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-reference-cap-tag.png": {
+    "width": 640,
+    "height": 512,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-reference-cap-tag-640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-reference-cap-tag-640.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-reference-cap-tag-640.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-reference-sports-cap.png": {
+    "width": 1320,
+    "height": 715,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-reference-sports-cap-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-reference-sports-cap-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-reference-sports-cap-1280.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-reference-sports-cap-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-reference-sports-cap-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-reference-sports-cap-1280.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-reference-sports-cap-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-reference-sports-cap-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-reference-sports-cap-1280.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-shop-bundle-concept.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-bundle-concept-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-bundle-concept-960.avif"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-bundle-concept-1254.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-bundle-concept-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-bundle-concept-960.webp"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-bundle-concept-1254.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-bundle-concept-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-bundle-concept-960.jpg"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-bundle-concept-1254.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-shop-cap-concept.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-cap-concept-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-cap-concept-960.avif"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-cap-concept-1254.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-cap-concept-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-cap-concept-960.webp"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-cap-concept-1254.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-cap-concept-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-cap-concept-960.jpg"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-cap-concept-1254.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-shop-hoodie-concept.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-hoodie-concept-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-hoodie-concept-960.avif"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-hoodie-concept-1254.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-hoodie-concept-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-hoodie-concept-960.webp"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-hoodie-concept-1254.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-hoodie-concept-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-hoodie-concept-960.jpg"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-hoodie-concept-1254.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-shop-tee-concept.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-tee-concept-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-tee-concept-960.avif"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-tee-concept-1254.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-tee-concept-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-tee-concept-960.webp"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-tee-concept-1254.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-shop-tee-concept-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-shop-tee-concept-960.jpg"
+        },
+        {
+          "width": 1254,
+          "src": "assets/responsive/knd-shop-tee-concept-1254.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-sports-color-products.png": {
+    "width": 1690,
+    "height": 931,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-color-products-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-color-products-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-color-products-1280.avif"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-sports-color-products-1600.avif"
+        },
+        {
+          "width": 1690,
+          "src": "assets/responsive/knd-sports-color-products-1690.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-color-products-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-color-products-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-color-products-1280.webp"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-sports-color-products-1600.webp"
+        },
+        {
+          "width": 1690,
+          "src": "assets/responsive/knd-sports-color-products-1690.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-color-products-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-color-products-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-color-products-1280.jpg"
+        },
+        {
+          "width": 1600,
+          "src": "assets/responsive/knd-sports-color-products-1600.jpg"
+        },
+        {
+          "width": 1690,
+          "src": "assets/responsive/knd-sports-color-products-1690.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-sports-joy.png": {
+    "width": 1536,
+    "height": 1024,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-joy-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-joy-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-joy-1280.avif"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-sports-joy-1536.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-joy-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-joy-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-joy-1280.webp"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-sports-joy-1536.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-joy-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-joy-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-joy-1280.jpg"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-sports-joy-1536.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-sports-product-basketball.png": {
+    "width": 1536,
+    "height": 1024,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-product-basketball-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-product-basketball-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-product-basketball-1280.avif"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-sports-product-basketball-1536.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-product-basketball-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-product-basketball-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-product-basketball-1280.webp"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-sports-product-basketball-1536.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-product-basketball-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-product-basketball-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-product-basketball-1280.jpg"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-sports-product-basketball-1536.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-sports-product-field.png": {
+    "width": 1536,
+    "height": 1024,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-product-field-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-product-field-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-product-field-1280.avif"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-sports-product-field-1536.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-product-field-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-product-field-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-product-field-1280.webp"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-sports-product-field-1536.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-sports-product-field-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-sports-product-field-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-sports-product-field-1280.jpg"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-sports-product-field-1536.jpg"
+        }
+      ]
+    }
+  },
+  "assets/knd-tee.png": {
+    "width": 1536,
+    "height": 1024,
+    "variants": {
+      "avif": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-tee-640.avif"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-tee-960.avif"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-tee-1280.avif"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-tee-1536.avif"
+        }
+      ],
+      "webp": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-tee-640.webp"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-tee-960.webp"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-tee-1280.webp"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-tee-1536.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "width": 640,
+          "src": "assets/responsive/knd-tee-640.jpg"
+        },
+        {
+          "width": 960,
+          "src": "assets/responsive/knd-tee-960.jpg"
+        },
+        {
+          "width": 1280,
+          "src": "assets/responsive/knd-tee-1280.jpg"
+        },
+        {
+          "width": 1536,
+          "src": "assets/responsive/knd-tee-1536.jpg"
+        }
+      ]
+    }
+  }
+}
