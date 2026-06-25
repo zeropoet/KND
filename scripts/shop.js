@@ -43,7 +43,7 @@ const joinNames = (items) =>
     .filter(Boolean)
     .join(", ");
 
-const visible = (item) => item.visibility !== "hidden" && item.visibility !== "archive";
+const visible = (item) => item.visibility !== "hidden";
 
 const commerceLabel = (commerce) => {
   if (!commerce) return "Details pending";
@@ -67,9 +67,10 @@ const srcset = (entry, extension) =>
     .join(", ");
 
 const renderImage = (image, manifest) => {
+  const imageStyle = image?.position ? ` style="object-position: ${attr(image.position)}"` : "";
   const entry = manifest?.[image?.src];
   if (!entry) {
-    return `<img src="${attr(image?.src)}" alt="${attr(image?.alt)}" loading="lazy" decoding="async">`;
+    return `<img src="${attr(image?.src)}" alt="${attr(image?.alt)}" loading="lazy" decoding="async"${imageStyle}>`;
   }
 
   const jpg = entry.variants.jpg.at(-1).src;
@@ -77,7 +78,7 @@ const renderImage = (image, manifest) => {
     <picture>
       <source type="image/avif" srcset="${attr(srcset(entry, "avif"))}" sizes="(max-width: 860px) 100vw, 33vw">
       <source type="image/webp" srcset="${attr(srcset(entry, "webp"))}" sizes="(max-width: 860px) 100vw, 33vw">
-      <img src="${attr(jpg)}" srcset="${attr(srcset(entry, "jpg"))}" sizes="(max-width: 860px) 100vw, 33vw" width="${attr(entry.width)}" height="${attr(entry.height)}" alt="${attr(image?.alt)}" loading="lazy" decoding="async" data-original-src="${attr(image?.src)}">
+      <img src="${attr(jpg)}" srcset="${attr(srcset(entry, "jpg"))}" sizes="(max-width: 860px) 100vw, 33vw" width="${attr(entry.width)}" height="${attr(entry.height)}" alt="${attr(image?.alt)}" loading="lazy" decoding="async" data-original-src="${attr(image?.src)}"${imageStyle}>
     </picture>
   `;
 };
@@ -147,7 +148,7 @@ const renderCatalogSummary = (products) => {
   catalogSummary.innerHTML = `
     <span>${products.length} products</span>
     <span>${variantCount} variants</span>
-    <span>Cream and charcoal base, bright accent runs</span>
+    <span>Everyday, family, and team moments</span>
   `;
 };
 
@@ -165,10 +166,6 @@ const renderProduct = (product, manifest) => `
       </div>
       <dl class="product-meta">
         <div>
-          <dt>Status</dt>
-          <dd>${html(product.status)}</dd>
-        </div>
-        <div>
           <dt>Availability</dt>
           <dd>${html(availabilityLabel(product))}</dd>
         </div>
@@ -183,14 +180,6 @@ const renderProduct = (product, manifest) => `
         <div>
           <dt>Colors</dt>
           <dd>${html(joinNames(product.options?.colors))}</dd>
-        </div>
-        <div>
-          <dt>Bundles</dt>
-          <dd>${html(joinNames(product.options?.bundles))}</dd>
-        </div>
-        <div>
-          <dt>Mark</dt>
-          <dd>${html(product.mark?.treatment || "Exact SVG source")}</dd>
         </div>
       </dl>
       <div class="commerce-row">
@@ -329,7 +318,7 @@ Promise.all([
     bundleGrid.innerHTML = catalog.bundles.filter(visible).map(renderBundle).join("");
     renderArchitecture(commerce);
     renderOperationsModel(operations);
-    renderLedger(operations.archiveRecords || catalog.ledgerPreview);
+    renderLedger(operations.ledgerRecords || catalog.ledgerPreview);
   })
   .catch((error) => {
     console.error(error);

@@ -39,13 +39,13 @@ PAGES = {
     },
     "brand-direction.html": {
         "title": "KND Brand Direction",
-        "description": "KND brand direction, logo archive, and visual system.",
+        "description": "KND brand direction, logo system, and visual system.",
         "image": "assets/responsive/knd-brand-table-1600.jpg",
         "type": "website",
     },
     "shop.html": {
         "title": "KND Shop",
-        "description": "KND shop concept system for apparel, bundles, archive, attestation, tracking, shipment, and account-ready product architecture.",
+        "description": "KND shop concept system for apparel, bundles, product records, attestation, tracking, shipment, and account-ready product architecture.",
         "image": "assets/responsive/knd-shop-bundle-concept-1254.jpg",
         "type": "website",
     },
