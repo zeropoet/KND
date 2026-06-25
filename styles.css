@@ -292,6 +292,10 @@ body.knd-redesign {
   color: #fff9ef;
 }
 
+.foundation-activation .kicker {
+  color: rgba(255, 249, 239, 0.82);
+}
+
 .foundation-activation h2 {
   font-size: clamp(44px, 7vw, 112px);
 }
