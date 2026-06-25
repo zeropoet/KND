@@ -2865,6 +2865,10 @@ picture {
   padding-right: clamp(24px, 5vw, 72px);
 }
 
+.knd-redesign .kids-hero img {
+  object-position: 68% center;
+}
+
 .knd-redesign .full-hero .kicker,
 .knd-redesign .full-hero-copy h1,
 .knd-redesign .full-hero-copy h1 + p {
@@ -3217,6 +3221,10 @@ picture {
     padding: clamp(32px, 7vw, 72px);
     border-left: 0;
     border-top: 1px solid var(--line);
+  }
+
+  .knd-redesign .kids-hero img {
+    object-position: 60% center;
   }
 
   .knd-redesign .full-hero > picture,
