@@ -2904,7 +2904,7 @@ picture {
 }
 
 .knd-redesign .kids-hero img {
-  object-position: 68% center;
+  object-position: 62% center;
 }
 
 .knd-redesign .full-hero .kicker,
@@ -3291,7 +3291,7 @@ picture {
   }
 
   .knd-redesign .kids-hero img {
-    object-position: 60% center;
+    object-position: 54% center;
   }
 
   .knd-redesign .full-hero > picture,
@@ -3474,8 +3474,15 @@ picture {
 }
 
 .knd-redesign .kids-feeling p {
+  font-family: var(--font-serif);
   font-size: clamp(24px, 2.25vw, 36px);
   line-height: 1.12;
+}
+
+.knd-redesign .kids-colorway-section h2 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 @media (max-width: 560px) {
