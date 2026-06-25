@@ -31,6 +31,428 @@
   background: var(--paper);
 }
 
+body.knd-redesign {
+  --paper: #f7f1e7;
+  --paper-deep: #ece0cf;
+  --ink: #16120f;
+  --muted: #63594d;
+  --line: #c9bba7;
+  --stone: #806d58;
+  --maroon: #6b1f2b;
+  --forest: #214734;
+  --navy: #182c44;
+  --camel: #b38455;
+  --gold: #c9a34c;
+  --soft-black: #16120f;
+  background: var(--paper);
+}
+
+.knd-redesign .redesign-header {
+  position: fixed;
+  color: var(--paper);
+  mix-blend-mode: difference;
+}
+
+.knd-redesign .redesign-header .nav-lockup-mark img {
+  filter: invert(1) brightness(1.08);
+}
+
+.foundation-hero {
+  position: relative;
+  min-height: 88svh;
+  display: grid;
+  align-items: end;
+  overflow: hidden;
+  color: #fffaf0;
+  background: var(--ink);
+}
+
+.foundation-hero-media {
+  position: absolute;
+  inset: 0;
+}
+
+.foundation-hero-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(22, 18, 15, 0.82), rgba(22, 18, 15, 0.24) 56%, rgba(22, 18, 15, 0.06)),
+    linear-gradient(0deg, rgba(22, 18, 15, 0.7), transparent 54%);
+}
+
+.foundation-hero-media img {
+  object-position: center 42%;
+}
+
+.foundation-hero-copy {
+  position: relative;
+  z-index: 1;
+  width: min(1120px, 100%);
+  padding: calc(var(--header-height) + 36px) clamp(20px, 5vw, 72px) 96px;
+}
+
+.foundation-hero-copy .kicker,
+.foundation-intro .kicker,
+.foundation-product .kicker,
+.foundation-activation .kicker,
+.foundation-impact .kicker {
+  letter-spacing: 0.12em;
+}
+
+.foundation-hero h1 {
+  margin: 0;
+  font-size: clamp(96px, 22vw, 320px);
+  line-height: 0.78;
+  font-weight: 700;
+}
+
+.foundation-hero-copy p:last-child {
+  max-width: 780px;
+  margin: clamp(22px, 3vw, 36px) 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(30px, 5.4vw, 76px);
+  line-height: 0.98;
+  text-wrap: balance;
+}
+
+.foundation-hero-footer {
+  position: absolute;
+  z-index: 1;
+  left: clamp(20px, 5vw, 72px);
+  right: clamp(20px, 5vw, 72px);
+  bottom: 22px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid rgba(255, 250, 240, 0.42);
+  color: rgba(255, 250, 240, 0.78);
+  font-size: clamp(11px, 1vw, 14px);
+  line-height: 1.1;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.foundation-hero-footer span {
+  padding: 16px 18px 0 0;
+}
+
+.foundation-intro,
+.foundation-product,
+.foundation-activation,
+.foundation-impact {
+  padding: clamp(72px, 10vw, 150px) clamp(20px, 5vw, 72px);
+}
+
+.foundation-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(300px, 0.58fr);
+  gap: clamp(32px, 7vw, 108px);
+  align-items: end;
+  background: var(--paper);
+}
+
+.foundation-intro .kicker {
+  grid-column: 1 / -1;
+  margin: 0 0 -18px;
+}
+
+.foundation-intro h2,
+.foundation-product h2,
+.foundation-activation h2,
+.foundation-impact h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(44px, 8.4vw, 132px);
+  line-height: 0.94;
+  font-weight: 400;
+  text-wrap: balance;
+}
+
+.foundation-intro-copy {
+  display: grid;
+  gap: 22px;
+  color: var(--muted);
+  font-size: clamp(17px, 1.5vw, 22px);
+  line-height: 1.45;
+}
+
+.foundation-intro-copy p,
+.foundation-product-copy p,
+.impact-copy p {
+  margin: 0;
+}
+
+.foundation-belief {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.belief-item {
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: clamp(24px, 4vw, 48px);
+  border-right: 1px solid var(--line);
+  background: var(--paper-deep);
+}
+
+.belief-item:nth-child(2) {
+  background: var(--maroon);
+  color: #fff4e8;
+}
+
+.belief-item:nth-child(3) {
+  background: var(--forest);
+  color: #f7f1e7;
+}
+
+.belief-item:nth-child(4) {
+  background: var(--navy);
+  color: #f7f1e7;
+  border-right: 0;
+}
+
+.belief-item span {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+  color: currentColor;
+  opacity: 0.72;
+}
+
+.belief-item h3 {
+  margin: auto 0 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(30px, 4vw, 58px);
+  line-height: 0.96;
+  font-weight: 400;
+}
+
+.belief-item p {
+  margin: 0;
+  max-width: 28ch;
+  font-size: clamp(15px, 1.25vw, 18px);
+  line-height: 1.42;
+}
+
+.foundation-product {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.42fr) minmax(0, 0.58fr);
+  gap: clamp(36px, 6vw, 92px);
+  align-items: center;
+  background: #fdf9f0;
+}
+
+.foundation-product-copy {
+  display: grid;
+  gap: 24px;
+}
+
+.foundation-product-copy h2 {
+  font-size: clamp(42px, 6.4vw, 96px);
+}
+
+.foundation-product-copy p {
+  max-width: 38ch;
+  color: var(--muted);
+  font-size: clamp(17px, 1.4vw, 21px);
+  line-height: 1.45;
+}
+
+.text-link {
+  width: fit-content;
+  padding-bottom: 7px;
+  border-bottom: 1px solid currentColor;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.foundation-product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.foundation-product-grid figure {
+  min-height: clamp(420px, 48vw, 680px);
+  margin: 0;
+  background: var(--paper-deep);
+  overflow: hidden;
+}
+
+.foundation-product-grid figure:nth-child(2) {
+  margin-top: clamp(42px, 7vw, 96px);
+}
+
+.foundation-activation {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(300px, 0.55fr);
+  gap: clamp(36px, 7vw, 104px);
+  align-items: start;
+  background: var(--camel);
+  color: #fff9ef;
+}
+
+.foundation-activation h2 {
+  font-size: clamp(44px, 7vw, 112px);
+}
+
+.activation-list {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid rgba(255, 249, 239, 0.48);
+}
+
+.activation-list li {
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(255, 249, 239, 0.48);
+  font-size: clamp(20px, 2.2vw, 34px);
+  line-height: 1.1;
+}
+
+.foundation-impact {
+  display: grid;
+  grid-template-columns: minmax(0, 0.55fr) minmax(280px, 0.45fr);
+  gap: clamp(32px, 6vw, 92px);
+  align-items: center;
+  background: var(--paper);
+}
+
+.foundation-impact figure {
+  min-height: clamp(430px, 55vw, 760px);
+  margin: 0;
+  overflow: hidden;
+}
+
+.impact-copy {
+  display: grid;
+  gap: 24px;
+}
+
+.impact-copy h2 {
+  color: var(--maroon);
+  font-size: clamp(44px, 6vw, 96px);
+}
+
+.impact-copy p {
+  max-width: 36ch;
+  color: var(--muted);
+  font-size: clamp(17px, 1.4vw, 21px);
+  line-height: 1.45;
+}
+
+.knd-redesign .redesign-footer {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+@media (max-width: 900px) {
+  .foundation-intro,
+  .foundation-product,
+  .foundation-activation,
+  .foundation-impact {
+    grid-template-columns: 1fr;
+  }
+
+  .foundation-belief {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .belief-item:nth-child(2) {
+    border-right: 0;
+  }
+
+  .belief-item:nth-child(3) {
+    border-top: 1px solid var(--line);
+  }
+
+  .belief-item:nth-child(4) {
+    border-top: 1px solid var(--line);
+  }
+}
+
+@media (max-width: 560px) {
+  .knd-redesign .redesign-header {
+    align-items: flex-start;
+    height: auto;
+    min-height: var(--header-height);
+    mix-blend-mode: normal;
+    color: #fffaf0;
+    background: linear-gradient(rgba(22, 18, 15, 0.62), transparent);
+  }
+
+  .foundation-hero {
+    min-height: 92svh;
+  }
+
+  .foundation-hero-media img {
+    object-position: 58% center;
+  }
+
+  .foundation-hero-copy {
+    padding: 148px 20px 122px;
+  }
+
+  .foundation-hero-copy p:last-child {
+    font-size: clamp(34px, 11vw, 56px);
+  }
+
+  .foundation-hero-footer {
+    left: 20px;
+    right: 20px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .foundation-hero-footer span {
+    padding-top: 12px;
+  }
+
+  .foundation-intro,
+  .foundation-product,
+  .foundation-activation,
+  .foundation-impact {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .foundation-belief,
+  .foundation-product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .belief-item {
+    min-height: 300px;
+    border-right: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .belief-item:first-child {
+    border-top: 0;
+  }
+
+  .foundation-product-grid figure,
+  .foundation-impact figure {
+    min-height: 54svh;
+  }
+
+  .foundation-product-grid figure:nth-child(2) {
+    margin-top: 0;
+  }
+}
+
+.knd-redesign .site-header.redesign-header .nav-lockup-mark img {
+  filter: invert(1) brightness(1.08);
+}
+
 * {
   box-sizing: border-box;
 }
