@@ -3149,14 +3149,27 @@ picture {
 }
 
 .knd-redesign .logo-card {
+  position: relative;
   min-height: 46svh;
   padding: clamp(26px, 4vw, 52px);
   border: 1px solid var(--line);
-  background: #fdf9f0;
+  background:
+    linear-gradient(45deg, rgba(22, 18, 15, 0.035) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(22, 18, 15, 0.035) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(22, 18, 15, 0.035) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(22, 18, 15, 0.035) 75%),
+    transparent;
+  background-position: 0 0, 0 12px, 12px -12px, -12px 0;
+  background-size: 24px 24px;
 }
 
 .knd-redesign .logo-card-wide {
   min-height: 72svh;
+}
+
+.knd-redesign .logo-card img {
+  position: relative;
+  z-index: 1;
 }
 
 .knd-redesign .shop-hero {
