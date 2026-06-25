@@ -3,7 +3,7 @@
   "currency": "USD",
   "launchMode": "concept",
   "commerceModes": {
-    "concept": "Product is visible for client review without a purchase action.",
+    "concept": "Product is visible for review without a purchase action.",
     "request": "Product accepts interest or quote requests before final checkout.",
     "reserve": "Product can collect reservations before fulfillment opens.",
     "checkout": "Product can be connected to a live checkout URL.",

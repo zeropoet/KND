@@ -148,7 +148,7 @@ const renderCatalogSummary = (products) => {
   catalogSummary.innerHTML = `
     <span>${products.length} products</span>
     <span>${variantCount} variants</span>
-    <span>Apparel, kids, and sports source imagery</span>
+    <span>Everyday, family, and team moments</span>
   `;
 };
 

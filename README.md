@@ -8,7 +8,7 @@ Version 5 expands the system from a homepage into a small brand world: apparel, 
 
 The current direction keeps the original restraint, but opens it up with more warmth, joy, product presence, and Mediterranean light. The brand should be felt before it has to explain itself.
 
-The shop is now present as a working concept layer. It gives the client something tangible to react to while keeping the deeper product, archive, fulfillment, and account pathways ready for later decisions.
+The shop is now present as a working concept layer. It gives the brand a tangible product surface while keeping the deeper product, archive, fulfillment, and account pathways ready for later decisions.
 
 ## Pages
 
@@ -41,7 +41,7 @@ The shop is now present as a working concept layer. It gives the client somethin
 - Photo captions are intentionally avoided.
 - Team color can enter through sports product moments without overwhelming the charcoal-and-cream brand center.
 - This is a working brand system, built to keep evolving as launch priorities become clearer.
-- Product choices are intentionally flexible while the client decides what to keep, remove, or expand.
+- Product choices are intentionally flexible while launch priorities continue to sharpen.
 
 ## Brand Notes
 
@@ -87,7 +87,7 @@ The design language uses:
 - Archive every visual asset change in a dated folder before removing or replacing it on the live site.
 - Use `assets/archive/YYYY-MM-DD/` for snapshots, with the date reflecting the site change or archive date.
 - Keep current pages/styles pointed at the active production assets in `assets/`, while preserving prior visual directions in the archive for reference.
-- Treat generated shop product imagery as concept assets until the client locks final product, manufacturing, and brand-specific details.
+- Treat generated shop product imagery as concept assets until final product, manufacturing, and brand-specific details are locked.
 - Do not show image borders from screenshots or mockups.
 - Avoid visible photo captions.
 - Preserve warm cream backgrounds where product images need a field.
