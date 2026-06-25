@@ -58,7 +58,7 @@ Use:
 
 Avoid:
 
-- Copy that sounds like it is speaking to a client instead of the future audience.
+- Copy that sounds like internal presentation notes instead of future-facing brand language.
 - Over-explaining the mission.
 - Heavy decorative effects.
 - Photo captions.
