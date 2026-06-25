@@ -3483,9 +3483,97 @@ picture {
   letter-spacing: 0;
 }
 
+/* Basic visual pass: tighter rhythm without changing the overall palette. */
+.knd-redesign .full-hero > picture,
+.knd-redesign .full-hero-copy,
+.knd-redesign .brand-hero-lockup,
+.knd-redesign .shop-hero-image {
+  min-height: clamp(560px, 70svh, 820px);
+}
+
+.knd-redesign .full-hero-copy,
+.knd-redesign .shop-hero-copy {
+  padding-top: clamp(68px, 8vw, 124px);
+}
+
+.knd-redesign .direction-section,
+.knd-redesign .opportunity-section,
+.knd-redesign .brand-principles,
+.knd-redesign .feeling-section,
+.knd-redesign .logo-options,
+.knd-redesign .photo-archive,
+.knd-redesign .sports-reference,
+.knd-redesign .kids-colorway-section,
+.knd-redesign .kids-promise,
+.knd-redesign .architecture-section,
+.knd-redesign .shop-products,
+.knd-redesign .bundle-section,
+.knd-redesign .ops-section,
+.knd-redesign .ledger-section {
+  padding-top: clamp(68px, 8.5vw, 128px);
+  padding-bottom: clamp(68px, 8.5vw, 128px);
+}
+
+.knd-redesign .section-heading {
+  margin-bottom: clamp(38px, 5.5vw, 78px);
+}
+
+.knd-redesign .section-heading h2,
+.knd-redesign .sports-reference h2,
+.knd-redesign .ledger-heading h2,
+.knd-redesign .bundle-copy h2,
+.knd-redesign .kids-promise-copy h2 {
+  max-width: 900px;
+}
+
+.knd-redesign .opportunity-grid article,
+.knd-redesign .architecture-grid article,
+.knd-redesign .bundle-grid article,
+.knd-redesign .ops-grid article {
+  min-height: clamp(250px, 24vw, 320px);
+  padding: clamp(22px, 2.5vw, 36px);
+}
+
+.knd-redesign .opportunity-grid h3,
+.knd-redesign .architecture-grid h3,
+.knd-redesign .bundle-grid h3,
+.knd-redesign .ops-grid h3 {
+  margin-bottom: clamp(30px, 4vw, 52px);
+}
+
+.knd-redesign .opportunity-grid p,
+.knd-redesign .shop-product-body p:not(.product-code),
+.knd-redesign .bundle-grid p:not(.product-code),
+.knd-redesign .ops-grid p {
+  max-width: 34ch;
+}
+
+.knd-redesign .apparel-photo-card,
+.knd-redesign .editorial-photo-card,
+.knd-redesign .kids-photo-card,
+.knd-redesign .shop-product-card figure,
+.knd-redesign .shop-hero-image,
+.knd-redesign .kids-promise-images figure,
+.knd-redesign .logo-card {
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink) 7%, transparent);
+}
+
+.knd-redesign .logo-grid,
+.knd-redesign .apparel-photo-grid,
+.knd-redesign .editorial-photo-grid,
+.knd-redesign .kids-photo-grid {
+  gap: clamp(24px, 4vw, 64px);
+}
+
 @media (max-width: 560px) {
   .knd-redesign .foundation-hero h1 {
     font-size: clamp(76px, 24vw, 118px);
+  }
+
+  .knd-redesign .full-hero > picture,
+  .knd-redesign .brand-hero-lockup,
+  .knd-redesign .shop-hero-image {
+    min-height: 48svh;
   }
 
   .knd-redesign .foundation-hero-copy p:last-child {
