@@ -981,8 +981,8 @@ picture {
 .full-hero-copy h1,
 .brand-hero h1 {
   margin: 0;
-  font-size: clamp(68px, 11.2vw, 168px);
-  line-height: 0.91;
+  font-size: clamp(64px, 10.2vw, 148px);
+  line-height: 0.94;
   font-weight: 700;
   text-wrap: balance;
 }
@@ -1108,6 +1108,12 @@ picture {
   overflow: visible;
 }
 
+.apparel-hero > picture,
+.sports-hero > picture {
+  order: 2;
+  height: clamp(560px, 72svh, 820px);
+}
+
 .apparel-hero::after,
 .sports-hero::after {
   content: none;
@@ -1115,10 +1121,9 @@ picture {
 
 .apparel-hero img,
 .sports-hero img {
-  order: 2;
   position: relative;
   inset: auto;
-  height: clamp(640px, 82svh, 920px);
+  height: 100%;
   filter: saturate(1) contrast(1);
 }
 
@@ -1131,7 +1136,7 @@ picture {
   gap: clamp(20px, 3vw, 36px);
   align-items: start;
   justify-content: start;
-  padding: clamp(56px, 7vw, 104px) clamp(20px, 5vw, 72px) clamp(48px, 6vw, 84px);
+  padding: clamp(48px, 6vw, 88px) clamp(20px, 5vw, 72px) clamp(42px, 5vw, 72px);
   border-bottom: 1px solid var(--line);
   background: var(--paper);
 }
@@ -1208,7 +1213,7 @@ picture {
   grid-template-columns: minmax(160px, 0.32fr) minmax(0, 0.68fr);
   gap: clamp(32px, 5vw, 80px);
   align-items: start;
-  margin-bottom: clamp(80px, 11vw, 164px);
+  margin-bottom: clamp(64px, 8vw, 128px);
 }
 
 .section-heading h2,
@@ -1361,15 +1366,21 @@ picture {
 }
 
 .brand-hero {
-  min-height: calc(100svh - var(--header-height));
+  min-height: calc(88svh - var(--header-height));
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(88px, 12vw, 180px) clamp(20px, 6vw, 96px) clamp(96px, 14vw, 220px);
+  padding: clamp(72px, 9vw, 132px) clamp(20px, 6vw, 96px) clamp(80px, 10vw, 152px);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   text-align: center;
   align-items: center;
+}
+
+.brand-hero h1 {
+  max-width: 1120px;
+  font-size: clamp(56px, 8.6vw, 124px);
+  line-height: 0.96;
 }
 
 .brand-hero > .kicker {
@@ -1380,7 +1391,7 @@ picture {
 .brand-hero-lockup {
   width: min(82vw, 1040px);
   height: auto;
-  margin-top: clamp(72px, 10vw, 152px);
+  margin-top: clamp(56px, 7vw, 112px);
   aspect-ratio: 16 / 10;
   object-fit: contain;
 }
@@ -1850,7 +1861,7 @@ picture {
 
 .shop-hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
+  grid-template-columns: minmax(500px, 0.92fr) minmax(0, 1.08fr);
   min-height: calc(100svh - var(--header-height));
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -1860,7 +1871,7 @@ picture {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(56px, 7vw, 112px) clamp(24px, 5vw, 72px);
+  padding: clamp(48px, 5.6vw, 88px) clamp(24px, 4vw, 56px);
 }
 
 .shop-hero-copy h1,
@@ -1874,7 +1885,9 @@ picture {
 }
 
 .shop-hero-copy h1 {
-  font-size: clamp(40px, 4.7vw, 76px);
+  max-width: 620px;
+  font-size: clamp(42px, 4.4vw, 70px);
+  line-height: 1.02;
 }
 
 .shop-hero-copy p {
@@ -1886,8 +1899,8 @@ picture {
   margin-top: clamp(28px, 4vw, 54px);
   max-width: 560px;
   color: var(--muted);
-  font-size: clamp(20px, 2vw, 30px);
-  line-height: 1.26;
+  font-size: clamp(19px, 1.75vw, 27px);
+  line-height: 1.32;
   text-wrap: balance;
 }
 
@@ -2006,7 +2019,7 @@ picture {
 
 .shop-product-card {
   display: grid;
-  grid-template-rows: minmax(250px, 24vw) 1fr;
+  grid-template-rows: minmax(240px, 22vw) 1fr;
   border-right: 1px solid var(--ink);
   border-bottom: 1px solid var(--ink);
   background: var(--paper);
@@ -2020,19 +2033,19 @@ picture {
 
 .shop-product-body {
   display: flex;
-  min-height: 470px;
+  min-height: 430px;
   flex-direction: column;
   justify-content: space-between;
-  gap: 26px;
-  padding: clamp(22px, 2.4vw, 34px);
+  gap: 22px;
+  padding: clamp(22px, 2.1vw, 30px);
 }
 
 .shop-product-body h3,
 .bundle-grid h3,
 .ops-grid h3 {
-  margin: 22px 0 0;
-  font-size: clamp(24px, 2.2vw, 34px);
-  line-height: 1.08;
+  margin: 18px 0 0;
+  font-size: clamp(23px, 2vw, 31px);
+  line-height: 1.1;
   font-weight: 500;
   text-wrap: balance;
 }
@@ -2040,10 +2053,10 @@ picture {
 .shop-product-body p:not(.product-code),
 .bundle-grid p:not(.product-code),
 .ops-grid p {
-  margin: 22px 0 0;
+  margin: 18px 0 0;
   color: var(--muted);
   font-size: 15px;
-  line-height: 1.65;
+  line-height: 1.58;
 }
 
 .product-meta {
@@ -2085,7 +2098,7 @@ picture {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 18px;
+  margin-top: 16px;
 }
 
 .swatch {
@@ -2530,6 +2543,11 @@ picture {
 
   .apparel-hero img,
   .sports-hero img {
+    height: 100%;
+  }
+
+  .apparel-hero > picture,
+  .sports-hero > picture {
     height: 62svh;
   }
 
@@ -2646,12 +2664,13 @@ picture {
   .site-header {
     padding-left: 18px;
     padding-right: 18px;
+    gap: 12px;
   }
 
   .site-nav {
     justify-content: flex-start;
-    gap: 12px 18px;
-    font-size: 12px;
+    gap: 10px 13px;
+    font-size: 11px;
   }
 
   .sticky-image {
@@ -2795,5 +2814,23 @@ picture {
   .architecture-meta div {
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+}
+
+.apparel-hero.full-hero > picture,
+.sports-hero.full-hero > picture {
+  order: 2;
+  height: clamp(560px, 72svh, 820px);
+}
+
+.apparel-hero.full-hero > .full-hero-copy,
+.sports-hero.full-hero > .full-hero-copy {
+  order: 1;
+}
+
+@media (max-width: 860px) {
+  .apparel-hero.full-hero > picture,
+  .sports-hero.full-hero > picture {
+    height: 62svh;
   }
 }
