@@ -2817,20 +2817,488 @@ picture {
   }
 }
 
-.apparel-hero.full-hero > picture,
-.sports-hero.full-hero > picture {
-  order: 2;
-  height: clamp(560px, 72svh, 820px);
+/* Shared brand-foundation scaffold for all secondary pages. */
+.knd-redesign .page-header {
+  position: sticky;
+  top: 0;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(16px);
 }
 
-.apparel-hero.full-hero > .full-hero-copy,
-.sports-hero.full-hero > .full-hero-copy {
+.knd-redesign .page-header .nav-lockup-mark {
+  width: clamp(48px, 5vw, 72px);
+}
+
+.knd-redesign .page-header .nav-lockup-mark img {
+  filter: none;
+}
+
+.knd-redesign .site-nav a[aria-current="page"],
+.knd-redesign .site-footer a[aria-current="page"] {
+  color: var(--maroon);
+}
+
+.knd-redesign .full-hero,
+.knd-redesign .shop-hero,
+.knd-redesign .brand-hero {
+  min-height: auto;
+  border-top: 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.knd-redesign .apparel-hero,
+.knd-redesign .sports-hero,
+.knd-redesign .kids-hero {
+  display: grid;
+  grid-template-columns: minmax(360px, 0.42fr) minmax(0, 0.58fr);
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.knd-redesign .full-hero::after {
+  content: none;
+}
+
+.knd-redesign .full-hero > picture {
+  position: relative;
+  order: 2;
+  height: auto;
+  min-height: clamp(620px, 76svh, 900px);
+  border-left: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.knd-redesign .full-hero img {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  filter: saturate(0.98) contrast(0.98);
+}
+
+.knd-redesign .full-hero-copy {
   order: 1;
+  min-height: clamp(620px, 76svh, 900px);
+  display: flex;
+  justify-content: flex-end;
+  padding: clamp(80px, 9vw, 148px) clamp(24px, 5vw, 72px) clamp(48px, 6vw, 92px);
+  background: var(--paper);
+}
+
+.knd-redesign .kids-hero .full-hero-copy {
+  width: auto;
+  min-width: 0;
+  padding-right: clamp(24px, 5vw, 72px);
+}
+
+.knd-redesign .full-hero .kicker,
+.knd-redesign .full-hero-copy h1,
+.knd-redesign .full-hero-copy h1 + p {
+  color: inherit;
+  text-shadow: none;
+}
+
+.knd-redesign .full-hero-copy h1,
+.knd-redesign .kids-hero .full-hero-copy h1,
+.knd-redesign .brand-hero h1,
+.knd-redesign .shop-hero-copy h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(54px, 8.2vw, 128px);
+  line-height: 0.94;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.knd-redesign .kids-hero .full-hero-copy h1 {
+  max-width: 620px;
+}
+
+.knd-redesign .full-hero-copy h1 + p,
+.knd-redesign .kids-hero .full-hero-copy h1 + p,
+.knd-redesign .brand-hero h1 + p,
+.knd-redesign .shop-hero-copy h1 + p {
+  max-width: 520px;
+  color: var(--muted);
+  font-size: clamp(20px, 2.1vw, 34px);
+  line-height: 1.18;
+}
+
+.knd-redesign .direction-section,
+.knd-redesign .opportunity-section,
+.knd-redesign .brand-principles,
+.knd-redesign .feeling-section,
+.knd-redesign .logo-options,
+.knd-redesign .photo-archive,
+.knd-redesign .sports-reference,
+.knd-redesign .kids-colorway-section,
+.knd-redesign .kids-promise,
+.knd-redesign .architecture-section,
+.knd-redesign .shop-products,
+.knd-redesign .bundle-section,
+.knd-redesign .ops-section,
+.knd-redesign .ledger-section {
+  padding: clamp(76px, 10vw, 150px) clamp(20px, 5vw, 72px);
+  border-bottom: 1px solid var(--line);
+}
+
+.knd-redesign .direction-section,
+.knd-redesign .brand-principles {
+  background: var(--paper);
+}
+
+.knd-redesign .feeling-section,
+.knd-redesign .kids-promise,
+.knd-redesign .architecture-section,
+.knd-redesign .ops-section {
+  background: var(--paper-deep);
+}
+
+.knd-redesign .direction-copy,
+.knd-redesign .brand-principles,
+.knd-redesign .feeling-section,
+.knd-redesign .kids-promise-copy h2,
+.knd-redesign .section-heading h2,
+.knd-redesign .sports-reference h2,
+.knd-redesign .bundle-copy h2,
+.knd-redesign .ledger-heading h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.knd-redesign .direction-copy,
+.knd-redesign .brand-principles,
+.knd-redesign .feeling-section {
+  max-width: 1180px;
+  font-size: clamp(38px, 6.8vw, 104px);
+  line-height: 0.98;
+}
+
+.knd-redesign .feeling-section {
+  display: grid;
+  gap: clamp(22px, 3vw, 40px);
+}
+
+.knd-redesign .feeling-section p:last-child {
+  color: var(--maroon);
+}
+
+.knd-redesign .section-heading {
+  grid-template-columns: minmax(120px, 0.22fr) minmax(0, 0.78fr);
+  gap: clamp(28px, 5vw, 78px);
+  margin-bottom: clamp(48px, 7vw, 104px);
+}
+
+.knd-redesign .section-heading h2,
+.knd-redesign .sports-reference h2,
+.knd-redesign .ledger-heading h2 {
+  max-width: 960px;
+  font-size: clamp(38px, 6.4vw, 98px);
+  line-height: 0.98;
+}
+
+.knd-redesign .opportunity-grid,
+.knd-redesign .shop-system-strip,
+.knd-redesign .shop-product-grid,
+.knd-redesign .architecture-panel,
+.knd-redesign .architecture-grid,
+.knd-redesign .bundle-grid,
+.knd-redesign .ops-grid,
+.knd-redesign .ledger-table {
+  border-color: var(--line);
+}
+
+.knd-redesign .opportunity-grid article,
+.knd-redesign .shop-system-strip article,
+.knd-redesign .shop-product-card,
+.knd-redesign .architecture-panel article,
+.knd-redesign .architecture-grid article,
+.knd-redesign .bundle-grid article,
+.knd-redesign .ops-grid article,
+.knd-redesign .ledger-row span {
+  border-color: var(--line);
+  background: #fdf9f0;
+}
+
+.knd-redesign .opportunity-grid article:nth-child(2),
+.knd-redesign .opportunity-grid article:nth-child(4) {
+  background: var(--paper-deep);
+}
+
+.knd-redesign .opportunity-grid h3,
+.knd-redesign .shop-product-body h3,
+.knd-redesign .bundle-grid h3,
+.knd-redesign .ops-grid h3,
+.knd-redesign .architecture-panel h3,
+.knd-redesign .architecture-grid h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(26px, 2.5vw, 40px);
+  line-height: 1.02;
+  font-weight: 400;
+}
+
+.knd-redesign .photo-archive,
+.knd-redesign .shop-products,
+.knd-redesign .ledger-section {
+  background: #fdf9f0;
+}
+
+.knd-redesign .apparel-photo-grid,
+.knd-redesign .editorial-photo-grid,
+.knd-redesign .kids-photo-grid {
+  gap: clamp(22px, 3.5vw, 56px);
+}
+
+.knd-redesign .apparel-photo-card,
+.knd-redesign .editorial-photo-card,
+.knd-redesign .kids-photo-card,
+.knd-redesign .photo-card,
+.knd-redesign .shop-product-card figure,
+.knd-redesign .shop-hero-image {
+  background: var(--paper-deep);
+}
+
+.knd-redesign .brand-hero {
+  min-height: auto;
+  display: grid;
+  grid-template-columns: minmax(360px, 0.46fr) minmax(0, 0.54fr);
+  gap: 0;
+  padding: 0;
+  text-align: left;
+  align-items: stretch;
+}
+
+.knd-redesign .brand-hero > .kicker {
+  grid-column: 1;
+  align-self: auto;
+  margin: 0 0 clamp(24px, 3vw, 44px);
+}
+
+.knd-redesign .brand-hero h1 {
+  grid-column: 1;
+  max-width: 1080px;
+}
+
+.knd-redesign .brand-hero p:not(.kicker) {
+  grid-column: 1;
+}
+
+.knd-redesign .brand-hero > .kicker,
+.knd-redesign .brand-hero h1,
+.knd-redesign .brand-hero p:not(.kicker) {
+  margin-left: clamp(24px, 5vw, 72px);
+  margin-right: clamp(24px, 5vw, 72px);
+}
+
+.knd-redesign .brand-hero > .kicker {
+  margin-top: clamp(80px, 9vw, 148px);
+}
+
+.knd-redesign .brand-hero p:not(.kicker) {
+  margin-bottom: clamp(48px, 6vw, 92px);
+}
+
+.knd-redesign .brand-hero-lockup {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  align-self: stretch;
+  width: 100%;
+  height: auto;
+  min-height: clamp(620px, 76svh, 900px);
+  margin: 0;
+  padding: clamp(56px, 7vw, 112px);
+  border-left: 1px solid var(--line);
+  background: #fdf9f0;
+  aspect-ratio: auto;
+}
+
+.knd-redesign .logo-grid {
+  gap: clamp(40px, 6vw, 96px);
+}
+
+.knd-redesign .logo-card {
+  min-height: 46svh;
+  padding: clamp(26px, 4vw, 52px);
+  border: 1px solid var(--line);
+  background: #fdf9f0;
+}
+
+.knd-redesign .logo-card-wide {
+  min-height: 72svh;
+}
+
+.knd-redesign .shop-hero {
+  grid-template-columns: minmax(400px, 0.46fr) minmax(0, 0.54fr);
+}
+
+.knd-redesign .shop-hero-copy {
+  justify-content: flex-end;
+  padding: clamp(80px, 9vw, 148px) clamp(24px, 5vw, 72px) clamp(48px, 6vw, 92px);
+}
+
+.knd-redesign .shop-hero-image {
+  min-height: clamp(620px, 76svh, 900px);
+}
+
+.knd-redesign .shop-system-strip article {
+  min-height: 150px;
+}
+
+.knd-redesign .shop-product-card {
+  grid-template-rows: minmax(260px, 24vw) auto;
+  align-self: start;
+}
+
+.knd-redesign .shop-product-body {
+  min-height: 0;
+  gap: 18px;
+}
+
+.knd-redesign .product-meta {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 6px;
+}
+
+.knd-redesign .product-meta div {
+  grid-template-columns: 1fr;
+  gap: 4px;
+  min-height: 40px;
+  padding: 10px 0;
+}
+
+.knd-redesign .commerce-row {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+
+.knd-redesign .option-row,
+.knd-redesign .size-row {
+  gap: 8px;
+}
+
+.knd-redesign .swatch {
+  width: 22px;
+  height: 22px;
+}
+
+.knd-redesign .size-row span {
+  min-width: 34px;
+  min-height: 30px;
+  padding: 0 10px;
+  border-color: var(--line);
+}
+
+.knd-redesign .commerce-action {
+  min-height: 42px;
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.knd-redesign .catalog-filter {
+  border-color: var(--line);
+  border-radius: 0;
+}
+
+.knd-redesign .catalog-filter:hover,
+.knd-redesign .catalog-filter:focus-visible,
+.knd-redesign .catalog-filter.is-active {
+  background: var(--maroon);
+  color: #fff9ef;
+}
+
+.knd-redesign .shop-catalog-summary span,
+.knd-redesign .variant-preview span {
+  border-color: var(--line);
+  border-radius: 0;
+}
+
+.knd-redesign .site-footer {
+  background: var(--ink);
+  color: var(--paper);
 }
 
 @media (max-width: 860px) {
-  .apparel-hero.full-hero > picture,
-  .sports-hero.full-hero > picture {
-    height: 62svh;
+  .knd-redesign .apparel-hero,
+  .knd-redesign .sports-hero,
+  .knd-redesign .kids-hero,
+  .knd-redesign .shop-hero,
+  .knd-redesign .brand-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .knd-redesign .brand-hero > .kicker,
+  .knd-redesign .brand-hero h1,
+  .knd-redesign .brand-hero p:not(.kicker) {
+    margin-left: clamp(24px, 5vw, 72px);
+    margin-right: clamp(24px, 5vw, 72px);
+  }
+
+  .knd-redesign .brand-hero-lockup {
+    grid-column: 1;
+    grid-row: auto;
+    min-height: 56svh;
+    padding: clamp(32px, 7vw, 72px);
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .knd-redesign .full-hero > picture,
+  .knd-redesign .shop-hero-image {
+    min-height: 62svh;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .knd-redesign .full-hero-copy,
+  .knd-redesign .shop-hero-copy {
+    min-height: auto;
+    padding-top: clamp(58px, 10vw, 90px);
+  }
+
+  .knd-redesign .section-heading,
+  .knd-redesign .opportunity-grid,
+  .knd-redesign .shop-system-strip,
+  .knd-redesign .shop-product-grid,
+  .knd-redesign .architecture-panel,
+  .knd-redesign .architecture-grid,
+  .knd-redesign .bundle-grid,
+  .knd-redesign .ops-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .knd-redesign .product-meta {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .knd-redesign .page-header {
+    position: relative;
+    background: var(--paper);
+    backdrop-filter: none;
+  }
+
+  .knd-redesign .full-hero-copy h1,
+  .knd-redesign .kids-hero .full-hero-copy h1,
+  .knd-redesign .brand-hero h1,
+  .knd-redesign .shop-hero-copy h1 {
+    font-size: clamp(48px, 15vw, 76px);
+  }
+
+  .knd-redesign .direction-copy,
+  .knd-redesign .brand-principles,
+  .knd-redesign .feeling-section {
+    font-size: clamp(34px, 10.5vw, 58px);
+  }
+
+  .knd-redesign .section-heading h2,
+  .knd-redesign .sports-reference h2,
+  .knd-redesign .ledger-heading h2 {
+    font-size: clamp(34px, 10.5vw, 58px);
   }
 }

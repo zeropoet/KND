@@ -166,10 +166,6 @@ const renderProduct = (product, manifest) => `
       </div>
       <dl class="product-meta">
         <div>
-          <dt>Status</dt>
-          <dd>${html(product.status)}</dd>
-        </div>
-        <div>
           <dt>Availability</dt>
           <dd>${html(availabilityLabel(product))}</dd>
         </div>
@@ -184,14 +180,6 @@ const renderProduct = (product, manifest) => `
         <div>
           <dt>Colors</dt>
           <dd>${html(joinNames(product.options?.colors))}</dd>
-        </div>
-        <div>
-          <dt>Bundles</dt>
-          <dd>${html(joinNames(product.options?.bundles))}</dd>
-        </div>
-        <div>
-          <dt>Mark</dt>
-          <dd>${html(product.mark?.treatment || "Exact SVG source")}</dd>
         </div>
       </dl>
       <div class="commerce-row">
