@@ -45,8 +45,9 @@
       "name": "Standard Cap",
       "summary": "Premium twill cap with exact KND period mark, held in cream and charcoal as the core base.",
       "image": {
-        "src": "assets/knd-shop-cap-concept.png",
-        "alt": "Cream and charcoal KND caps in bright morning studio light."
+        "src": "assets/knd-apparel-cap-spectrum.png",
+        "alt": "A spectrum of KND caps in apparel colorways.",
+        "position": "48% 52%"
       },
       "status": "Sample Archive",
       "availability": {
@@ -200,8 +201,9 @@
       "name": "Smile Hoodie",
       "summary": "Heavyweight fleece hoodie with the KND mark placed small enough for daily wear.",
       "image": {
-        "src": "assets/knd-shop-hoodie-concept.png",
-        "alt": "Cream sweatshirt and charcoal hoodie with KND marks in morning studio light."
+        "src": "assets/knd-apparel-hero-marks.png",
+        "alt": "KND hoodies and apparel worn in a community product scene.",
+        "position": "66% 48%"
       },
       "status": "Drop Ready",
       "availability": {
@@ -559,8 +561,9 @@
       "name": "Everyday Tee",
       "summary": "Premium tee system for adult, youth, toddler, and event color runs.",
       "image": {
-        "src": "assets/knd-shop-tee-concept.png",
-        "alt": "Adult cream, youth sky, and toddler coral KND tees in bright morning light."
+        "src": "assets/knd-apparel-options-table.png",
+        "alt": "KND tees and apparel options arranged on a table.",
+        "position": "42% 50%"
       },
       "status": "Configurable",
       "availability": {
@@ -1643,8 +1646,9 @@
       "name": "Cream Crew",
       "summary": "Soft crewneck sweatshirt that keeps cream as the calm base while allowing bright accent runs.",
       "image": {
-        "src": "assets/knd-product-crew-cream.png",
-        "alt": "Cream KND crewneck sweatshirt in bright morning studio light."
+        "src": "assets/knd-apparel-rack-options.png",
+        "alt": "KND fleece and apparel pieces arranged on a rack and table.",
+        "position": "55% 50%"
       },
       "status": "Planned",
       "availability": {
@@ -2001,8 +2005,9 @@
       "name": "Everyday Sweatpant",
       "summary": "Companion fleece bottom for hoodie and crew sets, anchored in cream and charcoal.",
       "image": {
-        "src": "assets/knd-product-sweatpant-charcoal.png",
-        "alt": "KND fleece set concept in cream and charcoal."
+        "src": "assets/knd-apparel-team-pack.png",
+        "alt": "KND fleece pieces and apparel packed for a team or group run.",
+        "position": "44% 52%"
       },
       "status": "Planned",
       "availability": {
@@ -2243,8 +2248,9 @@
       "name": "Canvas Tote",
       "summary": "Heavy canvas carryall with a clean KND mark and enough surface for future event colorways.",
       "image": {
-        "src": "assets/knd-product-tote-cream.png",
-        "alt": "Cream canvas KND tote and bottle in bright morning studio light."
+        "src": "assets/knd-apparel-daily-carry.png",
+        "alt": "KND totes and daily carry goods arranged in warm light.",
+        "position": "42% 54%"
       },
       "status": "Drop Ready",
       "availability": {
@@ -2383,8 +2389,9 @@
       "name": "Rib Socks",
       "summary": "Soft rib socks for gift kits, team packs, and family bundles.",
       "image": {
-        "src": "assets/knd-product-socks-sun.png",
-        "alt": "KND sock and small goods concept in bright product light."
+        "src": "assets/knd-apparel-daily-carry.png",
+        "alt": "KND socks and small goods within the daily carry product set.",
+        "position": "67% 58%"
       },
       "status": "Planned",
       "availability": {
@@ -2579,8 +2586,9 @@
       "name": "Matte Bottle",
       "summary": "Reusable bottle for daily, sport, and event bundles.",
       "image": {
-        "src": "assets/knd-product-bottle-blue.png",
-        "alt": "KND bottle and tote product concept in morning studio light."
+        "src": "assets/knd-sports-product-basketball.png",
+        "alt": "KND bottle and accessories inside a sports product scene.",
+        "position": "58% 58%"
       },
       "status": "Planned",
       "availability": {
@@ -2753,8 +2761,9 @@
       "name": "Youth Tee",
       "summary": "Kid-ready tee colors that feel sunny without losing the KND base system.",
       "image": {
-        "src": "assets/knd-product-youth-tee-sky.png",
-        "alt": "KND youth tee in sky blue with family tee set."
+        "src": "assets/knd-kids-flatlay.png",
+        "alt": "KND Kids tees and colorful apparel arranged in a flatlay.",
+        "position": "48% 50%"
       },
       "status": "Configurable",
       "availability": {
@@ -3113,8 +3122,9 @@
       "name": "Athletic Tee",
       "summary": "Performance-adjacent tee for teams, camps, and sports days.",
       "image": {
-        "src": "assets/knd-product-athletic-tee-blue.png",
-        "alt": "KND sports apparel in cream, blue, and charcoal."
+        "src": "assets/knd-sports-color-products.png",
+        "alt": "KND sports apparel and team color products.",
+        "position": "46% 50%"
       },
       "status": "Configurable",
       "availability": {
@@ -3470,8 +3480,9 @@
       "name": "Warmup Top",
       "summary": "Quarter-zip warmup layer for team colorways and coach gifts.",
       "image": {
-        "src": "assets/knd-product-warmup-cream.png",
-        "alt": "KND warmup and sport accessories in bright morning light."
+        "src": "assets/knd-sports-product-field.png",
+        "alt": "KND warmup and sports products in a field-side team scene.",
+        "position": "54% 48%"
       },
       "status": "Planned",
       "availability": {
@@ -3768,8 +3779,9 @@
       "name": "Patch Pack",
       "summary": "Small mark pieces for gifts, bags, kits, and event handouts.",
       "image": {
-        "src": "assets/knd-product-patch-pack.png",
-        "alt": "KND patch pack and apparel accents in bright colorways."
+        "src": "assets/knd-apparel-details.png",
+        "alt": "KND patches, details, and apparel accents arranged on a table.",
+        "position": "52% 54%"
       },
       "status": "Configurable",
       "availability": {

@@ -67,9 +67,10 @@ const srcset = (entry, extension) =>
     .join(", ");
 
 const renderImage = (image, manifest) => {
+  const imageStyle = image?.position ? ` style="object-position: ${attr(image.position)}"` : "";
   const entry = manifest?.[image?.src];
   if (!entry) {
-    return `<img src="${attr(image?.src)}" alt="${attr(image?.alt)}" loading="lazy" decoding="async">`;
+    return `<img src="${attr(image?.src)}" alt="${attr(image?.alt)}" loading="lazy" decoding="async"${imageStyle}>`;
   }
 
   const jpg = entry.variants.jpg.at(-1).src;
@@ -77,7 +78,7 @@ const renderImage = (image, manifest) => {
     <picture>
       <source type="image/avif" srcset="${attr(srcset(entry, "avif"))}" sizes="(max-width: 860px) 100vw, 33vw">
       <source type="image/webp" srcset="${attr(srcset(entry, "webp"))}" sizes="(max-width: 860px) 100vw, 33vw">
-      <img src="${attr(jpg)}" srcset="${attr(srcset(entry, "jpg"))}" sizes="(max-width: 860px) 100vw, 33vw" width="${attr(entry.width)}" height="${attr(entry.height)}" alt="${attr(image?.alt)}" loading="lazy" decoding="async" data-original-src="${attr(image?.src)}">
+      <img src="${attr(jpg)}" srcset="${attr(srcset(entry, "jpg"))}" sizes="(max-width: 860px) 100vw, 33vw" width="${attr(entry.width)}" height="${attr(entry.height)}" alt="${attr(image?.alt)}" loading="lazy" decoding="async" data-original-src="${attr(image?.src)}"${imageStyle}>
     </picture>
   `;
 };
