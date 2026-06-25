@@ -2904,7 +2904,7 @@ picture {
 }
 
 .knd-redesign .kids-hero img {
-  object-position: 62% center;
+  object-position: 82% center;
 }
 
 .knd-redesign .full-hero .kicker,
@@ -3008,7 +3008,9 @@ picture {
 }
 
 .knd-redesign .feeling-section.kids-feeling p {
+  font-family: var(--font-serif);
   font-size: clamp(26px, 2.45vw, 40px);
+  font-weight: 400;
 }
 
 .knd-redesign .feeling-section.kids-feeling p:last-child {
@@ -3291,7 +3293,7 @@ picture {
   }
 
   .knd-redesign .kids-hero img {
-    object-position: 54% center;
+    object-position: 74% center;
   }
 
   .knd-redesign .full-hero > picture,
