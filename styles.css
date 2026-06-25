@@ -1831,6 +1831,41 @@ picture {
   background: color-mix(in srgb, var(--kids-blue) 20%, var(--paper));
 }
 
+.knd-redesign .kids-feeling {
+  counter-reset: kids-feeling;
+  width: 100%;
+  max-width: none;
+  gap: 0;
+  padding: 0;
+}
+
+.knd-redesign .kids-feeling p {
+  counter-increment: kids-feeling;
+  min-height: clamp(300px, 36svh, 460px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: clamp(36px, 5vw, 72px);
+  padding: clamp(30px, 4vw, 56px);
+  color: var(--kids-ink);
+  font-size: clamp(26px, 2.45vw, 40px);
+  line-height: 1.08;
+}
+
+.knd-redesign .kids-feeling p::before {
+  content: counter(kids-feeling, decimal-leading-zero);
+  color: color-mix(in srgb, var(--kids-ink) 58%, transparent);
+  font-family:
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+}
+
 .shop-hero {
   display: grid;
   grid-template-columns: minmax(500px, 0.92fr) minmax(0, 1.08fr);
@@ -2959,6 +2994,22 @@ picture {
 
 .knd-redesign .feeling-section p:last-child {
   color: var(--maroon);
+}
+
+.knd-redesign .feeling-section.kids-feeling {
+  width: 100%;
+  max-width: none;
+  gap: 0;
+  padding: 0;
+  line-height: 1.08;
+}
+
+.knd-redesign .feeling-section.kids-feeling p {
+  font-size: clamp(26px, 2.45vw, 40px);
+}
+
+.knd-redesign .feeling-section.kids-feeling p:last-child {
+  color: var(--kids-ink);
 }
 
 .knd-redesign .section-heading {
