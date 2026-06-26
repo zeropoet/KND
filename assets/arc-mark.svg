@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" role="img" aria-labelledby="title desc">
+  <title id="title">Arc mark</title>
+  <desc id="desc">A single arc connecting two square endpoints.</desc>
+  <path d="M180 190C310 300 570 300 700 190" fill="none" stroke="#16120f" stroke-width="42" stroke-linecap="square"/>
+  <rect x="148" y="158" width="64" height="64" fill="#16120f"/>
+  <rect x="668" y="158" width="64" height="64" fill="#16120f"/>
+</svg>
